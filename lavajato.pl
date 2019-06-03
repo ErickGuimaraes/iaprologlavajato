@@ -24,6 +24,7 @@ crime(falsidade_ideologica).
 crime(lavagem_dinheiro).
 
 doleiro(alberto_youssef).
+diretor_petrobras(paulo_roberto_costa).
 
 procurador(Pessoa) :-
    nome(procurador).
@@ -39,6 +40,7 @@ nome(erika_marena).
 nome(alberto_yousef).
 nome(deltan_dallagnol).
 nome(roberson_henrique_pozzobon).
+nome(paulo_roberto_costa).
 
 
 cidade(curitiba).
@@ -56,6 +58,7 @@ pessoa(carlos_fernando_lima).
 pessoa(alberto_yousef).
 pessoa(deltan_dallagnol).
 pessoa(roberson_henrique_pozzobon).
+pessoa(paulo_roberto_costa).
 
 
 nomeiaOperacao(Pessoa , Nome_Operacao) :-
