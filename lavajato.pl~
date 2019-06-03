@@ -1,3 +1,10 @@
+ano(2014).
+ano(2015).
+ano(2016).
+ano(2017).
+ano(2018).
+ano(2019).
+
 mes(janeiro).
 mes(fevereiro).
 mes(marco).
@@ -11,17 +18,50 @@ mes(outubro).
 mes(novembro).
 mes(dezembro).
 
-procurador(carlos_fernado_lima).
+crime(organizacao_criminosa).
+crime(crime_contra_sistema_financeiro_nacional).
+crime(falsidade_ideologica).
+crime(lavagem_dinheiro).
+
+doleiro(alberto_youssef).
+
+procurador(Pessoa) :-
+   nome(procurador).
+
+procurador(carlos_fernando_lima).
 procurador(felipe_delia_camargo).
+procurador(deltan_dallagnol).
+procurador(roberson_henrique_pozzobon).
+
+nome(carlos_fernado_lima).
+nome(felipe_delia_camargo).
+nome(erika_marena).
+
+cidade(curitiba).
+cidade(brasilia).
+cidade(rio_de_janeiro).
+cidade(sao_paulo).
 
 delegado(erika_marena).
 
 nomeoperacao(lava_jato).
 
-pessoa(ale).
 pessoa(erika_marena).
-pessoa(erick).
+pessoa(felipe_delia_camargo).
+pessoa(carlos_fernando_lima).
+pessoa(alberto_yousef).
+pessoa(deltan_dallagnol).
+pessoa(roberson_henrique_pozzobon).
+
 
 nomeiaOperacao(Pessoa , Nome_Operacao) :-
     delegado(Pessoa),
     nomeoperacao(Nome_Operacao).
+
+inicioOperacao(Nome_Operacao, Ano) :-
+   nomeoperacao(Nome_Operacao),
+   Ano is 2014.
+
+lavaDinheiro(Pessoa, Crime) :-
+    doleiro(Pessoa),
+    Crime is lavagem_dinheiro.
