@@ -18,6 +18,23 @@ mes(outubro).
 mes(novembro).
 mes(dezembro).
 
+pais(brasil).
+pais(suica).
+pais(estados_unidos).
+pais(portugal).
+pais(holanda).
+
+empresa(petrobras).
+empresa(odebrecht).
+empresa(oas).
+empresa(camargo_correa).
+empresa(queiroz_galvao).
+empresa(utc_engenharia).
+empresa(andrade_gutierrez).
+empresa(engevix).
+empresa(iesa_oleo_e_gas).
+
+
 crime(organizacao_criminosa).
 crime(crime_contra_sistema_financeiro_nacional).
 crime(falsidade_ideologica).

@@ -18,12 +18,29 @@ mes(outubro).
 mes(novembro).
 mes(dezembro).
 
+pais(brasil).
+pais(suica).
+pais(estados_unidos).
+pais(portugal).
+
+empresa(petrobras).
+empresa(odebrecht).
+empresa(oas).
+empresa(camargo_correa).
+empresa(queiroz_galvao).
+empresa(utc_engenharia).
+empresa(andrade_gutierrez).
+empresa(engevix).
+empresa(iesa_oleo_e_gas).
+
+
 crime(organizacao_criminosa).
 crime(crime_contra_sistema_financeiro_nacional).
 crime(falsidade_ideologica).
 crime(lavagem_dinheiro).
 
 doleiro(alberto_youssef).
+diretor_petrobras(paulo_roberto_costa).
 
 procurador(Pessoa) :-
    nome(procurador).
@@ -39,6 +56,7 @@ nome(erika_marena).
 nome(alberto_yousef).
 nome(deltan_dallagnol).
 nome(roberson_henrique_pozzobon).
+nome(paulo_roberto_costa).
 
 
 cidade(curitiba).
@@ -56,6 +74,7 @@ pessoa(carlos_fernando_lima).
 pessoa(alberto_yousef).
 pessoa(deltan_dallagnol).
 pessoa(roberson_henrique_pozzobon).
+pessoa(paulo_roberto_costa).
 
 
 nomeiaOperacao(Pessoa , Nome_Operacao) :-
