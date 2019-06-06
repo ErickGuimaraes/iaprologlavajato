@@ -33,7 +33,11 @@ empresa(utc_engenharia).
 empresa(andrade_gutierrez).
 empresa(engevix).
 empresa(iesa_oleo_e_gas).
-
+empresa(toyo_setal).
+empresa(mendes_junior).
+empresa(galvao_engenharia).
+empresa(skanska).
+empresa(promon_engenharia).
 
 crime(organizacao_criminosa).
 crime(crime_contra_sistema_financeiro_nacional).
