@@ -62,7 +62,56 @@ nome(alberto_yousef).
 nome(deltan_dallagnol).
 nome(roberson_henrique_pozzobon).
 nome(paulo_roberto_costa).
-
+nome(sergio_cabral).
+nome(luiz_fernando_pezao).
+nome(carlos_habib_chater).
+nome(nelma_kodama).
+nome(raul_henrique_srour).
+nome(nestor_cervero).
+nome(jorge_zelada).
+nome(eduardo_musa).
+nome(pedro_barusco).
+nome(renato_duque).
+nome(gerson_almada).
+nome(marcelo_odebrecht).
+nome(otavio_azevedo).
+nome(ricardo_pessoa).
+nome(andre_vargas).
+nome(luiz_argolo).
+nome(pedro_corrêa).
+nome(adir_assad).
+nome(joao_vaccari_neto).
+nome(fernando_soares).
+nome(zwi_skornicki).
+nome(eduardo_cunha).
+nome(flavio_david_barra).
+nome(othon_luiz_pinheiro_da_silva).
+nome(jose_dirceu).
+nome(alexandre_romano).
+nome(jose_adolfo_pascowitch).
+nome(milton_pascowitch).
+nome(jose_antunes_sobrinho).
+nome(delcidio_do_amaral).
+nome(roberto_gonçalves).
+nome(teori_zavascki).
+nome(andre_esteves).
+nome(marcos_valerio).
+nome(jose_carlos_bumlai).
+nome(joao_santana).
+nome(luiz_inacio_lula_da_silva).
+nome(silvio_pereira).
+nome(delubio_soares).
+nome(gim_argello).
+nome(joao_claudio_genu).
+nome(ildefonso_colares_filho).
+nome(eike_batista).
+nome(antonio_palocci).
+nome(guido_mantega).
+nome(dilma_rousseff).
+nome(aecio_neves).
+nome(geraldo_alckmin).
+nome(edson_fachin).
+nome(teori_zavascki).
 
 cidade(curitiba).
 cidade(brasilia).
@@ -80,16 +129,72 @@ pessoa(alberto_yousef).
 pessoa(deltan_dallagnol).
 pessoa(roberson_henrique_pozzobon).
 pessoa(paulo_roberto_costa).
+pessoa(sergio_cabral).
+pessoa(luiz_fernando_pezao).
+pessoa(carlos_habib_chater).
+pessoa(nelma_kodama).
+pessoa(raul_henrique_srour).
+pessoa(nestor_cervero).
+pessoa(jorge_zelada).
+pessoa(eduardo_musa).
+pessoa(pedro_barusco).
+pessoa(renato_duque).
+pessoa(gerson_almada).
+pessoa(marcelo_odebrecht).
+pessoa(otavio_azevedo).
+pessoa(ricardo_pessoa).
+pessoa(andre_vargas).
+pessoa(luiz_argolo).
+pessoa(pedro_corrêa).
+pessoa(adir_assad).
+pessoa(joao_vaccari_neto).
+pessoa(fernando_soares).
+pessoa(zwi_skornicki).
+pessoa(eduardo_cunha).
+pessoa(flavio_david_barra).
+pessoa(othon_luiz_pinheiro_da_silva).
+pessoa(jose_dirceu).
+pessoa(alexandre_romano).
+pessoa(jose_adolfo_pascowitch).
+pessoa(milton_pascowitch).
+pessoa(jose_antunes_sobrinho).
+pessoa(delcidio_do_amaral).
+pessoa(roberto_gonçalves).
+pessoa(teori_zavascki).
+pessoa(andre_esteves).
+pessoa(marcos_valerio).
+pessoa(jose_carlos_bumlai).
+pessoa(joao_santana).
+pessoa(luiz_inacio_lula_da_silva).
+pessoa(silvio_pereira).
+pessoa(delubio_soares).
+pessoa(gim_argello).
+pessoa(joao_claudio_genu).
+pessoa(ildefonso_colares_filho).
+pessoa(eike_batista).
+pessoa(antonio_palocci).
+pessoa(guido_mantega).
+pessoa(dilma_rousseff).
+pessoa(aecio_neves).
+pessoa(geraldo_alckmin).
+pessoa(edson_fachin).
+pessoa(teori_zavascki).
 
 
-nomeiaOperacao(Pessoa , Nome_Operacao) :-
-    delegado(Pessoa),
-    nomeoperacao(Nome_Operacao).
 
-inicioOperacao(Nome_Operacao, Ano) :-
-   nomeoperacao(Nome_Operacao),
+governador(sergio_cabral).
+governador(luiz_fernando_pezao).
+
+
+
+nomeiaOperacao(Pessoa . Nome_Operacao) :-
+   delegado(Pessoa).
+   nomeoperacao(Nome_Operacao).
+
+inicioOperacao(Nome_Operacao. Ano) :-
+   nomeoperacao(Nome_Operacao).
    Ano is 2014.
 
-lavaDinheiro(Pessoa, Crime) :-
-    doleiro(Pessoa),
-    Crime is lavagem_dinheiro.
+lavaDinheiro(Pessoa. Crime) :-
+   doleiro(Pessoa).
+   Crime is lavagem_dinheiro.
