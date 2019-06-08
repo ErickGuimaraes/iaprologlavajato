@@ -54,9 +54,8 @@ crime(lavagem_dinheiro).
 crime(corrupcao_ativa).
 crime(corrupcao_passiva).
 crime(gestao_fraudulenta).
-crime(corrupção_ativa).
-crime(obstrução_da_justiça).
-crime(operação_fraudulenta_de_câmbio).
+crime(obstrucao_da_justica).
+crime(operacao_fraudulenta_de_cambio).
 crime(recebimento_de_vantagem_indevida).
 
 diretor_petrobras(paulo_roberto_costa).
@@ -121,7 +120,7 @@ nome(jose_adolfo_pascowitch).
 nome(milton_pascowitch).
 nome(jose_antunes_sobrinho).
 nome(delcidio_do_amaral).
-nome(roberto_gonçalves).
+nome(roberto_goncalves).
 nome(teori_zavascki).
 nome(andre_esteves).
 nome(marcos_valerio).
@@ -199,7 +198,7 @@ pessoa(jose_adolfo_pascowitch).
 pessoa(milton_pascowitch).
 pessoa(jose_antunes_sobrinho).
 pessoa(delcidio_do_amaral).
-pessoa(roberto_gonçalves).
+pessoa(roberto_goncalves).
 pessoa(teori_zavascki).
 pessoa(andre_esteves).
 pessoa(marcos_valerio).
@@ -272,23 +271,23 @@ doleiro(carlos_habib_chater).
 doleiro(nelma_kodama).
 doleiro(raul_srour).
 
-%presidente_empresa(Presidente. Empresa)
-   presidente_empresa(aldemir_bendine, petrobras)
+presidente_empresa(Presidente, Empresa) :-
+   presidente_empresa(aldemir_bendine, petrobras).
 
-%diretor(Pesso, Empresa)
-   diretor(paulo_roberto_costa,petrobras).
-   diretor(otavio_azevedo,andrade_gutierrez).
+diretor(Pessoa, Empresa) :-
+   diretor(paulo_roberto_costa,petrobras),
+   diretor(otavio_azevedo,andrade_gutierrez),
    diretor(marcelo_odebrecht,odebrecht).
 
 
-nomeiaOperacao(Pessoa . Nome_Operacao) :-
-   delegado(Pessoa).
+nomeiaOperacao(Pessoa, Nome_Operacao) :-
+   delegado(Pessoa),
    nomeoperacao(Nome_Operacao).
 
-inicioOperacao(Nome_Operacao. Ano) :-
-   nomeoperacao(Nome_Operacao).
+inicioOperacao(Nome_Operacao, Ano) :-
+   nomeoperacao(Nome_Operacao),
    Ano is 2014.
 
-lavaDinheiro(Pessoa. Crime) :-
-   doleiro(Pessoa).
+lavaDinheiro(Pessoa, Crime) :-
+   doleiro(Pessoa),
    Crime is lavagem_dinheiro.
