@@ -69,19 +69,6 @@ procurador(deltan_dallagnol).
 procurador(roberson_henrique_pozzobon).
 procurador(rodrigo_janot).
 
-pais(brasil).
-pais(suica).
-pais(estados_unidos).
-pais(portugal).
-pais(holanda).
-pais(cuba).
-pais(el_salvador).
-pais(equador).
-pais(panama).
-pais(angola).
-pais(nigeria).
-pais(mocanbique).
-pais(portugal).
 
 
 nome(carlos_fernado_lima).
