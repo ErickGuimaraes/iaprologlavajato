@@ -64,6 +64,8 @@ procurador(carlos_fernando_lima).
 procurador(felipe_delia_camargo).
 procurador(deltan_dallagnol).
 procurador(roberson_henrique_pozzobon).
+procurador(rodrigo_janot).
+
 
 nome(carlos_fernado_lima).
 nome(felipe_delia_camargo).
@@ -127,6 +129,10 @@ nome(gerson_machado).
 nome(jose_janene)
 nome(hermes_magnus).
 nome(raul_srour).
+nome(aldemir_bendine).
+nome(renan_calheiros).
+nome(rodrigo_janot).
+nome(maria_lucia_tavare).
 
 cidade(curitiba).
 cidade(brasilia).
@@ -134,7 +140,7 @@ cidade(rio_de_janeiro).
 cidade(sao_paulo).
 
 delegado(erika_marena).
-delegado(erika_marena).
+delegado(gerson_machado).
 
 nomeoperacao(lava_jato).
 
@@ -200,6 +206,11 @@ pessoa(gerson_machado).
 pessoa(jose_janene).
 pessoa(hermes_magnus).
 pessoa(raul_srour).
+pessoa(aldemir_bendine).
+pessoa(renan_calheiros).
+pessoa(rodrigo_janot).
+pessoa(maria_lucia_tavare).
+
 
 preso(alberto_yousef).
 preso(nestor_cervero).
@@ -209,11 +220,12 @@ preso(delcidio_do_amaral).
 preso(eduardo_cunha).
 preso(antonio_palocci).
 preso(guido_mantega).
-preso(joao_santana).
 preso(jose_dirceu).
 preso(eike_batista).
 preso(joao_santana).
 preso(luiz_inacio_lula_da_silva).
+preso(jose_carlos_bumlai).
+preso(maria_lucia_tavare).
 
 politico(sergio_cabral).
 politico(luiz_fernando_pezao).
@@ -223,7 +235,8 @@ politico(antonio_palocci).
 politico(guido_mantega).
 politico(jose_dirceu).
 politico(luiz_inacio_lula_da_silva).
-politico(jose_janene)
+politico(jose_janene).
+politico(renan_calheiros).
 
 
 governador(sergio_cabral).
@@ -234,11 +247,15 @@ publicitario(joao_santana).
 empresario(eike_batista).
 empresario(hermes_magnus).
 
+pecuarista(jose_carlos_bumlai).
+
 doleiro(alberto_yousef).
 doleiro(carlos_habib_chater).
 doleiro(nelma_kodama).
 doleiro(raul_srour).
 
+%presidente_empresa(Presidente, Empresa)
+   presidente_empresa(aldemir_bendine, petrobras)
 
 %diretor(Pessoa, Empresa)
    diretor(paulo_roberto_costa,petrobras).
