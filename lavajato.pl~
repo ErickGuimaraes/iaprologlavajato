@@ -61,14 +61,13 @@ crime(recebimento_de_vantagem_indevida).
 diretor_petrobras(paulo_roberto_costa).
 
 procurador(Pessoa) :-
-   nome(procurador).
+  Pessoa(procurador).
 
 procurador(carlos_fernando_lima).
 procurador(felipe_delia_camargo).
 procurador(deltan_dallagnol).
 procurador(roberson_henrique_pozzobon).
 procurador(rodrigo_janot).
-
 
 nome(carlos_fernado_lima).
 nome(felipe_delia_camargo).
@@ -93,7 +92,7 @@ nome(otavio_azevedo).
 nome(ricardo_pessoa).
 nome(andre_vargas).
 nome(luiz_argolo).
-nome(pedro_corrêa).
+nome(pedro_correa).
 nome(adir_assad).
 nome(joao_vaccari_neto).
 nome(fernando_soares).
@@ -136,6 +135,7 @@ nome(aldemir_bendine).
 nome(renan_calheiros).
 nome(rodrigo_janot).
 nome(maria_lucia_tavare).
+nome(renato_duque).
 
 cidade(curitiba).
 cidade(brasilia).
@@ -171,7 +171,7 @@ pessoa(otavio_azevedo).
 pessoa(ricardo_pessoa).
 pessoa(andre_vargas).
 pessoa(luiz_argolo).
-pessoa(pedro_corrêa).
+pessoa(pedro_correa).
 pessoa(adir_assad).
 pessoa(joao_vaccari_neto).
 pessoa(fernando_soares).
@@ -214,7 +214,7 @@ pessoa(aldemir_bendine).
 pessoa(renan_calheiros).
 pessoa(rodrigo_janot).
 pessoa(maria_lucia_tavare).
-
+pessoa(renato_duque).
 
 preso(alberto_yousef).
 preso(nestor_cervero).
@@ -242,7 +242,6 @@ politico(luiz_inacio_lula_da_silva).
 politico(jose_janene).
 politico(renan_calheiros).
 
-
 governador(sergio_cabral).
 governador(luiz_fernando_pezao).
 
@@ -258,13 +257,16 @@ doleiro(carlos_habib_chater).
 doleiro(nelma_kodama).
 doleiro(raul_srour).
 
-presidente_empresa(Presidente, Empresa) :-
+%presidente_empresa(Presidente, Empresa)
    presidente_empresa(aldemir_bendine, petrobras).
 
-diretor(Pessoa, Empresa) :-
-   diretor(paulo_roberto_costa,petrobras),
-   diretor(otavio_azevedo,andrade_gutierrez),
+%diretor(Pessoa, Empresa)
+   diretor(paulo_roberto_costa,petrobras).
+   diretor(otavio_azevedo,andrade_gutierrez).
    diretor(marcelo_odebrecht,odebrecht).
+   diretor(jorge_zelada,petrobras).
+   diretor(nestor_cervero,petrobras).
+   diretor(renato_duque,petrobras).
 
 
 nomeiaOperacao(Pessoa, Nome_Operacao) :-
@@ -277,4 +279,4 @@ inicioOperacao(Nome_Operacao, Ano) :-
 
 lavaDinheiro(Pessoa, Crime) :-
    doleiro(Pessoa),
-   Crime is lavagem_dinheiro.
+   Crime is (lavagem_dinheiro).
