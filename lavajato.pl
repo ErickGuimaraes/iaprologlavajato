@@ -226,7 +226,6 @@ pessoa(gabriela_hardt).
 pessoa(michel_temer).
 pessoa(marcelo_bretas).
 
-
 preso(alberto_yousef).
 preso(nestor_cervero).
 preso(sergio_cabral).
@@ -256,8 +255,35 @@ politico(renan_calheiros).
 politico(antonio_nelfim_netto).
 politico(michel_temer).
 
-governador(sergio_cabral).
-governador(luiz_fernando_pezao).
+operador(bruno_goncalves_da_luz).
+operador(andre_catao_de_miranda).
+operador(jorge_antonio_da_silva_luz).
+operador(luccas_pace_junior).
+operador(pedro_agrese_junior).
+operador(ricardo_hoffman).
+operador(sonia_mariza_branco).
+
+periodo(2010, rio_de_janeiro).
+periodo(2014, rio_de_janeiro).
+periodo(2018, rio_de_janeiro).
+periodo(2010, parana).
+periodo(2014, parana).
+periodo(2018, parana).
+periodo(2010, rio_de_janeiro).
+periodo(2014, rio_de_janeiro).
+periodo(2018, rio_de_janeiro).
+
+
+%governador(Pessoa, Estado)
+    governador(sergio_cabral, rio_de_janeiro).
+    governador(luiz_fernando_pezao, rio_de_janeiro).
+    governador(beto_richa, parana).
+
+deputado(Pessoa, Periodo) :-
+   deputado(Pessoa), Periodo(Pessoa,
+    deputado(joao, periodo).
+    
+
 
 publicitario(joao_santana).
 
