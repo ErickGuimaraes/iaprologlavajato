@@ -123,12 +123,17 @@ nome(geraldo_alckmin).
 nome(edson_fachin).
 nome(teori_zavascki).
 nome(sergio_moro).
+nome(gerson_machado).
+nome(jose_janene)
+nome(hermes_magnus).
+nome(raul_srour).
 
 cidade(curitiba).
 cidade(brasilia).
 cidade(rio_de_janeiro).
 cidade(sao_paulo).
 
+delegado(erika_marena).
 delegado(erika_marena).
 
 nomeoperacao(lava_jato).
@@ -191,6 +196,10 @@ pessoa(geraldo_alckmin).
 pessoa(edson_fachin).
 pessoa(teori_zavascki).
 pessoa(sergio_moro).
+pessoa(gerson_machado).
+pessoa(jose_janene).
+pessoa(hermes_magnus).
+pessoa(raul_srour).
 
 preso(alberto_yousef).
 preso(nestor_cervero).
@@ -214,6 +223,7 @@ politico(antonio_palocci).
 politico(guido_mantega).
 politico(jose_dirceu).
 politico(luiz_inacio_lula_da_silva).
+politico(jose_janene)
 
 
 governador(sergio_cabral).
@@ -222,7 +232,12 @@ governador(luiz_fernando_pezao).
 publicitario(joao_santana).
 
 empresario(eike_batista).
+empresario(hermes_magnus).
+
 doleiro(alberto_yousef).
+doleiro(carlos_habib_chater).
+doleiro(nelma_kodama).
+doleiro(raul_srour).
 
 
 %diretor(Pessoa, Empresa)
