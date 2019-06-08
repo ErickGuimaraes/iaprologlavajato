@@ -278,6 +278,6 @@ doleiro(raul_srour).
    inicioOperacao(operacao_xepa,2016).
 
 
-lavaDinheiro(Pessoa, _) :-
+lavaDinheiro(Pessoa, Crime) :-
    doleiro(Pessoa),
-   crime(lavagem_dinheiro).
+   Crime = lavagem_dinheiro.
