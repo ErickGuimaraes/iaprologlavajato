@@ -102,6 +102,19 @@ nome(zwi_skornicki).
 nome(eduardo_cunha).
 nome(flavio_david_barra).
 nome(othon_luiz_pinheiro_da_silva).
+pais(brasil).
+pais(suica).
+pais(estados_unidos).
+pais(portugal).
+pais(holanda).
+pais(cuba).
+pais(el_salvador).
+pais(equador).
+pais(panama).
+pais(angola).
+pais(nigeria).
+pais(mocanbique).
+
 nome(jose_dirceu).
 nome(alexandre_romano).
 nome(jose_adolfo_pascowitch).
@@ -130,7 +143,7 @@ nome(edson_fachin).
 nome(teori_zavascki).
 nome(sergio_moro).
 nome(gerson_machado).
-nome(jose_janene)
+nome(jose_janene).
 nome(hermes_magnus).
 nome(raul_srour).
 nome(aldemir_bendine).
@@ -259,10 +272,10 @@ doleiro(carlos_habib_chater).
 doleiro(nelma_kodama).
 doleiro(raul_srour).
 
-%presidente_empresa(Presidente, Empresa)
+%presidente_empresa(Presidente. Empresa)
    presidente_empresa(aldemir_bendine, petrobras)
 
-%diretor(Pessoa, Empresa)
+%diretor(Pesso, Empresa)
    diretor(paulo_roberto_costa,petrobras).
    diretor(otavio_azevedo,andrade_gutierrez).
    diretor(marcelo_odebrecht,odebrecht).
