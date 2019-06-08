@@ -271,12 +271,12 @@ doleiro(carlos_habib_chater).
 doleiro(nelma_kodama).
 doleiro(raul_srour).
 
-presidente_empresa(Presidente, Empresa) :-
+%presidente_empresa(Presidente, Empresa)
    presidente_empresa(aldemir_bendine, petrobras).
 
-diretor(Pessoa, Empresa) :-
-   diretor(paulo_roberto_costa,petrobras),
-   diretor(otavio_azevedo,andrade_gutierrez),
+%diretor(Pessoa, Empresa)
+   diretor(paulo_roberto_costa,petrobras).
+   diretor(otavio_azevedo,andrade_gutierrez).
    diretor(marcelo_odebrecht,odebrecht).
 
 
