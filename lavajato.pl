@@ -27,6 +27,10 @@ pais(cuba).
 pais(el_salvador).
 pais(equador).
 pais(panama).
+pais(angola).
+pais(nigeria).
+pais(mocanbique).
+pais(repubica_dominicana).
 
 empresa(petrobras).
 empresa(odebrecht).
@@ -143,6 +147,7 @@ delegado(erika_marena).
 delegado(gerson_machado).
 
 nomeoperacao(lava_jato).
+nomeoperacao(operacao_xepa).
 
 pessoa(erika_marena).
 pessoa(felipe_delia_camargo).
