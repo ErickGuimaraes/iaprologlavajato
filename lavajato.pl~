@@ -69,6 +69,8 @@ procurador(deltan_dallagnol).
 procurador(roberson_henrique_pozzobon).
 procurador(rodrigo_janot).
 
+
+
 nome(carlos_fernado_lima).
 nome(felipe_delia_camargo).
 nome(erika_marena).
@@ -136,6 +138,10 @@ nome(renan_calheiros).
 nome(rodrigo_janot).
 nome(maria_lucia_tavare).
 nome(renato_duque).
+nome(antonio_nelfim_netto).
+nome(gabriela_hardt).
+nome(michel_temer).
+nome(marcelo_bretas).
 
 cidade(curitiba).
 cidade(brasilia).
@@ -215,6 +221,11 @@ pessoa(renan_calheiros).
 pessoa(rodrigo_janot).
 pessoa(maria_lucia_tavare).
 pessoa(renato_duque).
+pessoa(antonio_nelfim_netto).
+pessoa(gabriela_hardt).
+pessoa(michel_temer).
+pessoa(marcelo_bretas).
+
 
 preso(alberto_yousef).
 preso(nestor_cervero).
@@ -230,6 +241,7 @@ preso(joao_santana).
 preso(luiz_inacio_lula_da_silva).
 preso(jose_carlos_bumlai).
 preso(maria_lucia_tavare).
+preso(michel_temer).
 
 politico(sergio_cabral).
 politico(luiz_fernando_pezao).
@@ -241,6 +253,8 @@ politico(jose_dirceu).
 politico(luiz_inacio_lula_da_silva).
 politico(jose_janene).
 politico(renan_calheiros).
+politico(antonio_nelfim_netto).
+politico(michel_temer).
 
 governador(sergio_cabral).
 governador(luiz_fernando_pezao).
@@ -256,6 +270,10 @@ doleiro(alberto_yousef).
 doleiro(carlos_habib_chater).
 doleiro(nelma_kodama).
 doleiro(raul_srour).
+
+juiz(gabriela_hardt).
+juiz(sergio_moro).
+juiz(marcelo_bretas).
 
 %presidente_empresa(Presidente, Empresa)
    presidente_empresa(aldemir_bendine, petrobras).
@@ -278,6 +296,6 @@ doleiro(raul_srour).
    inicioOperacao(operacao_xepa,2016).
 
 
-lavaDinheiro(Pessoa, _) :-
+lavaDinheiro(Pessoa, Crime) :-
    doleiro(Pessoa),
-   crime(lavagem_dinheiro).
+   Crime = lavagem_dinheiro.
