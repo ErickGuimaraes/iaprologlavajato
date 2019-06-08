@@ -242,6 +242,7 @@ preso(luiz_inacio_lula_da_silva).
 preso(jose_carlos_bumlai).
 preso(maria_lucia_tavare).
 preso(michel_temer).
+preso(andre_esteves).
 
 politico(sergio_cabral).
 politico(luiz_fernando_pezao).
@@ -255,6 +256,7 @@ politico(jose_janene).
 politico(renan_calheiros).
 politico(antonio_nelfim_netto).
 politico(michel_temer).
+
 
 governador(sergio_cabral).
 governador(luiz_fernando_pezao).
@@ -274,6 +276,10 @@ doleiro(raul_srour).
 juiz(gabriela_hardt).
 juiz(sergio_moro).
 juiz(marcelo_bretas).
+
+banqueiro(andre_esteves).
+
+senador(delcidio_do_amaral).
 
 %presidente_empresa(Presidente, Empresa)
    presidente_empresa(aldemir_bendine, petrobras).
