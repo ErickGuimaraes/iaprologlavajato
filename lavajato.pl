@@ -23,6 +23,10 @@ pais(suica).
 pais(estados_unidos).
 pais(portugal).
 pais(holanda).
+pais(cuba).
+pais(el_salvador).
+pais(equador).
+pais(panama).
 
 empresa(petrobras).
 empresa(odebrecht).
@@ -43,8 +47,14 @@ crime(organizacao_criminosa).
 crime(crime_contra_sistema_financeiro_nacional).
 crime(falsidade_ideologica).
 crime(lavagem_dinheiro).
+crime(corrupcao_ativa).
+crime(corrupcao_passiva).
+crime(gestao_fraudulenta).
+crime(corrupção_ativa).
+crime(obstrução_da_justiça).
+crime(operação_fraudulenta_de_câmbio).
+crime(recebimento_de_vantagem_indevida).
 
-doleiro(alberto_youssef).
 diretor_petrobras(paulo_roberto_costa).
 
 procurador(Pessoa) :-
@@ -112,6 +122,7 @@ nome(aecio_neves).
 nome(geraldo_alckmin).
 nome(edson_fachin).
 nome(teori_zavascki).
+nome(sergio_moro).
 
 cidade(curitiba).
 cidade(brasilia).
@@ -179,12 +190,45 @@ pessoa(aecio_neves).
 pessoa(geraldo_alckmin).
 pessoa(edson_fachin).
 pessoa(teori_zavascki).
+pessoa(sergio_moro).
 
+preso(alberto_yousef).
+preso(nestor_cervero).
+preso(sergio_cabral).
+preso(luiz_fernando_pezao).
+preso(delcidio_do_amaral).
+preso(eduardo_cunha).
+preso(antonio_palocci).
+preso(guido_mantega).
+preso(joao_santana).
+preso(jose_dirceu).
+preso(eike_batista).
+preso(joao_santana).
+preso(luiz_inacio_lula_da_silva).
+
+politico(sergio_cabral).
+politico(luiz_fernando_pezao).
+politico(delcidio_do_amaral).
+politico(eduardo_cunha).
+politico(antonio_palocci).
+politico(guido_mantega).
+politico(jose_dirceu).
+politico(luiz_inacio_lula_da_silva).
 
 
 governador(sergio_cabral).
 governador(luiz_fernando_pezao).
 
+publicitario(joao_santana).
+
+empresario(eike_batista).
+doleiro(alberto_yousef).
+
+
+%diretor(Pessoa, Empresa)
+   diretor(paulo_roberto_costa,petrobras).
+   diretor(otavio_azevedo,andrade_gutierrez).
+   diretor(marcelo_odebrecht,odebrecht).
 
 
 nomeiaOperacao(Pessoa . Nome_Operacao) :-
