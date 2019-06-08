@@ -269,14 +269,15 @@ doleiro(raul_srour).
    diretor(renato_duque,petrobras).
 
 
-nomeiaOperacao(Pessoa, Nome_Operacao) :-
-   delegado(Pessoa),
-   nomeoperacao(Nome_Operacao).
+%nomeiaOperacao(Pessoa, Nome_Operacao)
+   nomeiaOperacao(erika_marena, lava_jato).
 
-inicioOperacao(Nome_Operacao, Ano) :-
-   nomeoperacao(Nome_Operacao),
-   Ano is 2014.
 
-lavaDinheiro(Pessoa, Crime) :-
+%inicioOperacao(Nome_Operacao, Ano)
+   inicioOperacao(lava_jato,2014).
+   inicioOperacao(operacao_xepa,2016).
+
+
+lavaDinheiro(Pessoa, _) :-
    doleiro(Pessoa),
-   Crime is (lavagem_dinheiro).
+   crime(lavagem_dinheiro).
