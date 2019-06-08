@@ -69,6 +69,21 @@ procurador(deltan_dallagnol).
 procurador(roberson_henrique_pozzobon).
 procurador(rodrigo_janot).
 
+pais(brasil).
+pais(suica).
+pais(estados_unidos).
+pais(portugal).
+pais(holanda).
+pais(cuba).
+pais(el_salvador).
+pais(equador).
+pais(panama).
+pais(angola).
+pais(nigeria).
+pais(mocanbique).
+pais(portugal).
+
+
 nome(carlos_fernado_lima).
 nome(felipe_delia_camargo).
 nome(erika_marena).
@@ -100,19 +115,6 @@ nome(zwi_skornicki).
 nome(eduardo_cunha).
 nome(flavio_david_barra).
 nome(othon_luiz_pinheiro_da_silva).
-pais(brasil).
-pais(suica).
-pais(estados_unidos).
-pais(portugal).
-pais(holanda).
-pais(cuba).
-pais(el_salvador).
-pais(equador).
-pais(panama).
-pais(angola).
-pais(nigeria).
-pais(mocanbique).
-
 nome(jose_dirceu).
 nome(alexandre_romano).
 nome(jose_adolfo_pascowitch).
@@ -149,6 +151,10 @@ nome(renan_calheiros).
 nome(rodrigo_janot).
 nome(maria_lucia_tavare).
 nome(renato_duque).
+nome(antonio_nelfim_netto).
+nome(gabriela_hardt).
+nome(michel_temer).
+nome(marcelo_bretas).
 
 cidade(curitiba).
 cidade(brasilia).
@@ -228,6 +234,11 @@ pessoa(renan_calheiros).
 pessoa(rodrigo_janot).
 pessoa(maria_lucia_tavare).
 pessoa(renato_duque).
+pessoa(antonio_nelfim_netto).
+pessoa(gabriela_hardt).
+pessoa(michel_temer).
+pessoa(marcelo_bretas).
+
 
 preso(alberto_yousef).
 preso(nestor_cervero).
@@ -243,6 +254,7 @@ preso(joao_santana).
 preso(luiz_inacio_lula_da_silva).
 preso(jose_carlos_bumlai).
 preso(maria_lucia_tavare).
+preso(michel_temer).
 
 politico(sergio_cabral).
 politico(luiz_fernando_pezao).
@@ -254,6 +266,8 @@ politico(jose_dirceu).
 politico(luiz_inacio_lula_da_silva).
 politico(jose_janene).
 politico(renan_calheiros).
+politico(antonio_nelfim_netto).
+politico(michel_temer).
 
 governador(sergio_cabral).
 governador(luiz_fernando_pezao).
@@ -269,6 +283,10 @@ doleiro(alberto_yousef).
 doleiro(carlos_habib_chater).
 doleiro(nelma_kodama).
 doleiro(raul_srour).
+
+juiz(gabriela_hardt).
+juiz(sergio_moro).
+juiz(marcelo_bretas).
 
 %presidente_empresa(Presidente, Empresa)
    presidente_empresa(aldemir_bendine, petrobras).
