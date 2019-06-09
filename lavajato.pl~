@@ -46,6 +46,17 @@ empresa(mendes_junior).
 empresa(galvao_engenharia).
 empresa(skanska).
 empresa(promon_engenharia).
+empresa(transpetro).
+empresa(gdk).
+empresa(techint).
+empresa(carioca_christiani_nielsen_engenharia).
+empresa(schahin_engenharia).
+empresa(alumini_engenharia).
+empresa(mpe_montagens_e_projeto).
+empresa(tome_engenharia).
+empresa(construcap).
+empresa(wtorre).
+empresa(egesa).
 
 crime(organizacao_criminosa).
 crime(crime_contra_sistema_financeiro_nacional).
@@ -58,18 +69,19 @@ crime(obstrucao_da_justica).
 crime(operacao_fraudulenta_de_cambio).
 crime(recebimento_de_vantagem_indevida).
 
-diretor_petrobras(paulo_roberto_costa).
+diretor(paulo_roberto_costa, petrobras).
+diretor(jorge_luiz_zelada, petrobras).
+diretor(nestor_cervero, petrobras).
+diretor(renato_de_souza_duque, petrobras).
 
-procurador(Pessoa) :-
-   pessoa(procurador).
+procurador_federal(Pessoa) :-
+   procurador(Pessoa).
 
 procurador(carlos_fernando_lima).
 procurador(felipe_delia_camargo).
 procurador(deltan_dallagnol).
 procurador(roberson_henrique_pozzobon).
 procurador(rodrigo_janot).
-
-
 
 nome(carlos_fernado_lima).
 nome(felipe_delia_camargo).
@@ -142,6 +154,36 @@ nome(antonio_nelfim_netto).
 nome(gabriela_hardt).
 nome(michel_temer).
 nome(marcelo_bretas).
+nome(jose_eduardo_cardozo).
+nome(aloizio_mercadante).
+nome(romero_juca).
+nome(sergio_machado).
+nome(joesley_batista).
+nome(cristiano_zanin_martins).
+nome(rosa_weber).
+nome(jaques_wagner).
+nome(jader_barbalho).
+nome(edison_lobao).
+nome(gleisi_hoffmann).
+nome(jose_agripino_maia).
+nome(benedito_de_lira).
+nome(cassio_cunha_lima).
+nome(aloysion_nunes).
+nome(lindice_da_mata).
+nome(edison_lobao).
+nome(edison_lobao).
+nome(edison_lobao).
+nome(edison_lobao).
+nome(edison_lobao).
+nome(edison_lobao).
+nome(edison_lobao).
+nome(edison_lobao).
+nome(edison_lobao).
+nome(edison_lobao).
+nome(edison_lobao).
+
+
+pessoa(Nome):-nome(Nome).
 
 cidade(curitiba).
 cidade(brasilia).
@@ -153,78 +195,6 @@ delegado(gerson_machado).
 
 nomeoperacao(lava_jato).
 nomeoperacao(operacao_xepa).
-
-pessoa(erika_marena).
-pessoa(felipe_delia_camargo).
-pessoa(carlos_fernando_lima).
-pessoa(alberto_yousef).
-pessoa(deltan_dallagnol).
-pessoa(roberson_henrique_pozzobon).
-pessoa(paulo_roberto_costa).
-pessoa(sergio_cabral).
-pessoa(luiz_fernando_pezao).
-pessoa(carlos_habib_chater).
-pessoa(nelma_kodama).
-pessoa(raul_henrique_srour).
-pessoa(nestor_cervero).
-pessoa(jorge_zelada).
-pessoa(eduardo_musa).
-pessoa(pedro_barusco).
-pessoa(renato_duque).
-pessoa(gerson_almada).
-pessoa(marcelo_odebrecht).
-pessoa(otavio_azevedo).
-pessoa(ricardo_pessoa).
-pessoa(andre_vargas).
-pessoa(luiz_argolo).
-pessoa(pedro_correa).
-pessoa(adir_assad).
-pessoa(joao_vaccari_neto).
-pessoa(fernando_soares).
-pessoa(zwi_skornicki).
-pessoa(eduardo_cunha).
-pessoa(flavio_david_barra).
-pessoa(othon_luiz_pinheiro_da_silva).
-pessoa(jose_dirceu).
-pessoa(alexandre_romano).
-pessoa(jose_adolfo_pascowitch).
-pessoa(milton_pascowitch).
-pessoa(jose_antunes_sobrinho).
-pessoa(delcidio_do_amaral).
-pessoa(roberto_goncalves).
-pessoa(teori_zavascki).
-pessoa(andre_esteves).
-pessoa(marcos_valerio).
-pessoa(jose_carlos_bumlai).
-pessoa(joao_santana).
-pessoa(luiz_inacio_lula_da_silva).
-pessoa(silvio_pereira).
-pessoa(delubio_soares).
-pessoa(gim_argello).
-pessoa(joao_claudio_genu).
-pessoa(ildefonso_colares_filho).
-pessoa(eike_batista).
-pessoa(antonio_palocci).
-pessoa(guido_mantega).
-pessoa(dilma_rousseff).
-pessoa(aecio_neves).
-pessoa(geraldo_alckmin).
-pessoa(edson_fachin).
-pessoa(teori_zavascki).
-pessoa(sergio_moro).
-pessoa(gerson_machado).
-pessoa(jose_janene).
-pessoa(hermes_magnus).
-pessoa(raul_srour).
-pessoa(aldemir_bendine).
-pessoa(renan_calheiros).
-pessoa(rodrigo_janot).
-pessoa(maria_lucia_tavare).
-pessoa(renato_duque).
-pessoa(antonio_nelfim_netto).
-pessoa(gabriela_hardt).
-pessoa(michel_temer).
-pessoa(marcelo_bretas).
 
 preso(alberto_yousef).
 preso(nestor_cervero).
@@ -255,6 +225,11 @@ politico(jose_janene).
 politico(renan_calheiros).
 politico(antonio_nelfim_netto).
 politico(michel_temer).
+politico(pedro_correa).
+politico(aloizio_mercadante).
+politico(romero_juca).
+politico(aecio_neves).
+politico(jaques_wagner).
 
 operador(bruno_goncalves_da_luz).
 operador(andre_catao_de_miranda).
@@ -263,6 +238,16 @@ operador(luccas_pace_junior).
 operador(pedro_agrese_junior).
 operador(ricardo_hoffman).
 operador(sonia_mariza_branco).
+
+periodo(2010, rio_de_janeiro).
+periodo(2014, rio_de_janeiro).
+periodo(2018, rio_de_janeiro).
+periodo(2010, parana).
+periodo(2014, parana).
+periodo(2018, parana).
+periodo(2010, rio_de_janeiro).
+periodo(2014, rio_de_janeiro).
+periodo(2018, rio_de_janeiro).
 
 periodo(2006, sergio_cabral).
 periodo(2010, sergio_cabral).
@@ -280,13 +265,13 @@ governa(sergio_cabral, rio_de_janeiro).
 governa(luiz_fernando_pezao, rio_de_janeiro).
 governa(beto_richa, parana).
 
-
 governador(X,Y,Z):-governa(X,Y),estado(Y),periodo(Z,X).
-
 publicitario(joao_santana).
 
 empresario(eike_batista).
 empresario(hermes_magnus).
+empresario(romero_juca).
+empresario(joesley_batista).
 
 pecuarista(jose_carlos_bumlai).
 
@@ -301,7 +286,36 @@ juiz(marcelo_bretas).
 
 banqueiro(andre_esteves).
 
+advogado(cristiano_zanin_martins).
+
 senador(delcidio_do_amaral).
+senador(jader_barbalho).
+senador(renan_calheiros).
+senador(edison_lobao).
+senador(gleisi_hoffmann).
+senador(jose_agripino_maia).
+senador(ciro_nogueira).
+senador(benedito_de_lira).
+senador(cassio_cunha_lima).
+senador(aecio_neves).
+senador(aloysion_nunes).
+senador(lindice_da_mata).
+senador(vanessa_grazziotin).
+senador(valdir_raupp).
+senador(ricardo_ferraco).
+senador(dalirio_beber).
+senador(eduardo_braga).
+senador(jorge_viana).
+senador(ivo_cassol).
+senador(eunicio_oliveira).
+senador(romero_juca).
+senador(lindibergh_farias).
+senador(humberto_costa).
+senador(garibaldi_alves_filho).
+senador(jader_barbalho).
+senador(edison_lobao).
+
+
 
 condenado(adir_assad,10.8).
 condenado(alberto_youseef,9.2).
@@ -375,6 +389,7 @@ condenado(jose_reny,0).
 
 %presidente_empresa(Presidente, Empresa)
    presidente_empresa(aldemir_bendine, petrobras).
+   presidente_empresa(sergio_machado, tranpetro).
 
 %diretor(Pessoa, Empresa)
    diretor(paulo_roberto_costa,petrobras).

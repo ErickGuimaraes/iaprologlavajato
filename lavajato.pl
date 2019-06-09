@@ -46,7 +46,17 @@ empresa(mendes_junior).
 empresa(galvao_engenharia).
 empresa(skanska).
 empresa(promon_engenharia).
-empresa(tranpetro).
+empresa(transpetro).
+empresa(gdk).
+empresa(techint).
+empresa(carioca_christiani_nielsen_engenharia).
+empresa(schahin_engenharia).
+empresa(alumini_engenharia).
+empresa(mpe_montagens_e_projeto).
+empresa(tome_engenharia).
+empresa(construcap).
+empresa(wtorre).
+empresa(egesa).
 
 crime(organizacao_criminosa).
 crime(crime_contra_sistema_financeiro_nacional).
@@ -59,18 +69,19 @@ crime(obstrucao_da_justica).
 crime(operacao_fraudulenta_de_cambio).
 crime(recebimento_de_vantagem_indevida).
 
-diretor_petrobras(paulo_roberto_costa).
+diretor(paulo_roberto_costa, petrobras).
+diretor(jorge_luiz_zelada, petrobras).
+diretor(nestor_cervero, petrobras).
+diretor(renato_de_souza_duque, petrobras).
 
-procurador(Pessoa) :-
-   pessoa(procurador).
+procurador_federal(Pessoa) :-
+   procurador(Pessoa).
 
 procurador(carlos_fernando_lima).
 procurador(felipe_delia_camargo).
 procurador(deltan_dallagnol).
 procurador(roberson_henrique_pozzobon).
 procurador(rodrigo_janot).
-
-
 
 nome(carlos_fernado_lima).
 nome(felipe_delia_camargo).
@@ -151,8 +162,28 @@ nome(joesley_batista).
 nome(cristiano_zanin_martins).
 nome(rosa_weber).
 nome(jaques_wagner).
+nome(jader_barbalho).
+nome(edison_lobao).
+nome(gleisi_hoffmann).
+nome(jose_agripino_maia).
+nome(benedito_de_lira).
+nome(cassio_cunha_lima).
+nome(aloysion_nunes).
+nome(lindice_da_mata).
+nome(vanessa_grazziotin).
+nome(ricardo_ferraco).
+nome(dalirio_beber).
+nome(eduardo_braga).
+nome(jorge_viana).
+nome(ivo_cassol).
+nome(eunicio_oliveira).
+nome(romero_juca).
+nome(lindibergh_faria).
+nome(humberto_costa).
+nome(garibaldi_alves_filho).
 
-pessoas(Nome):-nome(Nome).
+
+pessoa(Nome):-nome(Nome).
 
 cidade(curitiba).
 cidade(brasilia).
@@ -182,7 +213,6 @@ preso(maria_lucia_tavare).
 preso(michel_temer).
 preso(andre_esteves).
 
-
 politico(sergio_cabral).
 politico(luiz_fernando_pezao).
 politico(delcidio_do_amaral).
@@ -200,7 +230,25 @@ politico(aloizio_mercadante).
 politico(romero_juca).
 politico(aecio_neves).
 politico(jaques_wagner).
-
+politico(jader_barbalho).
+politico(edison_lobao).
+politico(gleisi_hoffmann).
+politico(jose_agripino_maia).
+politico(benedito_de_lira).
+politico(cassio_cunha_lima).
+politico(aloysion_nunes).
+politico(lindice_da_mata).
+politico(vanessa_grazziotin).
+politico(ricardo_ferraco).
+politico(dalirio_beber).
+politico(eduardo_braga).
+politico(jorge_viana).
+politico(ivo_cassol).
+politico(eunicio_oliveira).
+politico(romero_juca).
+politico(lindibergh_faria).
+politico(humberto_costa).
+politico(garibaldi_alves_filho).
 
 operador(bruno_goncalves_da_luz).
 operador(andre_catao_de_miranda).
@@ -220,14 +268,6 @@ periodo(2010, rio_de_janeiro).
 periodo(2014, rio_de_janeiro).
 periodo(2018, rio_de_janeiro).
 
-%governador(Pessoa, Estado)
-   governador(sergio_cabral, rio_de_janeiro).
-   governador(luiz_fernando_pezao, rio_de_janeiro).
-   governador(beto_richa, parana).
-
-deputado(Pessoa, Periodo) :-
-   governador(X,Y).
-
 periodo(2006, sergio_cabral).
 periodo(2010, sergio_cabral).
 periodo(2014, luiz_fernando_pezao).
@@ -244,10 +284,7 @@ governa(sergio_cabral, rio_de_janeiro).
 governa(luiz_fernando_pezao, rio_de_janeiro).
 governa(beto_richa, parana).
 
-
 governador(X,Y,Z):-governa(X,Y),estado(Y),periodo(Z,X).
-
-
 publicitario(joao_santana).
 
 empresario(eike_batista).
@@ -271,6 +308,33 @@ banqueiro(andre_esteves).
 advogado(cristiano_zanin_martins).
 
 senador(delcidio_do_amaral).
+senador(jader_barbalho).
+senador(renan_calheiros).
+senador(edison_lobao).
+senador(gleisi_hoffmann).
+senador(jose_agripino_maia).
+senador(ciro_nogueira).
+senador(benedito_de_lira).
+senador(cassio_cunha_lima).
+senador(aecio_neves).
+senador(aloysion_nunes).
+senador(lindice_da_mata).
+senador(vanessa_grazziotin).
+senador(valdir_raupp).
+senador(ricardo_ferraco).
+senador(dalirio_beber).
+senador(eduardo_braga).
+senador(jorge_viana).
+senador(ivo_cassol).
+senador(eunicio_oliveira).
+senador(romero_juca).
+senador(lindibergh_farias).
+senador(humberto_costa).
+senador(garibaldi_alves_filho).
+senador(jader_barbalho).
+senador(edison_lobao).
+
+
 
 condenado(adir_assad,10.8).
 condenado(alberto_youseef,9.2).
