@@ -69,11 +69,6 @@ crime(obstrucao_da_justica).
 crime(operacao_fraudulenta_de_cambio).
 crime(recebimento_de_vantagem_indevida).
 
-diretor(paulo_roberto_costa, petrobras).
-diretor(jorge_luiz_zelada, petrobras).
-diretor(nestor_cervero, petrobras).
-diretor(renato_de_souza_duque, petrobras).
-
 procurador_federal(Pessoa) :-
    procurador(Pessoa).
 
@@ -401,7 +396,7 @@ condenado(pedro_jose_barusco_filho,0).
 condenado(renato_de_souze_duque,20.7).
 condenado(ricardo_hoffmann,12.8).
 condenado(sonia_maria_branco,9.8).
-condenado(jose_reny,0).
+condenado(jose_reny,11.6).
 
 condenadocrime(adir_assad,lavagem_dinheiro).
 condenadocrime(adir_assad,associacao_criminosa).
@@ -440,7 +435,7 @@ condenadocrime(faical_mohamed_nacirdine,operar_instituicao_financeira_ilegal).
 condenadocrime(fernando_soares,corrupcao_passiva).
 condenadocrime(fernando_soares,lavagem_dinheiro).
 condenadocrime(fernando_augusto_stremel_andrade,lavagem_dinheiro).
-ondenadocrime(fernando_schahin,lavagem_dinheiro).
+condenadocrime(fernando_schahin,lavagem_dinheiro).
 condenadocrime(gerson_almada,organizacao_criminosa).
 condenadocrime(gerson_almada,corrupcao_ativa).
 condenadocrime(gerson_almada,lavagem_dinheiro).
@@ -461,41 +456,78 @@ condenadocrime(joao_ricardo_auler,corrupcao).
 condenadocrime(joao_santana,lavagem_dinheiro).
 condenadocrime(joao_vaccari_neto,corrupcao_passiva).
 condenadocrime(joao_vaccari_neto,lavagem_dinheiro).
-condenadocrime(jorge_antonio_da_silva_luz,12).
-condenadocrime(jorge_luiz_zelada,16.1).
-condenadocrime(jose_aldemario_prinheiro_filho,3.5).
-condenadocrime(jose_ricardo_nogueira_berghirolli,11).
-condenadocrime(jose_carlos_bumlai,9.8).
-condenadocrime(jose_dirceu,23).
-condenadocrime(juliana_cordeiro_de_moura,2).
-condenadocrime(julio_gerin_de_almeida_camargo,26).
-condenadocrime(leandro_meirelles,5.5).
-condenadocrime(leon_denis_vargas_ilario,11.3).
-condenadocrime(luccas_pace_junior,4.1).
-condenadocrime(luis_carlos_moreira_da_silva,12).
-condenadocrime(luiz_argolo,11.9).
-condenadocrime(luiz_inacio_lula_da_silva,8.9).
-condenadocrime(marcelo_odebrecht,19.3).
-condenadocrime(marcio_andrade_bonilho,11.5).
-condenadocrime(maria_dirce_penasso,2).
-condenadocrime(mario_frederico_mendonca_goes,18.3).
-condenadocrime(matheus_coutinho_de_sa_oliveira,11).
-condenadocrime(milton_schahin,4).
-condenadocrime(monica_moura,8.3).
-condenadocrime(nelma_kodama,5).
-condenadocrime(nestor_cervero,5).
-condenadocrime(paulo_roberto_costa,7.5).
-condenadocrime(pedro_argese_junior,4.4).
-condenadocrime(pedro_correa,20.5).
-condenadocrime(raul_henrique_srour,7.1).
-condenadocrime(rene_luiz_pereira,14).
-condenadocrime(rinaldo_goncalves_de_carvalho,2.7).
-condenadocrime(pedro_jose_barusco_filho,0).
-condenadocrime(renato_de_souze_duque,20.7).
-condenadocrime(ricardo_hoffmann,12.8).
-condenadocrime(sonia_maria_branco,9.8).
-condenadocrime(jose_reny,0).
-
+condenadocrime(jorge_antonio_da_silva_luz,corrupcao_passiva).
+condenadocrime(jorge_antonio_da_silva_luz,lavagem_dinheiro).
+condenadocrime(jorge_luiz_zelada,fraude_licitacao).
+condenadocrime(jorge_luiz_zelada,corrupcao).
+condenadocrime(jorge_luiz_zelada,lavagem_dinheiro).
+condenadocrime(jose_aldemario_prinheiro_filho,organizacao_criminosa).
+condenadocrime(jose_aldemario_prinheiro_filho,corrupcao_ativa).
+condenadocrime(jose_aldemario_prinheiro_filho,lavagem_dinheiro).
+condenadocrime(jose_ricardo_nogueira_berghirolli,organizacao_criminosa).
+condenadocrime(jose_ricardo_nogueira_berghirolli,lavagem_dinheiro).
+condenadocrime(jose_carlos_bumlai,corrupcao_passiva).
+condenadocrime(jose_carlos_bumlai,gestao_fradulenta).
+condenadocrime(jose_dirceu,corrupcao_passiva).
+condenadocrime(jose_dirceu,lavagem_dinheiro).
+condenadocrime(jose_dirceu,recebimento_vantagem_indevida).
+condenadocrime(juliana_cordeiro_de_moura,evasao_divisas).
+condenadocrime(juliana_cordeiro_de_moura,operar_instituicao_financeira_ilegal).
+condenadocrime(julio_gerin_de_almeida_camargo,corrupcao_ativa).
+condenadocrime(julio_gerin_de_almeida_camargo,lavagem_dinheiro).
+condenadocrime(julio_gerin_de_almeida_camargo,associacao_criminosa).
+condenadocrime(leandro_meirelles,lavagem_dinheiro).
+condenadocrime(leon_denis_vargas_ilario,lavagem_dinheiro).
+condenadocrime(luccas_pace_junior,evasao_divisas).
+condenadocrime(luccas_pace_junior,operar_instiuicao_criminosa).
+condenadocrime(luis_carlos_moreira_da_silva,lavagem_dinheiro).
+condenadocrime(luis_carlos_moreira_da_silva,corrupcao_passiva).
+condenadocrime(luiz_argolo,lavagem_dinheiro).
+condenadocrime(luiz_argolo,corrupcao_passiva).
+condenadocrime(luiz_argolo,ocultacao_patrimonio).
+condenadocrime(luiz_inacio_lula_da_silva,corrupcao).
+condenadocrime(luiz_inacio_lula_da_silva,lavagem_dinheiro).
+condenadocrime(marcelo_odebrecht,corrupcao_passiva).
+condenadocrime(marcelo_odebrecht,lavagem_dinheiro).
+condenadocrime(marcelo_odebrecht,ocultacao_patrimonio).
+condenadocrime(marcio_andrade_bonilho,lavagem_dinheiro).
+condenadocrime(marcio_andrade_bonilho,organizacao_criminosa).
+condenadocrime(maria_dirce_penasso,evasao_divisas).
+condenadocrime(maria_dirce_penasso,operar_instituicao_financeira_ilegal).
+condenadocrime(mario_frederico_mendonca_goes,corrupcao_passiva).
+condenadocrime(mario_frederico_mendonca_goes,lavagem_dinheiro).
+condenadocrime(mario_frederico_mendonca_goes,associacao_criminosa).
+condenadocrime(matheus_coutinho_de_sa_oliveira,organizacao_criminosa).
+condenadocrime(matheus_coutinho_de_sa_oliveira,lavagem_dinheiro).
+condenadocrime(milton_schahin,lavagem_dinheiro).
+condenadocrime(monica_moura,lavagem_dinheiro).
+condenadocrime(nelma_kodama,evasao_divisas).
+condenadocrime(nelma_kodama,operar_instituicao_financeira_ilegal).
+condenadocrime(nelma_kodama,corrupcao_ativa).
+condenadocrime(nestor_cervero,lavagem_dinheiro).
+condenadocrime(paulo_roberto_costa,organizacao_criminosa).
+condenadocrime(paulo_roberto_costa,lavagem_dinheiro).
+condenadocrime(pedro_argese_junior,lavagem_dinheiro).
+condenadocrime(pedro_correa,lavagem_dinheiro).
+condenadocrime(pedro_correa,corrupcao_passiva).
+condenadocrime(raul_henrique_srour,lavagem_dinheiro).
+condenadocrime(raul_henrique_srour,operacao_fradulenta).
+condenadocrime(rene_luiz_pereira,trafico_drogas).
+condenadocrime(rene_luiz_pereira,lavagem_dinheiro).
+condenadocrime(rene_luiz_pereira,evasao_divisas).
+condenadocrime(rinaldo_goncalves_de_carvalho,corrupcao_passiva).
+condenadocrime(pedro_jose_barusco_filho,corrupcao_passiva).
+condenadocrime(pedro_jose_barusco_filho,lavagem_dinheiro).
+condenadocrime(pedro_jose_barusco_filho,associacao_criminosa).
+condenadocrime(renato_de_souze_duque,corrupcao_passiva).
+condenadocrime(renato_de_souze_duque,lavagem_dinheiro).
+condenadocrime(ricardo_hoffmann,corrupcao).
+condenadocrime(ricardo_hoffmann,lavagem_dinheiro).
+condenadocrime(sonia_maria_branco,lavagem_dinheiro).
+condenadocrime(sonia_maria_branco,associacao_criminosa).
+condenadocrime(jose_reny,organizacao_criminosa).
+condenadocrime(jose_reny,lavagem_dinheiro).
+condenadocrime(jose_reny,escravizacao_de_criancas).
 
 %presidente_empresa(Presidente, Empresa)
    presidente_empresa(aldemir_bendine, petrobras).

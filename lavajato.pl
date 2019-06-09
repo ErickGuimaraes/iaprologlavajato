@@ -69,11 +69,6 @@ crime(obstrucao_da_justica).
 crime(operacao_fraudulenta_de_cambio).
 crime(recebimento_de_vantagem_indevida).
 
-diretor(paulo_roberto_costa, petrobras).
-diretor(jorge_luiz_zelada, petrobras).
-diretor(nestor_cervero, petrobras).
-diretor(renato_de_souza_duque, petrobras).
-
 procurador_federal(Pessoa) :-
    procurador(Pessoa).
 
@@ -440,7 +435,7 @@ condenadocrime(faical_mohamed_nacirdine,operar_instituicao_financeira_ilegal).
 condenadocrime(fernando_soares,corrupcao_passiva).
 condenadocrime(fernando_soares,lavagem_dinheiro).
 condenadocrime(fernando_augusto_stremel_andrade,lavagem_dinheiro).
-ondenadocrime(fernando_schahin,lavagem_dinheiro).
+condenadocrime(fernando_schahin,lavagem_dinheiro).
 condenadocrime(gerson_almada,organizacao_criminosa).
 condenadocrime(gerson_almada,corrupcao_ativa).
 condenadocrime(gerson_almada,lavagem_dinheiro).
@@ -559,3 +554,8 @@ condenadocrime(jose_reny,escravizacao_de_criancas).
 lavaDinheiro(Pessoa, Crime) :-
    doleiro(Pessoa),
    Crime = lavagem_dinheiro.
+
+condenadorPor(Crime,Tempo):-
+	pessoa(Pessoa),
+	condenado(Pessoa,Tempo),
+	condenadocrime(Pessoa,Crime).
