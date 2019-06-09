@@ -78,6 +78,7 @@ crime(gestao_fradulenta).
 crime(fraude_licitacao).
 crime(operar_instiuicao_criminosa).
 crime(uso_indevido_verba_publica).
+crime(formacao_de_quadrilha).
 
 presidente_empresa(aldemir_bendine, petrobras).
 presidente_empresa(sergio_machado, transpetro).
@@ -392,6 +393,8 @@ senador(garibaldi_alves_filho,pt).
 senador(jader_barbalho,pmdb).
 senador(edison_lobao,pmdb).
 
+condenado(sergio_cabral,14.2).
+condenado(sergio_cabral,45.2).
 condenado(adir_assad,10.8).
 condenado(alberto_youseef,9.2).
 condenado(andre_catao_de_miranda,4).
@@ -430,6 +433,7 @@ condenado(jorge_antonio_da_silva_luz,12).
 condenado(jorge_luiz_zelada,16.1).
 condenado(jose_aldemario_prinheiro_filho,3.5).
 condenado(jose_ricardo_nogueira_berghirolli,11).
+condenadopor(ary_ferreira_da_costa_filho,16).
 condenado(jose_carlos_bumlai,9.8).
 condenado(jose_dirceu,23).
 condenado(juliana_cordeiro_de_moura,2).
@@ -461,6 +465,11 @@ condenado(ricardo_hoffmann,12.8).
 condenado(sonia_maria_branco,9.8).
 condenado(jose_reny,11.6).
 
+condenado(sergio_cabral,corrupcao).
+condenado(sergio_cabral,corrupcao_passiva).
+condenado(sergio_cabral,recebimento_de_vantagem_indevida).
+condenado(sergio_cabral,formacao_de_quadrilha).
+condenado(sergio_cabral,lavagem_dinheiro).
 condenadocrime(adir_assad,lavagem_dinheiro).
 condenadocrime(adir_assad,associacao_criminosa).
 condenadocrime(alberto_youseef,lavagem_dinheiro).
@@ -529,6 +538,7 @@ condenadocrime(jose_aldemario_prinheiro_filho,corrupcao_ativa).
 condenadocrime(jose_aldemario_prinheiro_filho,lavagem_dinheiro).
 condenadocrime(jose_ricardo_nogueira_berghirolli,organizacao_criminosa).
 condenadocrime(jose_ricardo_nogueira_berghirolli,lavagem_dinheiro).
+condenadocrime(ary_ferreira_da_costa_filho,lavagem_dinheiro).
 condenadocrime(jose_carlos_bumlai,corrupcao_passiva).
 condenadocrime(jose_carlos_bumlai,gestao_fradulenta).
 condenadocrime(jose_dirceu,corrupcao_passiva).
@@ -592,6 +602,8 @@ condenadocrime(jose_reny,organizacao_criminosa).
 condenadocrime(jose_reny,lavagem_dinheiro).
 condenadocrime(jose_reny,escravizacao_de_criancas).
 
+condenadopor(sergio_cabral,sergio_moro).
+condenadopor(sergio_cabral,marcelo_bretas).
 condenadopor(adir_assad,sergio_moro).
 condenadopor(alberto_youseef,sergio_moro).
 condenadopor(andre_catao_de_miranda,sergio_moro).
@@ -627,6 +639,7 @@ condenadopor(joao_claudio_genu,sergio_moro).
 condenadopor(joao_ricardo_auler,sergio_moro).
 condenadopor(joao_santana,sergio_moro).
 condenadopor(joao_vaccari_neto,sergio_moro).
+condenadopor(ary_ferreira_da_costa_filho,marcelo_bretas).
 condenadopor(jorge_antonio_da_silva_luz,sergio_moro).
 condenadopor(jorge_luiz_zelada,sergio_moro).
 condenadopor(jose_aldemario_prinheiro_filho,sergio_moro).
@@ -660,11 +673,12 @@ condenadopor(pedro_jose_barusco_filho,sergio_moro).
 condenadopor(renato_de_souze_duque,sergio_moro).
 condenadopor(ricardo_hoffmann,sergio_moro).
 condenadopor(sonia_maria_branco,sergio_moro).
-condenadopor(jose_reny,11.6).
+condenadopor(jose_reny,sergio_moro).
+
 
 politico(Nome,Partido):-pessoa(Nome),partido(Partido),politicopart(Nome,Partido).
 
-governador(X,Y):-governa(X,Y),estado(Y),periodo(Z,X),write(Z).
+governador(Nome,Estado):-pessoa(Nome),governa(Nome,Estado),estado(Estado),periodo(Ano,Estado),write(Ano).
 
 mandato(Nome,Partido):-pessoa(Nome), partido(Partido), senador(Nome,Partido).
 
@@ -677,7 +691,7 @@ procurador_federal(Pessoa) :-
 
 juiz(Nome):-pessoa(Nome),magistrado(Nome).
 
-condenadopelojuiz(Pessoa,Tempo):-
+condenadopelojuiz(Pessoa,Crime):-
 	pessoa(Pessoa),
 	condenado(Pessoa,Tempo),
 	condenadocrime(Pessoa,Crime),
@@ -687,6 +701,6 @@ condenadopelojuiz(Pessoa,Tempo):-
         put(10),
         write(Juiz),
         put(10),
-        write(crime),
+        write(tempo),
         put(10),
-        write(Crime).
+        write(Tempo).
