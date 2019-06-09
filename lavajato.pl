@@ -302,6 +302,26 @@ periodo(2018, rio_de_janeiro).
 deputado(Pessoa, Periodo) :-
    governador(X,Y).
 
+periodo(2006, sergio_cabral).
+periodo(2010, sergio_cabral).
+periodo(2014, luiz_fernando_pezao).
+periodo(2018, wilson_witzel).
+periodo(2010, beto_richa).
+periodo(2014,beto_richa).
+periodo(2018, ratinho_junior).
+
+estado(rio_de_janeiro).
+estado(parana).
+estado(rio_grande_do_sul).
+
+governa(sergio_cabral, rio_de_janeiro).
+governa(luiz_fernando_pezao, rio_de_janeiro).
+governa(beto_richa, parana).
+
+
+governador(X,Y,Z):-governa(X,Y),estado(Y),periodo(Z,X).
+
+
 publicitario(joao_santana).
 
 empresario(eike_batista).
