@@ -686,7 +686,16 @@ lavaDinheiro(Pessoa, Crime) :-
    doleiro(Pessoa),
    Crime = lavagem_dinheiro.
 
-condenadorPor(Crime,Tempo):-
+condenadopelojuiz(Pessoa,Tempo):-
 	pessoa(Pessoa),
 	condenado(Pessoa,Tempo),
-	condenadocrime(Pessoa,Crime).
+	condenadocrime(Pessoa,Crime),
+        condenadopor(Pessoa,Juiz),
+        juiz(Juiz),
+        write(juiz),
+        put(10),
+        write(Juiz),
+        put(10),
+        write(crime),
+        put(10),
+        write(Crime).

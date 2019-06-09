@@ -366,25 +366,27 @@ senador(edison_lobao,pmdb).
 senador(gleisi_hoffmann,pt).
 senador(jose_agripino_maia,dem).
 senador(ciro_nogueira,pp).
-senador(benedito_de_lira).
-senador(cassio_cunha_lima).
-senador(aecio_neves).
-senador(aloysion_nunes).
-senador(lindice_da_mata).
-senador(vanessa_grazziotin).
-senador(valdir_raupp).
-senador(ricardo_ferraco).
-senador(dalirio_beber).
-senador(eduardo_braga).
-senador(jorge_viana).
-senador(ivo_cassol).
-senador(eunicio_oliveira).
-senador(romero_juca).
-senador(lindibergh_farias).
-senador(humberto_costa).
-senador(garibaldi_alves_filho).
-senador(jader_barbalho).
-senador(edison_lobao).
+senador(benedito_de_lira,pp).
+senador(cassio_cunha_lima,psdb).
+senador(aecio_neves,psdb).
+senador(aloysion_nunes,psdb).
+senador(lindice_da_mata,psdb).
+senador(vanessa_grazziotin,pcdob).
+senador(valdir_raupp,pmdb).
+senador(ricardo_ferraco,psdb).
+senador(dalirio_beber,psdb).
+senador(eduardo_braga,pmdb).
+senador(jorge_viana,pt).
+senador(ivo_cassol,pp).
+senador(eunicio_oliveira,pmdb).
+senador(romero_juca,pmdb).
+senador(lindibergh_farias,pt).
+senador(humberto_costa,pt).
+senador(garibaldi_alves_filho,pt).
+senador(jader_barbalho,pmdb).
+senador(edison_lobao,pmdb).
+
+mandato(Nome,Partido):-pessoa(Nome),senador(Nome,Partido).
 
 condenado(adir_assad,10.8).
 condenado(alberto_youseef,9.2).
@@ -684,7 +686,12 @@ lavaDinheiro(Pessoa, Crime) :-
    doleiro(Pessoa),
    Crime = lavagem_dinheiro.
 
-condenadorPor(Crime,Tempo):-
+condenadopelojuiz(Pessoa,Tempo):-
 	pessoa(Pessoa),
 	condenado(Pessoa,Tempo),
-	condenadocrime(Pessoa,Crime).
+	condenadocrime(Pessoa,Crime),
+        condenadopor(Pessoa,Juiz),
+        juiz(Juiz),
+        write(Juiz),
+        put(10),
+        write(Crime).
