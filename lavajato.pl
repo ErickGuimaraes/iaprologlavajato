@@ -176,6 +176,14 @@ nome(romero_juca).
 nome(lindibergh_faria).
 nome(humberto_costa).
 nome(garibaldi_alves_filho).
+nome(bruno_goncalves_da_luz).
+nome(andre_catao_de_miranda).
+nome(jorge_antonio_da_silva_luz).
+nome(luccas_pace_junior).
+nome(pedro_agrese_junior).
+nome(ricardo_hoffman).
+nome(sonia_mariza_branco).
+
 
 
 pessoa(Nome):-nome(Nome).
@@ -207,6 +215,35 @@ preso(jose_carlos_bumlai).
 preso(maria_lucia_tavare).
 preso(michel_temer).
 preso(andre_esteves).
+
+partido(pt).
+partido(psdb).
+partido(pmdb).
+partido(psb).
+partido(dem).
+partido(pp).
+partido(pr).
+partido(psd).
+partido(pdt).
+partido(ptb).
+partido(pcdob).
+partido(sd).
+partido(psc).
+partido(prb).
+partido(prtb).
+partido(pros).
+partido(pv).
+partido(pen).
+partido(pps).
+partido(ptn).
+partido(ptdob).
+partido(pmn).
+partido(psl).
+partido(ptc).
+partido(phs).
+partido(prb).
+partido(pps).
+partido(psdc).
 
 politico(sergio_cabral).
 politico(luiz_fernando_pezao).
@@ -279,7 +316,8 @@ governa(sergio_cabral, rio_de_janeiro).
 governa(luiz_fernando_pezao, rio_de_janeiro).
 governa(beto_richa, parana).
 
-governador(X,Y,Z):-governa(X,Y),estado(Y),periodo(Z,X).
+governador(X,Y):-governa(X,Y),estado(Y),periodo(Z,X),write(Z).
+
 publicitario(joao_santana).
 
 empresario(eike_batista).
