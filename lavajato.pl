@@ -83,12 +83,12 @@ crime(formacao_de_quadrilha).
 presidente_empresa(aldemir_bendine, petrobras).
 presidente_empresa(sergio_machado, transpetro).
 
-diretor(paulo_roberto_costa,petrobras).
-diretor(otavio_azevedo,andrade_gutierrez).
-diretor(marcelo_odebrecht,odebrecht).
-diretor(jorge_zelada,petrobras).
-diretor(nestor_cervero,petrobras).
-diretor(renato_de_souza_duque,petrobras).
+diretor_nome(paulo_roberto_costa,petrobras).
+diretor_nome(otavio_azevedo,andrade_gutierrez).
+diretor_nome(marcelo_odebrecht,odebrecht).
+diretor_nome(jorge_zelada,petrobras).
+diretor_nome(nestor_cervero,petrobras).
+diretor_nome(renato_de_souza_duque,petrobras).
 
 nomeiaOperacao(erika_marena, lava_jato).
 
@@ -719,20 +719,31 @@ governador(Nome,Estado):-pessoa(Nome),governa(Nome,Estado),estado(Estado),period
 
 mandato(Nome,Partido):-pessoa(Nome), partido(Partido), senador(Nome,Partido).
 
-senador(Pessoa):-pessoa(Pessoa).
-advogado(Pessoa):-pessoa(Pessoa).
-banqueiro(Pessoa):-pessoa(Pessoa).
-magistrado(Pessoa):-pessoa(Pessoa).
-pecuarista(Pessoa):-pessoa(Pessoa).
-empresario(Pessoa):-pessoa(Pessoa).
-doleiro(Pessoa):-pessoa(Pessoa).
-publicitario(Pessoa):-pessoa(Pessoa).
-delegado(Pessoa):-pessoa(Pessoa).
-diretor(Pessoa):-pessoa(Pessoa).
-presidente_empresa(Pessoa,Empresa):-pessoa(Pessoa),empresa(Empresa).
-operador(Pessoa):-pessoa(Pessoa).
+senadoreleito(Nome):-pessoa(Nome), senador(Nome,Partido), write(Partido).
+
+advogado_nm(Nome):-pessoa(Nome), advogado(Nome).
+
+banqueiro_nm(Nome):-pessoa(Nome), banqueiro(Nome).
+
+pecuarista_nm(Nome):-pessoa(Nome), pecuarista(Nome).
+
+empresario_nm(Nome):-pessoa(Nome), empresario(Nome).
+
+doleiro_nm(Nome):-pessoa(Nome), doleiro(Nome).
+
+publicitario_nm(Nome):-pessoa(Nome), publicitario(Nome).
+
+delegado_nm(Nome):-pessoa(Nome), delegado(Nome).
+
+diretor_nm(Nome):-pessoa(Nome),diretor_nome(Nome, Empresa), write(Empresa).
+
+presidente_empresa_nome(Nome,Empresa):-pessoa(Nome),empresa(Empresa), presidente_empresa(Nome,Empresa).
+
+operador_nm(Nome):-pessoa(Nome), operador(Nome).
+
 juiz(Nome):-pessoa(Nome),magistrado(Nome).
-condenadocrime(Pessoa,Crime):-pessoa(Pessoa),condenado(Pessoa,Tempo),crime(Crime).
+
+condenadoporcrime(Pessoa,Crime):-pessoa(Pessoa),crime(Crime),condenadocrime(Pessoa,Crime).
 
 lavaDinheiro(Nome, Crime) :-
    pessoa(Nome),
@@ -742,7 +753,7 @@ lavaDinheiro(Nome, Crime) :-
 procurador_federal(Nome) :-
    pessoa(Nome), procurador(Nome).
 
-condenado(Pessoa,Tempo):-pessoa(Pessoa).
+condenado_nm(Nome,Tempo):-pessoa(Nome),condenado(Nome,Tempo).
 
 condenadopelojuiz(Pessoa,Crime):-
 	pessoa(Pessoa),
