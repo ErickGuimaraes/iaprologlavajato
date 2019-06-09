@@ -143,6 +143,8 @@ nome(gabriela_hardt).
 nome(michel_temer).
 nome(marcelo_bretas).
 
+pessoas(Nome):-nome(Nome).
+
 cidade(curitiba).
 cidade(brasilia).
 cidade(rio_de_janeiro).
