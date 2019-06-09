@@ -274,19 +274,13 @@ periodo(2010, rio_de_janeiro).
 periodo(2014, rio_de_janeiro).
 periodo(2018, rio_de_janeiro).
 
-
 %governador(Pessoa, Estado)
     governador(sergio_cabral, rio_de_janeiro).
     governador(luiz_fernando_pezao, rio_de_janeiro).
     governador(beto_richa, parana).
 
 deputado(Pessoa, Periodo) :-
-   deputado(Pessoa), Periodo(Pessoa,
-    deputado(joao, periodo).
-    
-governador(sergio_cabral).
-governador(luiz_fernando_pezao).
-
+   governador(X,Y).
 
 publicitario(joao_santana).
 

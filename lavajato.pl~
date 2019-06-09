@@ -241,6 +241,7 @@ preso(luiz_inacio_lula_da_silva).
 preso(jose_carlos_bumlai).
 preso(maria_lucia_tavare).
 preso(michel_temer).
+preso(andre_esteves).
 
 politico(sergio_cabral).
 politico(luiz_fernando_pezao).
@@ -254,19 +255,38 @@ politico(jose_janene).
 politico(renan_calheiros).
 politico(antonio_nelfim_netto).
 politico(michel_temer).
-<<<<<<< HEAD
 
 operador(bruno_goncalves_da_luz).
 operador(andre_catao_de_miranda).
 operador(jorge_antonio_da_silva_luz).
 operador(luccas_pace_junior).
 operador(pedro_agrese_junior).
-operador(bruno_goncalves_da_luz).
-=======
->>>>>>> feb05d73533ac0896ff223fc3c82ea33fcfdfd9b
+operador(ricardo_hoffman).
+operador(sonia_mariza_branco).
 
+periodo(2010, rio_de_janeiro).
+periodo(2014, rio_de_janeiro).
+periodo(2018, rio_de_janeiro).
+periodo(2010, parana).
+periodo(2014, parana).
+periodo(2018, parana).
+periodo(2010, rio_de_janeiro).
+periodo(2014, rio_de_janeiro).
+periodo(2018, rio_de_janeiro).
+
+
+%governador(Pessoa, Estado)
+    governador(sergio_cabral, rio_de_janeiro).
+    governador(luiz_fernando_pezao, rio_de_janeiro).
+    governador(beto_richa, parana).
+
+deputado(Pessoa, Periodo) :-
+   deputado(Pessoa), Periodo(Pessoa,
+    deputado(joao, periodo).
+    
 governador(sergio_cabral).
 governador(luiz_fernando_pezao).
+
 
 publicitario(joao_santana).
 
@@ -283,6 +303,80 @@ doleiro(raul_srour).
 juiz(gabriela_hardt).
 juiz(sergio_moro).
 juiz(marcelo_bretas).
+
+banqueiro(andre_esteves).
+
+senador(delcidio_do_amaral).
+
+condenado(adir_assad,10.8).
+condenado(alberto_youseef,9.2).
+condenado(andre_catao_de_miranda,4).
+condenado(andre_vargas,14.3).
+condenado(augusto_ribeiro_de_mendonca_neto,16.7).
+condenado(beto_richa,0).
+condenado(bruno_goncalves_da_luz,6.7).
+condenado(carlos_alberto_pereira_da_costa,2).
+condenado(carlos_habibi_chater,5.5).
+condenado(cleverson_coelho_de_oliveira,5).
+condenado(dalton_dos_santos_avancini,15.8).
+condenado(dario_de_queiroz_galvao,13.2).
+condenado(dario_teixeira_alves_junior,9.8).
+condenado(delubio_soares,5).
+condenado(ediel_viana_da_silva,3).
+condenado(eduardo_hermelino_leite,15.8).
+condenado(eduardo_cunha,15.3).
+condenado(eduardo_musa,10).
+condenado(enivaldo_quadrado,5).
+condenado(erton_medeiros_fonseca,12.4).
+condenado(esdra_de_arantes_ferreira,4.4).
+condenado(faical_mohamed_nacirdine,1.5).
+condenado(fernando_soares,16.1).
+condenado(fernando_augusto_stremel_andrade,4).
+condenado(fernando_schahin,9.7).
+condenado(gerson_almada,19).
+condenado(gim_argello,19).
+condenado(iara_galdino_da_silva,11.7).
+condenado(jayme_alves_de_olviera_filho,11.8).
+condenado(jean_alberto_luscher_castro,11.7).
+condenado(joao_claudio_genu,8.9).
+condenado(joao_ricardo_auler,9.5).
+condenado(joao_santana,8.3).
+condenado(joao_vaccari_neto,15.3).
+condenado(jorge_antonio_da_silva_luz,12).
+condenado(jorge_luiz_zelada,16.1).
+condenado(jose_aldemario_prinheiro_filho,3.5).
+condenado(jose_ricardo_nogueira_berghirolli,11).
+condenado(jose_carlos_bumlai,9.8).
+condenado(jose_dirceu,23).
+condenado(juliana_cordeiro_de_moura,2).
+condenado(julio_gerin_de_almeida_camargo,26).
+condenado(leandro_meirelles,5.5).
+condenado(leon_denis_vargas_ilario,11.3).
+condenado(luccas_pace_junior,4.1).
+condenado(luis_carlos_moreira_da_silva,12).
+condenado(luiz_argolo,11.9).
+condenado(luiz_inacio_lula_da_silva,8.9).
+condenado(marcelo_odebrecht,19.3).
+condenado(marcio_andrade_bonilho,11.5).
+condenado(maria_dirce_penasso,2).
+condenado(mario_frederico_mendonca_goes,18.3).
+condenado(matheus_coutinho_de_sa_oliveira,11).
+condenado(milton_schahin,4).
+condenado(monica_moura,8.3).
+condenado(nelma_kodama,5).
+condenado(nestor_cervero,5).
+condenado(paulo_roberto_costa,7.5).
+condenado(pedro_argese_junior,4.4).
+condenado(pedro_correa,20.5).
+condenado(raul_henrique_srour,7.1).
+condenado(rene_luiz_pereira,14).
+condenado(rinaldo_goncalves_de_carvalho,2.7).
+condenado(pedro_jose_barusco_filho,0).
+condenado(renato_de_souze_duque,20.7).
+condenado(ricardo_hoffmann,12.8).
+condenado(sonia_maria_branco,9.8).
+condenado(jose_reny,0).
+
 
 %presidente_empresa(Presidente, Empresa)
    presidente_empresa(aldemir_bendine, petrobras).
