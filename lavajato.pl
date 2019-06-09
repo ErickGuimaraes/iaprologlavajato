@@ -152,6 +152,8 @@ nome(cristiano_zanin_martins).
 nome(rosa_weber).
 nome(jaques_wagner).
 
+pessoas(Nome):-nome(Nome).
+
 cidade(curitiba).
 cidade(brasilia).
 cidade(rio_de_janeiro).
