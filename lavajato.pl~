@@ -254,6 +254,7 @@ politico(jose_janene).
 politico(renan_calheiros).
 politico(antonio_nelfim_netto).
 politico(michel_temer).
+<<<<<<< HEAD
 
 operador(bruno_goncalves_da_luz).
 operador(andre_catao_de_miranda).
@@ -261,6 +262,8 @@ operador(jorge_antonio_da_silva_luz).
 operador(luccas_pace_junior).
 operador(pedro_agrese_junior).
 operador(bruno_goncalves_da_luz).
+=======
+>>>>>>> feb05d73533ac0896ff223fc3c82ea33fcfdfd9b
 
 governador(sergio_cabral).
 governador(luiz_fernando_pezao).
