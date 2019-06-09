@@ -46,6 +46,7 @@ empresa(mendes_junior).
 empresa(galvao_engenharia).
 empresa(skanska).
 empresa(promon_engenharia).
+empresa(tranpetro).
 
 crime(organizacao_criminosa).
 crime(crime_contra_sistema_financeiro_nacional).
@@ -142,6 +143,13 @@ nome(antonio_nelfim_netto).
 nome(gabriela_hardt).
 nome(michel_temer).
 nome(marcelo_bretas).
+nome(jose_eduardo_cardozo).
+nome(aloizio_mercadante).
+nome(romero_juca).
+nome(sergio_machado).
+nome(joesley_batista).
+nome(cristiano_zanin_martins).
+
 
 pessoas(Nome):-nome(Nome).
 
@@ -227,6 +235,12 @@ pessoa(antonio_nelfim_netto).
 pessoa(gabriela_hardt).
 pessoa(michel_temer).
 pessoa(marcelo_bretas).
+pessoa(jose_eduardo_cardozo).
+pessoa(aloizio_mercadante).
+pessoa(romero_juca).
+pessoa(sergio_machado).
+pessoa(joesley_batista).
+pessoa(cristiano_zanin_martins).
 
 preso(alberto_yousef).
 preso(nestor_cervero).
@@ -245,6 +259,7 @@ preso(maria_lucia_tavare).
 preso(michel_temer).
 preso(andre_esteves).
 
+
 politico(sergio_cabral).
 politico(luiz_fernando_pezao).
 politico(delcidio_do_amaral).
@@ -257,6 +272,11 @@ politico(jose_janene).
 politico(renan_calheiros).
 politico(antonio_nelfim_netto).
 politico(michel_temer).
+politico(pedro_correa).
+politico(aloizio_mercadante).
+politico(romero_juca).
+politico(aecio_neves).
+
 
 operador(bruno_goncalves_da_luz).
 operador(andre_catao_de_miranda).
@@ -265,6 +285,24 @@ operador(luccas_pace_junior).
 operador(pedro_agrese_junior).
 operador(ricardo_hoffman).
 operador(sonia_mariza_branco).
+
+periodo(2010, rio_de_janeiro).
+periodo(2014, rio_de_janeiro).
+periodo(2018, rio_de_janeiro).
+periodo(2010, parana).
+periodo(2014, parana).
+periodo(2018, parana).
+periodo(2010, rio_de_janeiro).
+periodo(2014, rio_de_janeiro).
+periodo(2018, rio_de_janeiro).
+
+%governador(Pessoa, Estado)
+   governador(sergio_cabral, rio_de_janeiro).
+   governador(luiz_fernando_pezao, rio_de_janeiro).
+   governador(beto_richa, parana).
+
+deputado(Pessoa, Periodo) :-
+   governador(X,Y).
 
 periodo(2006, sergio_cabral).
 periodo(2010, sergio_cabral).
@@ -285,10 +323,13 @@ governa(beto_richa, parana).
 
 governador(X,Y,Z):-governa(X,Y),estado(Y),periodo(Z,X).
 
+
 publicitario(joao_santana).
 
 empresario(eike_batista).
 empresario(hermes_magnus).
+empresario(romero_juca).
+empresario(joesley_batista).
 
 pecuarista(jose_carlos_bumlai).
 
@@ -302,6 +343,8 @@ juiz(sergio_moro).
 juiz(marcelo_bretas).
 
 banqueiro(andre_esteves).
+
+advogado(cristiano_zanin_martins).
 
 senador(delcidio_do_amaral).
 
@@ -377,6 +420,7 @@ condenado(jose_reny,0).
 
 %presidente_empresa(Presidente, Empresa)
    presidente_empresa(aldemir_bendine, petrobras).
+   presidente_empresa(sergio_machado, tranpetro).
 
 %diretor(Pessoa, Empresa)
    diretor(paulo_roberto_costa,petrobras).
