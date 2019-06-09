@@ -264,23 +264,24 @@ operador(pedro_agrese_junior).
 operador(ricardo_hoffman).
 operador(sonia_mariza_branco).
 
-periodo(2010, rio_de_janeiro).
-periodo(2014, rio_de_janeiro).
-periodo(2018, rio_de_janeiro).
-periodo(2010, parana).
-periodo(2014, parana).
-periodo(2018, parana).
-periodo(2010, rio_de_janeiro).
-periodo(2014, rio_de_janeiro).
-periodo(2018, rio_de_janeiro).
+periodo(2006, sergio_cabral).
+periodo(2010, sergio_cabral).
+periodo(2014, luiz_fernando_pezao).
+periodo(2018, wilson_witzel).
+periodo(2010, beto_richa).
+periodo(2014,beto_richa).
+periodo(2018, ratinho_junior).
 
-%governador(Pessoa, Estado)
-    governador(sergio_cabral, rio_de_janeiro).
-    governador(luiz_fernando_pezao, rio_de_janeiro).
-    governador(beto_richa, parana).
+estado(rio_de_janeiro).
+estado(parana).
+estado(rio_grande_do_sul).
 
-deputado(Pessoa, Periodo) :-
-   governador(X,Y).
+governa(sergio_cabral, rio_de_janeiro).
+governa(luiz_fernando_pezao, rio_de_janeiro).
+governa(beto_richa, parana).
+
+
+governador(X,Y,Z):-governa(X,Y),estado(Y),periodo(Z,X).
 
 publicitario(joao_santana).
 
