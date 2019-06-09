@@ -88,7 +88,7 @@ diretor(otavio_azevedo,andrade_gutierrez).
 diretor(marcelo_odebrecht,odebrecht).
 diretor(jorge_zelada,petrobras).
 diretor(nestor_cervero,petrobras).
-diretor(renato_duque,petrobras).
+diretor(renato_de_souza_duque,petrobras).
 
 nomeiaOperacao(erika_marena, lava_jato).
 
@@ -101,117 +101,153 @@ procurador(deltan_dallagnol).
 procurador(roberson_henrique_pozzobon).
 procurador(rodrigo_janot).
 
-nome(carlos_fernado_lima).
-nome(felipe_delia_camargo).
-nome(erika_marena).
-nome(alberto_yousef).
-nome(deltan_dallagnol).
-nome(roberson_henrique_pozzobon).
-nome(paulo_roberto_costa).
-nome(sergio_cabral).
-nome(luiz_fernando_pezao).
-nome(carlos_habib_chater).
-nome(nelma_kodama).
-nome(raul_henrique_srour).
-nome(nestor_cervero).
-nome(jorge_zelada).
-nome(eduardo_musa).
-nome(pedro_barusco).
-nome(renato_duque).
-nome(gerson_almada).
-nome(marcelo_odebrecht).
-nome(otavio_azevedo).
-nome(ricardo_pessoa).
-nome(andre_vargas).
-nome(luiz_argolo).
-nome(pedro_correa).
 nome(adir_assad).
-nome(joao_vaccari_neto).
-nome(fernando_soares).
-nome(zwi_skornicki).
-nome(eduardo_cunha).
-nome(flavio_david_barra).
-nome(othon_luiz_pinheiro_da_silva).
-nome(jose_dirceu).
-nome(alexandre_romano).
-nome(jose_adolfo_pascowitch).
-nome(milton_pascowitch).
-nome(jose_antunes_sobrinho).
-nome(delcidio_do_amaral).
-nome(roberto_goncalves).
-nome(teori_zavascki).
-nome(andre_esteves).
-nome(marcos_valerio).
-nome(jose_carlos_bumlai).
-nome(joao_santana).
-nome(luiz_inacio_lula_da_silva).
-nome(silvio_pereira).
-nome(delubio_soares).
-nome(gim_argello).
-nome(joao_claudio_genu).
-nome(ildefonso_colares_filho).
-nome(eike_batista).
-nome(antonio_palocci).
-nome(guido_mantega).
-nome(dilma_rousseff).
 nome(aecio_neves).
-nome(geraldo_alckmin).
-nome(edson_fachin).
-nome(teori_zavascki).
-nome(sergio_moro).
-nome(gerson_machado).
-nome(jose_janene).
-nome(hermes_magnus).
-nome(raul_srour).
+nome(alberto_youssef).
 nome(aldemir_bendine).
-nome(renan_calheiros).
-nome(rodrigo_janot).
-nome(maria_lucia_tavare).
-nome(renato_duque).
-nome(antonio_nelfim_netto).
-nome(gabriela_hardt).
-nome(michel_temer).
-nome(marcelo_bretas).
-nome(jose_eduardo_cardozo).
+nome(alexandre_romano).
 nome(aloizio_mercadante).
-nome(romero_juca).
-nome(sergio_machado).
-nome(joesley_batista).
-nome(cristiano_zanin_martins).
-nome(rosa_weber).
-nome(jaques_wagner).
-nome(jader_barbalho).
-nome(edison_lobao).
-nome(gleisi_hoffmann).
-nome(jose_agripino_maia).
-nome(benedito_de_lira).
-nome(cassio_cunha_lima).
 nome(aloysion_nunes).
-nome(lindice_da_mata).
-nome(vanessa_grazziotin).
-nome(ricardo_ferraco).
-nome(dalirio_beber).
-nome(eduardo_braga).
-nome(jorge_viana).
-nome(ivo_cassol).
-nome(eunicio_oliveira).
-nome(romero_juca).
-nome(lindibergh_faria).
-nome(humberto_costa).
-nome(garibaldi_alves_filho).
-nome(bruno_goncalves_da_luz).
 nome(andre_catao_de_miranda).
-nome(jorge_antonio_da_silva_luz).
-nome(luccas_pace_junior).
-nome(pedro_agrese_junior).
-nome(ricardo_hoffman).
-nome(sonia_mariza_branco).
-nome(roger_vinicius_oliveira).
-nome(vallisney_de_souza_oliveira).
-nome(luiz_bonat).
+nome(andre_esteves).
+nome(andre_vargas).
 nome(antonio_delfim_netto).
-
-pessoa(Nome):-nome(Nome).
+nome(antonio_palocci).
+nome(ary_ferreira_da_costa_filho).
+nome(augusto_ribeiro_de_mendonca_neto).
+nome(benedito_de_lira).
+nome(beto_richa).
+nome(bruno_goncalves_da_luz).
+nome(carlos_fernado_lima).
+nome(carlos_habib_chater).
+nome(cassio_cunha_lima).
+nome(ciro_nogueira).
+nome(cleverson_coelho_de_oliveira).
+nome(cristiano_zanin_martins).
+nome(dalirio_beber).
+nome(dalton_dos_santos_avancini).
+nome(dario_de_queiroz_galvao).
+nome(dario_teixeira_alves_junior).
+nome(delcidio_do_amaral).
+nome(deltan_dallagnol).
+nome(delubio_soares).
+nome(dilma_rousseff).
+nome(ediel_viana_da_silva).
+nome(edison_lobao).
+nome(edson_fachin).
+nome(eduardo_braga).
+nome(eduardo_cunha).
+nome(eduardo_hermelino_leite).
+nome(eduardo_musa).
+nome(eike_batista).
+nome(enivaldo_quadrado).
+nome(erika_marena).
+nome(erton_medeiros_fonseca).
+nome(esdra_de_arantes_ferreira).
+nome(eunicio_oliveira).
+nome(faical_mohamed_nacirdine).
+nome(felipe_delia_camargo).
+nome(fernando_augusto_stremel_andrade).
+nome(fernando_schahin).
+nome(fernando_soares).
+nome(flavio_david_barra).
+nome(gabriela_hardt).
+nome(garibaldi_alves_filho).
+nome(geraldo_alckmin).
+nome(gerson_almada).
+nome(gerson_machado).
+nome(gim_argello).
+nome(gleisi_hoffmann).
+nome(guido_mantega).
+nome(hermes_magnus).
+nome(humberto_costa).
+nome(iara_galdino_da_silva).
+nome(ildefonso_colares_filho).
+nome(ivo_cassol).
+nome(jader_barbalho).
+nome(jaques_wagner).
+nome(jayme_alves_de_oliveira_filho).
+nome(jean_alberto_luscher_castro).
+nome(joao_claudio_genu).
+nome(joao_claudo_genu).
+nome(joao_ricardo_auler).
+nome(joao_santana).
+nome(joao_vaccari_neto).
+nome(joesley_batista).
+nome(jorge_antonio_da_silva_luz).
+nome(jorge_luiz_zelada).
+nome(jorge_viana).
+nome(jorge_zelada).
+nome(jose_adolfo_pascowitch).
+nome(jose_agripino_maia).
+nome(jose_aldemario_pinheiro_filho).
+nome(jose_antunes_sobrinho).
+nome(jose_carlos_bumlai).
+nome(jose_dirceu).
+nome(jose_eduardo_cardozo).
+nome(jose_janene).
+nome(jose_reny).
+nome(jose_ricardo_berghirolli).
+nome(juliana_cordeiro_de_moura).
+nome(julio_gerin_de_almeida_camargo).
+nome(leandro_meirelles).
+nome(leon_denis_vargas_ilario).
+nome(lindibergh_faria).
+nome(lindice_da_mata).
+nome(luccas_pace_junior).
+nome(luis_carlos_moreira_da_silva).
+nome(luiz_argolo).
+nome(luiz_argolo).
+nome(luiz_bonat).
+nome(luiz_fernando_pezao).
+nome(luiz_inacio_lula_da_silva).
+nome(marcelo_bretas).
+nome(marcelo_odebrecht).
+nome(marcio_andrade_bonilho).
+nome(marcos_valerio).
+nome(maria_dirce_penasso).
+nome(maria_lucia_tavares).
+nome(mario_frederico_mendonca_goes).
+nome(matheus_coutinho_de_sa_oliveira).
+nome(michel_temer).
+nome(milton_pascowitch).
+nome(milton_schahin).
+nome(monica_moura).
+nome(nelma_kodama).
+nome(nestor_cervero).
+nome(otavio_azevedo).
+nome(othon_luiz_pinheiro_da_silva).
+nome(paulo_roberto_costa).
+nome(pedro_agrese_junior).
+nome(pedro_argese_junior).
+nome(pedro_barusco).
+nome(pedro_correa).
+nome(pedro_jose_barusco_filho).
+nome(raul_henrique_srour).
+nome(raul_srour).
+nome(renan_calheiros).
+nome(renato_de_souza_duque).
+nome(rene_luiz_pereira).
+nome(ricardo_ferraco).
+nome(ricardo_hoffman).
+nome(ricardo_pessoa).
+nome(rinaldo_goncalves_de_carvalho).
+nome(roberson_henrique_pozzobon).
+nome(roberto_goncalves).
+nome(rodrigo_janot).
+nome(roger_vinicius_oliveira).
+nome(romero_juca).
+nome(rosa_weber).
+nome(sergio_cabral).
+nome(sergio_machado).
+nome(sergio_moro).
+nome(silvio_pereira).
+nome(sonia_mariza_branco).
+nome(teori_zavascki).
+nome(valdir_raupp).
+nome(vallisney_de_souza_oliveira).
+nome(vanessa_grazziotin).
+nome(zwi_skornicki).
 
 cidade(curitiba,parana).
 cidade(brasilia,distrito_federal).
@@ -238,7 +274,7 @@ preso(eike_batista).
 preso(joao_santana).
 preso(luiz_inacio_lula_da_silva).
 preso(jose_carlos_bumlai).
-preso(maria_lucia_tavare).
+preso(maria_lucia_tavares).
 preso(michel_temer).
 preso(andre_esteves).
 
@@ -302,7 +338,6 @@ politicopart(eduardo_braga,pmdb).
 politicopart(jorge_viana,pt).
 politicopart(ivo_cassol,pp).
 politicopart(eunicio_oliveira,pmdb).
-politicopart(romero_juca,pmdb).
 politicopart(lindibergh_faria,pt).
 politicopart(humberto_costa,pt).
 politicopart(garibaldi_alves_filho, pmdb).
@@ -330,7 +365,7 @@ periodo(2010, sergio_cabral).
 periodo(2014, luiz_fernando_pezao).
 periodo(2018, wilson_witzel).
 periodo(2010, beto_richa).
-periodo(2014,beto_richa).
+periodo(2014, beto_richa).
 periodo(2018, ratinho_junior).
 
 estado(rio_de_janeiro).
@@ -342,6 +377,7 @@ governa(luiz_fernando_pezao, rio_de_janeiro).
 governa(beto_richa, parana).
 
 publicitario(joao_santana).
+publicitario(Pessoa):-pessoa(Pessoa).
 
 empresario(eike_batista).
 empresario(hermes_magnus).
@@ -396,14 +432,14 @@ senador(edison_lobao,pmdb).
 condenado(sergio_cabral,14.2).
 condenado(sergio_cabral,45.2).
 condenado(adir_assad,10.8).
-condenado(alberto_youseef,9.2).
+condenado(alberto_youssef,9.2).
 condenado(andre_catao_de_miranda,4).
 condenado(andre_vargas,14.3).
 condenado(augusto_ribeiro_de_mendonca_neto,16.7).
 condenado(beto_richa,0).
 condenado(bruno_goncalves_da_luz,6.7).
 condenado(carlos_alberto_pereira_da_costa,2).
-condenado(carlos_habibi_chater,5.5).
+condenado(carlos_habib_chater,5.5).
 condenado(cleverson_coelho_de_oliveira,5).
 condenado(dalton_dos_santos_avancini,15.8).
 condenado(dario_de_queiroz_galvao,13.2).
@@ -423,7 +459,7 @@ condenado(fernando_schahin,9.7).
 condenado(gerson_almada,19).
 condenado(gim_argello,19).
 condenado(iara_galdino_da_silva,11.7).
-condenado(jayme_alves_de_olviera_filho,11.8).
+condenado(jayme_alves_de_oliviera_filho,11.8).
 condenado(jean_alberto_luscher_castro,11.7).
 condenado(joao_claudio_genu,8.9).
 condenado(joao_ricardo_auler,9.5).
@@ -431,9 +467,9 @@ condenado(joao_santana,8.3).
 condenado(joao_vaccari_neto,15.3).
 condenado(jorge_antonio_da_silva_luz,12).
 condenado(jorge_luiz_zelada,16.1).
-condenado(jose_aldemario_prinheiro_filho,3.5).
+condenado(jose_aldemario_pinheiro_filho,3.5).
 condenado(jose_ricardo_nogueira_berghirolli,11).
-condenadopor(ary_ferreira_da_costa_filho,16).
+condenado(ary_ferreira_da_costa_filho,16).
 condenado(jose_carlos_bumlai,9.8).
 condenado(jose_dirceu,23).
 condenado(juliana_cordeiro_de_moura,2).
@@ -460,19 +496,19 @@ condenado(raul_henrique_srour,7.1).
 condenado(rene_luiz_pereira,14).
 condenado(rinaldo_goncalves_de_carvalho,2.7).
 condenado(pedro_jose_barusco_filho,0).
-condenado(renato_de_souze_duque,20.7).
+condenado(renato_de_souza_duque,20.7).
 condenado(ricardo_hoffmann,12.8).
-condenado(sonia_maria_branco,9.8).
+condenado(sonia_mariza_branco,9.8).
 condenado(jose_reny,11.6).
 
-condenado(sergio_cabral,corrupcao).
-condenado(sergio_cabral,corrupcao_passiva).
-condenado(sergio_cabral,recebimento_de_vantagem_indevida).
-condenado(sergio_cabral,formacao_de_quadrilha).
-condenado(sergio_cabral,lavagem_dinheiro).
+condenadocrime(sergio_cabral,corrupcao).
+condenadocrime(sergio_cabral,corrupcao_passiva).
+condenadocrime(sergio_cabral,recebimento_de_vantagem_indevida).
+condenadocrime(sergio_cabral,formacao_de_quadrilha).
+condenadocrime(sergio_cabral,lavagem_dinheiro).
 condenadocrime(adir_assad,lavagem_dinheiro).
 condenadocrime(adir_assad,associacao_criminosa).
-condenadocrime(alberto_youseef,lavagem_dinheiro).
+condenadocrime(alberto_youssef,lavagem_dinheiro).
 condenadocrime(andre_catao_de_miranda,lavagem_dinheiro).
 condenadocrime(andre_vargas,corrupcao_passiva).
 condenadocrime(andre_vargas,lavagem_dinheiro).
@@ -675,6 +711,7 @@ condenadopor(ricardo_hoffmann,sergio_moro).
 condenadopor(sonia_maria_branco,sergio_moro).
 condenadopor(jose_reny,sergio_moro).
 
+pessoa(Nome):-nome(Nome).
 
 politico(Nome,Partido):-pessoa(Nome),partido(Partido),politicopart(Nome,Partido).
 
@@ -682,14 +719,30 @@ governador(Nome,Estado):-pessoa(Nome),governa(Nome,Estado),estado(Estado),period
 
 mandato(Nome,Partido):-pessoa(Nome), partido(Partido), senador(Nome,Partido).
 
-lavaDinheiro(Pessoa, Crime) :-
-   doleiro(Pessoa),
+senador(Pessoa):-pessoa(Pessoa).
+advogado(Pessoa):-pessoa(Pessoa).
+banqueiro(Pessoa):-pessoa(Pessoa).
+magistrado(Pessoa):-pessoa(Pessoa).
+pecuarista(Pessoa):-pessoa(Pessoa).
+empresario(Pessoa):-pessoa(Pessoa).
+doleiro(Pessoa):-pessoa(Pessoa).
+publicitario(Pessoa):-pessoa(Pessoa).
+delegado(Pessoa):-pessoa(Pessoa).
+diretor(Pessoa):-pessoa(Pessoa).
+presidente_empresa(Pessoa,Empresa):-pessoa(Pessoa),empresa(Empresa).
+operador(Pessoa):-pessoa(Pessoa).
+juiz(Nome):-pessoa(Nome),magistrado(Nome).
+condenadocrime(Pessoa,Crime):-pessoa(Pessoa),condenado(Pessoa,Tempo),crime(Crime).
+
+lavaDinheiro(Nome, Crime) :-
+   pessoa(Nome),
+   doleiro(Nome),
    Crime = lavagem_dinheiro.
 
-procurador_federal(Pessoa) :-
-   procurador(Pessoa).
+procurador_federal(Nome) :-
+   pessoa(Nome), procurador(Nome).
 
-juiz(Nome):-pessoa(Nome),magistrado(Nome).
+condenado(Pessoa,Tempo):-pessoa(Pessoa).
 
 condenadopelojuiz(Pessoa,Crime):-
 	pessoa(Pessoa),
