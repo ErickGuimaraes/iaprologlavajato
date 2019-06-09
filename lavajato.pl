@@ -79,9 +79,20 @@ crime(fraude_licitacao).
 crime(operar_instiuicao_criminosa).
 crime(uso_indevido_verba_publica).
 
+presidente_empresa(aldemir_bendine, petrobras).
+presidente_empresa(sergio_machado, transpetro).
 
-procurador_federal(Pessoa) :-
-   procurador(Pessoa).
+diretor(paulo_roberto_costa,petrobras).
+diretor(otavio_azevedo,andrade_gutierrez).
+diretor(marcelo_odebrecht,odebrecht).
+diretor(jorge_zelada,petrobras).
+diretor(nestor_cervero,petrobras).
+diretor(renato_duque,petrobras).
+
+nomeiaOperacao(erika_marena, lava_jato).
+
+inicioOperacao(lava_jato,2014).
+inicioOperacao(operacao_xepa,2016).
 
 procurador(carlos_fernando_lima).
 procurador(felipe_delia_camargo).
@@ -197,6 +208,7 @@ nome(sonia_mariza_branco).
 nome(roger_vinicius_oliveira).
 nome(vallisney_de_souza_oliveira).
 nome(luiz_bonat).
+nome(antonio_delfim_netto).
 
 pessoa(Nome):-nome(Nome).
 
@@ -258,42 +270,41 @@ partido(prb).
 partido(pps).
 partido(psdc).
 
-politico(sergio_cabral).
-politico(luiz_fernando_pezao).
-politico(delcidio_do_amaral).
-politico(eduardo_cunha).
-politico(antonio_palocci).
-politico(guido_mantega).
-politico(jose_dirceu).
-politico(luiz_inacio_lula_da_silva).
-politico(jose_janene).
-politico(renan_calheiros).
-politico(antonio_nelfim_netto).
-politico(michel_temer).
-politico(pedro_correa).
-politico(aloizio_mercadante).
-politico(romero_juca).
-politico(aecio_neves).
-politico(jaques_wagner).
-politico(jader_barbalho).
-politico(edison_lobao).
-politico(gleisi_hoffmann).
-politico(jose_agripino_maia).
-politico(benedito_de_lira).
-politico(cassio_cunha_lima).
-politico(aloysion_nunes).
-politico(lindice_da_mata).
-politico(vanessa_grazziotin).
-politico(ricardo_ferraco).
-politico(dalirio_beber).
-politico(eduardo_braga).
-politico(jorge_viana).
-politico(ivo_cassol).
-politico(eunicio_oliveira).
-politico(romero_juca).
-politico(lindibergh_faria).
-politico(humberto_costa).
-politico(garibaldi_alves_filho).
+politicopart(sergio_cabral, pmdb).
+politicopart(luiz_fernando_pezao, pmdb).
+politicopart(delcidio_do_amaral, pt).
+politicopart(eduardo_cunha,pmdb).
+politicopart(antonio_palocci,pt).
+politicopart(jose_dirceu,pt).
+politicopart(luiz_inacio_lula_da_silva,pt).
+politicopart(jose_janene,pp).
+politicopart(renan_calheiros,pmdb).
+politicopart(antonio_delfim_netto,pp).
+politicopart(michel_temer,pmdb).
+politicopart(pedro_correa,pp).
+politicopart(aloizio_mercadante,pt).
+politicopart(romero_juca,pmdb).
+politicopart(aecio_neves,psdb).
+politicopart(jaques_wagner,pt).
+politicopart(jader_barbalho,pmdb).
+politicopart(edison_lobao,pmdb).
+politicopart(gleisi_hoffmann,pmdb).
+politicopart(jose_agripino_maia,dem).
+politicopart(benedito_de_lira,pp).
+politicopart(cassio_cunha_lima,psdb).
+politicopart(aloysion_nunes,psdb).
+politicopart(lindice_da_mata,psb).
+politicopart(vanessa_grazziotin,pcdob).
+politicopart(ricardo_ferraco,psdb).
+politicopart(dalirio_beber,psdb).
+politicopart(eduardo_braga,pmdb).
+politicopart(jorge_viana,pt).
+politicopart(ivo_cassol,pp).
+politicopart(eunicio_oliveira,pmdb).
+politicopart(romero_juca,pmdb).
+politicopart(lindibergh_faria,pt).
+politicopart(humberto_costa,pt).
+politicopart(garibaldi_alves_filho, pmdb).
 
 operador(bruno_goncalves_da_luz).
 operador(andre_catao_de_miranda).
@@ -329,8 +340,6 @@ governa(sergio_cabral, rio_de_janeiro).
 governa(luiz_fernando_pezao, rio_de_janeiro).
 governa(beto_richa, parana).
 
-governador(X,Y):-governa(X,Y),estado(Y),periodo(Z,X),write(Z).
-
 publicitario(joao_santana).
 
 empresario(eike_batista).
@@ -345,15 +354,12 @@ doleiro(carlos_habib_chater).
 doleiro(nelma_kodama).
 doleiro(raul_srour).
 
-juiz(Nome):-pessoa(Nome),magistrado(Nome).
-
 magistrado(gabriela_hardt).
 magistrado(sergio_moro).
 magistrado(marcelo_bretas).
 magistrado(roger_vinicius_oliveira).
 magistrado(vallisney_de_souza_oliveira).
 magistrado(luiz_bonat).
-
 
 banqueiro(andre_esteves).
 
@@ -385,8 +391,6 @@ senador(humberto_costa,pt).
 senador(garibaldi_alves_filho,pt).
 senador(jader_barbalho,pmdb).
 senador(edison_lobao,pmdb).
-
-mandato(Nome,Partido):-pessoa(Nome),senador(Nome,Partido).
 
 condenado(adir_assad,10.8).
 condenado(alberto_youseef,9.2).
@@ -658,33 +662,20 @@ condenadopor(ricardo_hoffmann,sergio_moro).
 condenadopor(sonia_maria_branco,sergio_moro).
 condenadopor(jose_reny,11.6).
 
+politico(Nome,Partido):-pessoa(Nome),partido(Partido),politicopart(Nome,Partido).
 
+governador(X,Y):-governa(X,Y),estado(Y),periodo(Z,X),write(Z).
 
-%presidente_empresa(Presidente, Empresa)
-   presidente_empresa(aldemir_bendine, petrobras).
-   presidente_empresa(sergio_machado, transpetro).
-
-%diretor(Pessoa, Empresa)
-   diretor(paulo_roberto_costa,petrobras).
-   diretor(otavio_azevedo,andrade_gutierrez).
-   diretor(marcelo_odebrecht,odebrecht).
-   diretor(jorge_zelada,petrobras).
-   diretor(nestor_cervero,petrobras).
-   diretor(renato_duque,petrobras).
-
-
-%nomeiaOperacao(Pessoa, Nome_Operacao)
-   nomeiaOperacao(erika_marena, lava_jato).
-
-
-%inicioOperacao(Nome_Operacao, Ano)
-   inicioOperacao(lava_jato,2014).
-   inicioOperacao(operacao_xepa,2016).
-
+mandato(Nome,Partido):-pessoa(Nome), partido(Partido), senador(Nome,Partido).
 
 lavaDinheiro(Pessoa, Crime) :-
    doleiro(Pessoa),
    Crime = lavagem_dinheiro.
+
+procurador_federal(Pessoa) :-
+   procurador(Pessoa).
+
+juiz(Nome):-pessoa(Nome),magistrado(Nome).
 
 condenadopelojuiz(Pessoa,Tempo):-
 	pessoa(Pessoa),
