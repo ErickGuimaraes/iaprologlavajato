@@ -5,7 +5,7 @@ ano(2017).
 ano(2018).
 ano(2019).
 
-mes(janeiro).
+/*mes(janeiro).
 mes(fevereiro).
 mes(marco).
 mes(abril).
@@ -30,7 +30,7 @@ pais(panama).
 pais(angola).
 pais(nigeria).
 pais(mocanbique).
-pais(repubica_dominicana).
+pais(repubica_dominicana).*/
 
 empresa(petrobras).
 empresa(odebrecht).
