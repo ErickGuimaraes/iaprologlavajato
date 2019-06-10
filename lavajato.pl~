@@ -426,7 +426,6 @@ temocupacao(felipe_delia_camargo,procurador).
 temocupacao(deltan_dallagnol,procurador).
 temocupacao(roberson_henrique_pozzobon,procurador).
 temocupacao(rodrigo_janot,procurador).
-temocupacao(sergio_moro,juiz).
 
 condenado(sergio_cabral,14.2).
 condenado(sergio_cabral,45.2).
@@ -714,19 +713,16 @@ pessoa(Nome):-nome(Nome).
 
 politico(Nome,Partido):-pessoa(Nome),partido(Partido),politicopart(Nome,Partido).
 
-governador(Nome,Estado):-pessoa(Nome),governa(Nome,Estado),estado(Estado),periodo(Ano,Estado),write(Ano).
+governador(Nome,Estado):-pessoa(Nome),temocupacao(Nome,governador),governa(Nome,Estado),estado(Estado),periodo(Ano,Estado),write(Ano).
 
-mandato(Nome,Partido):-pessoa(Nome), partido(Partido), senador(Nome,Partido).
+mandato(Nome,Partido):-pessoa(Nome), partido(Partido), temocupacao(Nome,senador), politico(Nome,Partido).
 
-senadoreleito(Nome):-pessoa(Nome),temocupacao(Nome,Profissao),Profissao=senador,
-   politicopart(Nome,Partido), write(Partido).
-
-
-diretor_nm(Nome):-pessoa(Nome),diretor_nome(Nome, Empresa), write(Empresa).
-
-presidente_empresa_nome(Nome,Empresa):-pessoa(Nome),empresa(Empresa), presidente_empresa(Nome,Empresa).
+senadoreleito(Nome):-pessoa(Nome),temocupacao(Nome,senador),politicopart(Nome,Partido), write(Partido).
 
 
+diretor_nm(Nome):-pessoa(Nome),temocupacao(Nome,diretor), diretor_nome(Nome, Empresa), write(Empresa).
+
+presidente_empresa_nome(Nome,Empresa):-pessoa(Nome),empresa(Empresa),temocupacao(Nome,presidente), presidente_empresa(Nome,Empresa).
 
 juiz(Nome):-pessoa(Nome),temocupacao(Nome,B),B=magistrado.
 
@@ -747,7 +743,8 @@ condenadopelojuiz(Pessoa,Crime):-
 	condenado(Pessoa,Tempo),
 	condenadocrime(Pessoa,Crime),
         condenadopor(Pessoa,Juiz),
-        temocupacao(Juiz,juiz),
+        temocupacao(Juiz,magistrado),
+        juiz(Juiz),
         write(juiz),
         put(10),
         write(Juiz),

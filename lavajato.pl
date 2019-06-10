@@ -713,19 +713,15 @@ pessoa(Nome):-nome(Nome).
 
 politico(Nome,Partido):-pessoa(Nome),partido(Partido),politicopart(Nome,Partido).
 
-governador(Nome,Estado):-pessoa(Nome),governa(Nome,Estado),estado(Estado),periodo(Ano,Estado),write(Ano).
+governador(Nome,Estado):-pessoa(Nome),temocupacao(Nome,governador),governa(Nome,Estado),estado(Estado),periodo(Ano,Estado),write(Ano).
 
-mandato(Nome,Partido):-pessoa(Nome), partido(Partido), senador(Nome,Partido).
+mandato(Nome,Partido):-pessoa(Nome), partido(Partido), temocupacao(Nome,senador), politico(Nome,Partido).
 
-senadoreleito(Nome):-pessoa(Nome),temocupacao(Nome,Profissao),Profissao=senador,
-   politicopart(Nome,Partido), write(Partido).
+senadoreleito(Nome):-pessoa(Nome),temocupacao(Nome,senador),politicopart(Nome,Partido), write(Partido).
 
+diretor_nm(Nome):-pessoa(Nome),temocupacao(Nome,diretor), diretor_nome(Nome, Empresa), write(Empresa).
 
-diretor_nm(Nome):-pessoa(Nome),diretor_nome(Nome, Empresa), write(Empresa).
-
-presidente_empresa_nome(Nome,Empresa):-pessoa(Nome),empresa(Empresa), presidente_empresa(Nome,Empresa).
-
-
+presidente_empresa_nome(Nome,Empresa):-pessoa(Nome),empresa(Empresa),temocupacao(Nome,presidente), presidente_empresa(Nome,Empresa).
 
 juiz(Nome):-pessoa(Nome),temocupacao(Nome,B),B=magistrado.
 
