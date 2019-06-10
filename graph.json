@@ -146,14 +146,14 @@
 	{
 		"indice" : 24,
 		"nome" : "associacao_criminosa",
-		"aresta" : [],
-		"peso" : []
+		"aresta" : [7],
+		"peso" : ["razaocondenacao"]
 	},
 	{
 		"indice" : 25,
 		"nome" : "augusto_ribeiro_de_mendonca_neto",
 		"aresta" : [251,242,136,41],
-		"peso" : ["trabalha","condenadopelo","condenadopor"]
+		"peso" : ["trabalha","condenadopelo","condenadopor","condenadopor"]
 	},
 	{
 		"indice" : 26,
@@ -248,8 +248,8 @@
 	{
 		"indice" : 41,
 		"nome" : "corrupcao_ativa",
-		"aresta" : [],
-		"peso" : []
+		"aresta" : [11,146,25,33],
+		"peso" : ["razaocondenacao","razaocondenacao","razaocondenacao","razaocondenacao"]
 	},
 	{
 		"indice" : 42,
@@ -260,8 +260,8 @@
 	{
 		"indice" : 43,
 		"nome" : "crimes_financeiros_contra_administracao_publica",
-		"aresta" : [],
-		"peso" : []
+		"aresta" : [22],
+		"peso" : ["razaocondenacao"]
 	},
 	{
 		"indice" : 44,
@@ -818,8 +818,8 @@
 	{
 		"indice" : 136,
 		"nome" : "lavagem_dinheiro",
-		"aresta" : [],
-		"peso" : []
+		"aresta" : [7,17,19,22,23,25,30,146,240],
+		"peso" : ["razaocondenacao","razaocondenacao","razaocondenacao","razaocondenacao","razaocondenacao","razaocondenacao","razaocondenacao","razaocondenacao","razaocondenacao",]
 	},
 	{
 		"indice" : 137,
@@ -1064,8 +1064,8 @@
 	{
 		"indice" : 177,
 		"nome" : "organizacao_criminosa",
-		"aresta" : [],
-		"peso" : []
+		"aresta" : [33],
+		"peso" : ["razaocondenacao"]
 	},
 	{
 		"indice" : 178,
