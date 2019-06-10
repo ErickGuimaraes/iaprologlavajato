@@ -488,19 +488,19 @@
 	{
 		"indice":81,
 		"nome":"adir_assad",
-		"aresta": [],
-		"peso": []
+		"aresta": [203,215],
+		"peso": [ligado,presopor]
 	},
 	{
 		"indice":82,
 		"nome":"aecio_neves",
-		"aresta": [],
-		"peso": []
+		"aresta": [236,215],
+		"peso": [afiliado,presopor]
 	},
 	{
 		"indice":83,
 		"nome":"alberto_youssef",
-		"aresta": [],
+		"aresta": [6,],
 		"peso": []
 	},
 	{
@@ -1406,7 +1406,7 @@
 	{
 		"indice":234,
 		"nome":"alberto_yousef",
-		"aresta": [],
+		"aresta": [6 235 237 240 215],
 		"peso": []
 	},
 	{
@@ -1646,7 +1646,7 @@
 	{
 		"indice":274,
 		"nome":"alberto_youseef",
-		"aresta": [],
+		"aresta": [6, 235,237,240],
 		"peso": []
 	}
 ]
