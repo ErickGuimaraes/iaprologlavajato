@@ -62,14 +62,14 @@
 	{
 		"indice" : 10,
 		"nome" : "alberto_youssef",
-		"aresta" : [9,10,,191,196,209,206,242],
+		"aresta" : [9,10,191,196,209,206,242],
 		"peso" : ["ligado","ligado","ligado","ligado","ligado", "ligado", "condenadopelo"]
 	},
 	{
 		"indice" : 11,
 		"nome" : "aldemir_bendine",
 		"aresta" : [196,242,24,41],
-		"peso" : ["ligado","condenadopelo","condenadopor", "condenadopor"], 
+		"peso" : ["ligado","condenadopelo","condenadopor", "condenadopor"]
 	},
 	{
 		"indice" : 12,
@@ -201,7 +201,7 @@
 		"indice" : 33,
 		"nome" : "carlos_alberto_pereira_da_costa",
 		"aresta" : [242,41,77,177],
-		"peso" : ["condenadopelo","condenadopor","condenadopor","condenadopor"],
+		"peso" : ["condenadopelo","condenadopor","condenadopor","condenadopor"]
 	},
 	{
 		"indice" : 34,
@@ -879,7 +879,7 @@
 		"indice" : 146,
 		"nome" : "luiz_inacio_lula_da_silva",
 		"aresta" : [169,242,42,136,209,56,22,240,24,41],
-		"peso" : ["ligado","condenadopelo","condenadopor","condenadopor", "filiado", "ligado", "ligado", "ligado","condenadopor","condenadopor,"],
+		"peso" : ["ligado","condenadopelo","condenadopor","condenadopor", "filiado", "ligado", "ligado", "ligado","condenadopor","condenadopor"]
 	},
 	{
 		"indice" : 147,
@@ -1455,7 +1455,7 @@
 		"indice" : 242,
 		"nome" : "sergio_moro",
 		"aresta" : [7,10,11,12,19,22,23,25,30,33,146,240],
-		"peso" : ["condena","condena","condena","condena","condena","condena","condena","condena","condena","condena","condena","condena",]
+		"peso" : ["condena","condena","condena","condena","condena","condena","condena","condena","condena","condena","condena","condena"]
 	},
 	{
 		"indice" : 243,
