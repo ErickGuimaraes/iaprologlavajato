@@ -97,8 +97,6 @@ augusto_ribeiro_de_mendonca_neto
 benedito_de_lira
 beto_richa
 bruno_goncalves_da_luz
-carlos_fernado_lima
-carlos_habib_chater
 cassio_cunha_lima
 ciro_nogueira
 cleverson_coelho_de_oliveira
@@ -148,7 +146,6 @@ jaques_wagner
 jayme_alves_de_oliveira_filho
 jean_alberto_luscher_castro
 joao_claudio_genu
-joao_claudo_genu
 joao_ricardo_auler
 joao_santana
 joao_vaccari_neto
@@ -243,7 +240,7 @@ sao_paulo
 sao_paulo_estado
 lava_jato
 operacao_xepa
-alberto_yousef
+alberto_youssef
 nestor_cervero
 sergio_cabral
 luiz_fernando_pezao
@@ -301,7 +298,7 @@ hermes_magnus
 romero_juca
 joesley_batista
 jose_carlos_bumlai
-alberto_yousef
+alberto_youssef
 carlos_habib_chater
 nelma_kodama
 raul_srour
