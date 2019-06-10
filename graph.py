@@ -23,6 +23,29 @@ def MoroCondenaCabral(graphs):
                 if(sujeito.peso[i]=="condena" and sujeito.aresta[i].nome =="sergio_cabral"):
                     return "SIM"
             return "NAO"
+def OdebrechtTemCorruptos(graphs):
+    for sujeito in graphs:
+        if(sujeito.nome == "odebrecht"):
+            for i in range(len(sujeito.aresta)):
+                if(sujeito.peso[i]=="funcionario"):
+                    for sujeito2 in graphs:
+                        if(sujeito2.nome == sujeito.aresta[i].nome):
+                            for ind in range(len(sujeito2.aresta)):
+                                if("condenadopor" in sujeito2.peso[ind]):
+                                    if("corrupcao" in sujeito2.aresta[ind].nome ):
+                                        return "SIM"
+            return "NAO"
+def MarceloCondenouGovernadorRio(graphs):
+    for sujeito in graphs:
+        if(sujeito.nome == "marcelo_bretas"):
+            for i in range(len(sujeito.aresta)):
+                if(sujeito.peso[i]=="condena"):
+                    for sujeito2 in graphs:
+                        if(sujeito2.nome == sujeito.aresta[i].nome):
+                            for ind in range(len(sujeito2.peso)):
+                                if("governa" == sujeito2.peso[ind] and sujeito2.aresta[ind].nome == "rio_de_janeiro_estado"):
+                                    return "SIM"
+            return "NAO"
 def ListaRelacoes(nome,graphs):
     for sujeito in graphs:
         if(sujeito.nome == nome):
@@ -51,11 +74,9 @@ for iten in jsonData:
             graphs[ind].peso.append(pesos[i])
     pesos =[]
     aresta =[]
-for sujeito in graphs:
-    if(sujeito.nome == "sergio_moro"):
-            for i in range(len(sujeito.aresta)):
-                print("moro -> ",sujeito.peso[i]," por/com --> ",sujeito.aresta[i].nome)
 
 print("LULA TA PRESO ? ",LulaTaPreso(graphs))
 print("MORO CONDENA CABRAL ? ",MoroCondenaCabral(graphs))
-ListaRelacoes("aaa")
+print("ODEBRECHT TEM FUNCIONARIOS CORRUPTOS ? ",OdebrechtTemCorruptos(graphs))
+print("MARCELO BRETAS CONDENOU ALGUM GOVERNADOR DO RIO ? ",MarceloCondenouGovernadorRio(graphs))
+#ListaRelacoes("marcelo_odebrecht",graphs)

@@ -1,4 +1,5 @@
 import json
+import re
 file = open("lavajato.pl","r")
 itens =[]
 lines = file.readlines()
@@ -13,4 +14,7 @@ text = jsonFile.read()
 jsonFile.close()
 jsonData = json.loads(text)
 for i in itens:
-    print(i)
+    if(re.match(r"presidente_empresa\((.*),(.*)\)",i)):
+        a =re.match(r"presidente_empresa\((.*),(.*)\)",i).group(1)
+        print(a)
+        print(i)

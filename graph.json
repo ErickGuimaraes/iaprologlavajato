@@ -1364,14 +1364,14 @@
 	{
 		"indice" : 227,
 		"nome" : "rio_de_janeiro",
-		"aresta" : [240],
-		"peso" : ["governado"]
+		"aresta" : [],
+		"peso" : []
 	},
 	{
 		"indice" : 228,
 		"nome" : "rio_de_janeiro_estado",
-		"aresta" : [],
-		"peso" : []
+		"aresta" : [240],
+		"peso" : ["governado"]
 	},
 	{
 		"indice" : 229,
@@ -1442,7 +1442,7 @@
 	{
 		"indice" : 240,
 		"nome" : "sergio_cabral",
-		"aresta" : [193,242,148,136,145,146,227],
+		"aresta" : [193,242,148,136,145,146,228],
 		"peso" : ["filiado","condenadopelo","condenadopelo","condenadopor","ligado","ligado","governa"]
 	},
 	{
