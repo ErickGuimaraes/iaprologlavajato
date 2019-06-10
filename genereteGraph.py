@@ -15,10 +15,10 @@ filejson = open("graph.json","w")
 filejson.write("[\n")
 for i in range(len(itens)):
     filejson.write("\t{\n")
-    filejson.write('\t\t"indice":'+str(i)+',\n')
-    filejson.write('\t\t"nome":"'+itens[i]+'",\n')
-    filejson.write('\t\t"aresta": [],\n')
-    filejson.write('\t\t"peso": []\n')
+    filejson.write('\t\t"indice" : '+str(i)+',\n')
+    filejson.write('\t\t"nome" : "'+itens[i]+'",\n')
+    filejson.write('\t\t"aresta" : [],\n')
+    filejson.write('\t\t"peso" : []\n')
     if(i == len(itens)-1):
         filejson.write("\t}\n")
     else:
