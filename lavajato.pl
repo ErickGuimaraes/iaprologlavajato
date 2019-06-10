@@ -80,8 +80,8 @@ crime(operar_instiuicao_criminosa).
 crime(uso_indevido_verba_publica).
 crime(formacao_de_quadrilha).
 
-presidente_empresa(aldemir_bendine, petrobras).
-presidente_empresa(sergio_machado, transpetro).
+presidente_empresa(aldemir_bendine,petrobras).
+presidente_empresa(sergio_machado,transpetro).
 
 diretor_nome(paulo_roberto_costa,petrobras).
 diretor_nome(otavio_azevedo,andrade_gutierrez).
@@ -94,12 +94,6 @@ nomeiaOperacao(erika_marena, lava_jato).
 
 inicioOperacao(lava_jato,2014).
 inicioOperacao(operacao_xepa,2016).
-
-procurador(carlos_fernando_lima).
-procurador(felipe_delia_camargo).
-procurador(deltan_dallagnol).
-procurador(roberson_henrique_pozzobon).
-procurador(rodrigo_janot).
 
 nome(adir_assad).
 nome(aecio_neves).
@@ -255,8 +249,6 @@ cidade(rio_de_janeiro,rio_de_janeiro).
 cidade(niteroi,rio_de_janeiro).
 cidade(sao_paulo,sao_paulo).
 
-delegado(erika_marena).
-delegado(gerson_machado).
 
 nomeoperacao(lava_jato).
 nomeoperacao(operacao_xepa).
@@ -342,14 +334,6 @@ politicopart(lindibergh_faria,pt).
 politicopart(humberto_costa,pt).
 politicopart(garibaldi_alves_filho, pmdb).
 
-operador(bruno_goncalves_da_luz).
-operador(andre_catao_de_miranda).
-operador(jorge_antonio_da_silva_luz).
-operador(luccas_pace_junior).
-operador(pedro_agrese_junior).
-operador(ricardo_hoffman).
-operador(sonia_mariza_branco).
-
 periodo(2010, rio_de_janeiro).
 periodo(2014, rio_de_janeiro).
 periodo(2018, rio_de_janeiro).
@@ -376,58 +360,72 @@ governa(sergio_cabral, rio_de_janeiro).
 governa(luiz_fernando_pezao, rio_de_janeiro).
 governa(beto_richa, parana).
 
-publicitario(joao_santana).
-publicitario(Pessoa):-pessoa(Pessoa).
-
-empresario(eike_batista).
-empresario(hermes_magnus).
-empresario(romero_juca).
-empresario(joesley_batista).
-
-pecuarista(jose_carlos_bumlai).
-
-doleiro(alberto_yousef).
-doleiro(carlos_habib_chater).
-doleiro(nelma_kodama).
-doleiro(raul_srour).
-
-magistrado(gabriela_hardt).
-magistrado(sergio_moro).
-magistrado(marcelo_bretas).
-magistrado(roger_vinicius_oliveira).
-magistrado(vallisney_de_souza_oliveira).
-magistrado(luiz_bonat).
-
-banqueiro(andre_esteves).
-
-advogado(cristiano_zanin_martins).
-
-senador(delcidio_do_amaral,pt).
-senador(jader_barbalho,pmdb).
-senador(renan_calheiros,pmdb).
-senador(edison_lobao,pmdb).
-senador(gleisi_hoffmann,pt).
-senador(jose_agripino_maia,dem).
-senador(ciro_nogueira,pp).
-senador(benedito_de_lira,pp).
-senador(cassio_cunha_lima,psdb).
-senador(aecio_neves,psdb).
-senador(aloysion_nunes,psdb).
-senador(lindice_da_mata,psdb).
-senador(vanessa_grazziotin,pcdob).
-senador(valdir_raupp,pmdb).
-senador(ricardo_ferraco,psdb).
-senador(dalirio_beber,psdb).
-senador(eduardo_braga,pmdb).
-senador(jorge_viana,pt).
-senador(ivo_cassol,pp).
-senador(eunicio_oliveira,pmdb).
-senador(romero_juca,pmdb).
-senador(lindibergh_farias,pt).
-senador(humberto_costa,pt).
-senador(garibaldi_alves_filho,pt).
-senador(jader_barbalho,pmdb).
-senador(edison_lobao,pmdb).
+temocupacao(joao_santana,publicitario).
+temocupacao(eike_batista,empresario).
+temocupacao(hermes_magnus,empresario).
+temocupacao(romero_juca,senador).
+temocupacao(joesley_batista,empresario).
+temocupacao(jose_carlos_bumlai,pecuarista).
+temocupacao(alberto_youssef,doleiro).
+temocupacao(carlos_habib_chater,doleiro).
+temocupacao(nelma_kodama,doleiro).
+temocupacao(raul_srour,doleiro).
+temocupacao(gabriela_hardt,magistrado).
+temocupacao(sergio_moro,magistrado).
+temocupacao(marcelo_bretas,magistrado).
+temocupacao(roger_vinicius_oliveira,magistrado).
+temocupacao(vallisney_de_souza_oliveira,magistrado).
+temocupacao(luiz_bonat,magistrado).
+temocupacao(andre_esteves,banqueiro).
+temocupacao(cristiano_zanin_martins,advogado).
+temocupacao(delcidio_do_amaral,senador).
+temocupacao(jader_barbalho,senador).
+temocupacao(renan_calheiros,senador).
+temocupacao(edison_lobao,senador).
+temocupacao(gleisi_hoffmann,senador).
+temocupacao(jose_agripino_maia,senador).
+temocupacao(ciro_nogueira,senador).
+temocupacao(benedito_de_lira,senador).
+temocupacao(cassio_cunha_lima,senador).
+temocupacao(aecio_neves,senador).
+temocupacao(aloysion_nunes,senador).
+temocupacao(lindice_da_mata,senador).
+temocupacao(vanessa_grazziotin,senador).
+temocupacao(valdir_raupp,senador).
+temocupacao(ricardo_ferraco,senador).
+temocupacao(dalirio_beber,senador).
+temocupacao(eduardo_braga,senador).
+temocupacao(jorge_viana,senador).
+temocupacao(ivo_cassol,senador).
+temocupacao(eunicio_oliveira,senador).
+temocupacao(romero_juca,senador).
+temocupacao(lindibergh_farias,senador).
+temocupacao(humberto_costa,senador).
+temocupacao(garibaldi_alves_filho,senador).
+temocupacao(jader_barbalho,senador).
+temocupacao(edison_lobao,senador).
+temocupacao(erika_marena,delegado).
+temocupacao(gerson_machado,delegado).
+temocupacao(bruno_goncalves_da_luz,operador).
+temocupacao(andre_catao_de_miranda,operador).
+temocupacao(jorge_antonio_da_silva_luz,operador).
+temocupacao(luccas_pace_junior,operador).
+temocupacao(pedro_agrese_junior,operador).
+temocupacao(ricardo_hoffman,operador).
+temocupacao(sonia_mariza_branco,operador).
+temocupacao(nestor_cervero,diretor_emrpesa).
+temocupacao(renato_de_souza_duque, diretor_empresa).
+temocupacao(paulo_roberto_costa,diretor_empresa).
+temocupacao(jorge_zelada,diretor_empresa).
+temocupacao(marcelo_odebrecht,diretor_empresa).
+temocupacao(sergio_machado,presidente_empresa).
+temocupacao(otavio_azevedo,diretor_emrpesa).
+temocupacao(aldemir_bendine,presidente_empresa).
+temocupacao(carlos_fernando_lima,procurador).
+temocupacao(felipe_delia_camargo,procurador).
+temocupacao(deltan_dallagnol,procurador).
+temocupacao(roberson_henrique_pozzobon,procurador).
+temocupacao(rodrigo_janot,procurador).
 
 condenado(sergio_cabral,14.2).
 condenado(sergio_cabral,45.2).
@@ -715,43 +713,27 @@ pessoa(Nome):-nome(Nome).
 
 politico(Nome,Partido):-pessoa(Nome),partido(Partido),politicopart(Nome,Partido).
 
-governador(Nome,Estado):-pessoa(Nome),governa(Nome,Estado),estado(Estado),periodo(Ano,Estado),write(Ano).
+governador(Nome,Estado):-pessoa(Nome),temocupacao(Nome,governador),governa(Nome,Estado),estado(Estado),periodo(Ano,Estado),write(Ano).
 
-mandato(Nome,Partido):-pessoa(Nome), partido(Partido), senador(Nome,Partido).
+mandato(Nome,Partido):-pessoa(Nome), partido(Partido), temocupacao(Nome,senador), politico(Nome,Partido).
 
-senadoreleito(Nome):-pessoa(Nome), senador(Nome,Partido), write(Partido).
+senadoreleito(Nome):-pessoa(Nome),temocupacao(Nome,senador),politicopart(Nome,Partido), write(Partido).
 
-advogado_nm(Nome):-pessoa(Nome), advogado(Nome).
+diretor_nm(Nome):-pessoa(Nome),temocupacao(Nome,diretor), diretor_nome(Nome, Empresa), write(Empresa).
 
-banqueiro_nm(Nome):-pessoa(Nome), banqueiro(Nome).
+presidente_empresa_nome(Nome,Empresa):-pessoa(Nome),empresa(Empresa),temocupacao(Nome,presidente), presidente_empresa(Nome,Empresa).
 
-pecuarista_nm(Nome):-pessoa(Nome), pecuarista(Nome).
-
-empresario_nm(Nome):-pessoa(Nome), empresario(Nome).
-
-doleiro_nm(Nome):-pessoa(Nome), doleiro(Nome).
-
-publicitario_nm(Nome):-pessoa(Nome), publicitario(Nome).
-
-delegado_nm(Nome):-pessoa(Nome), delegado(Nome).
-
-diretor_nm(Nome):-pessoa(Nome),diretor_nome(Nome, Empresa), write(Empresa).
-
-presidente_empresa_nome(Nome,Empresa):-pessoa(Nome),empresa(Empresa), presidente_empresa(Nome,Empresa).
-
-operador_nm(Nome):-pessoa(Nome), operador(Nome).
-
-juiz(Nome):-pessoa(Nome),magistrado(Nome).
+juiz(Nome):-pessoa(Nome),temocupacao(Nome,B),B=magistrado.
 
 condenadoporcrime(Pessoa,Crime):-pessoa(Pessoa),crime(Crime),condenadocrime(Pessoa,Crime).
 
 lavaDinheiro(Nome, Crime) :-
    pessoa(Nome),
-   doleiro(Nome),
+   temocupacao(Nome,doleiro),
    Crime = lavagem_dinheiro.
 
 procurador_federal(Nome) :-
-   pessoa(Nome), procurador(Nome).
+   pessoa(Nome), temocupacao(Nome,procurador).
 
 condenado_nm(Nome,Tempo):-pessoa(Nome),condenado(Nome,Tempo).
 
@@ -760,6 +742,7 @@ condenadopelojuiz(Pessoa,Crime):-
 	condenado(Pessoa,Tempo),
 	condenadocrime(Pessoa,Crime),
         condenadopor(Pessoa,Juiz),
+        temocupacao(Juiz,magistrado),
         juiz(Juiz),
         write(juiz),
         put(10),
@@ -768,3 +751,5 @@ condenadopelojuiz(Pessoa,Crime):-
         write(tempo),
         put(10),
         write(Tempo).
+
+
