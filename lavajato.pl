@@ -466,7 +466,7 @@ condenado(joao_vaccari_neto,15.3).
 condenado(jorge_antonio_da_silva_luz,12).
 condenado(jorge_luiz_zelada,16.1).
 condenado(jose_aldemario_pinheiro_filho,3.5).
-condenado(jose_ricardo_nogueira_berghirolli,11).
+condenado(jose_ricardo_berghirolli,11).
 condenado(ary_ferreira_da_costa_filho,16).
 condenado(jose_carlos_bumlai,9.8).
 condenado(jose_dirceu,23).
@@ -570,8 +570,8 @@ condenadocrime(jorge_luiz_zelada,lavagem_dinheiro).
 condenadocrime(jose_aldemario_prinheiro_filho,organizacao_criminosa).
 condenadocrime(jose_aldemario_prinheiro_filho,corrupcao_ativa).
 condenadocrime(jose_aldemario_prinheiro_filho,lavagem_dinheiro).
-condenadocrime(jose_ricardo_nogueira_berghirolli,organizacao_criminosa).
-condenadocrime(jose_ricardo_nogueira_berghirolli,lavagem_dinheiro).
+condenadocrime(jose_ricardo_berghirolli,organizacao_criminosa).
+condenadocrime(jose_ricardo_berghirolli,lavagem_dinheiro).
 condenadocrime(ary_ferreira_da_costa_filho,lavagem_dinheiro).
 condenadocrime(jose_carlos_bumlai,corrupcao_passiva).
 condenadocrime(jose_carlos_bumlai,gestao_fradulenta).
@@ -677,7 +677,7 @@ condenadopor(ary_ferreira_da_costa_filho,marcelo_bretas).
 condenadopor(jorge_antonio_da_silva_luz,sergio_moro).
 condenadopor(jorge_luiz_zelada,sergio_moro).
 condenadopor(jose_aldemario_prinheiro_filho,sergio_moro).
-condenadopor(jose_ricardo_nogueira_berghirolli,sergio_moro).
+condenadopor(jose_ricardo_berghirolli,sergio_moro).
 condenadopor(jose_carlos_bumlai,sergio_moro).
 condenadopor(jose_dirceu,sergio_moro).
 condenadopor(juliana_cordeiro_de_moura,sergio_moro).

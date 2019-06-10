@@ -45,7 +45,6 @@ evasao_divisas
 associacao_criminosa
 operar_instituicao_financeira_ilegal
 recebimento_de_vantagem_indevida
-gestao_fradulenta
 fraude_licitacao
 operar_instiuicao_criminosa
 uso_indevido_verba_publica
@@ -168,7 +167,6 @@ juliana_cordeiro_de_moura
 julio_gerin_de_almeida_camargo
 leandro_meirelles
 leon_denis_vargas_ilario
-lindibergh_faria
 lindice_da_mata
 luccas_pace_junior
 luis_carlos_moreira_da_silva
@@ -194,7 +192,6 @@ nestor_cervero
 otavio_azevedo
 othon_luiz_pinheiro_da_silva
 paulo_roberto_costa
-pedro_agrese_junior
 pedro_argese_junior
 pedro_barusco
 pedro_correa
@@ -288,7 +285,6 @@ bruno_goncalves_da_luz
 andre_catao_de_miranda
 jorge_antonio_da_silva_luz
 luccas_pace_junior
-pedro_agrese_junior
 ricardo_hoffman
 sonia_mariza_branco
 rio_grande_do_sul
@@ -392,7 +388,6 @@ fernando_schahin
 gerson_almada
 gim_argello
 iara_galdino_da_silva
-jayme_alves_de_oliviera_filho
 jean_alberto_luscher_castro
 joao_claudio_genu
 joao_ricardo_auler
@@ -401,7 +396,6 @@ joao_vaccari_neto
 jorge_antonio_da_silva_luz
 jorge_luiz_zelada
 jose_aldemario_pinheiro_filho
-jose_ricardo_nogueira_berghirolli
 ary_ferreira_da_costa_filho
 jose_carlos_bumlai
 jose_dirceu
@@ -430,7 +424,6 @@ rene_luiz_pereira
 rinaldo_goncalves_de_carvalho
 pedro_jose_barusco_filho
 renato_de_souza_duque
-ricardo_hoffmann
 sonia_mariza_branco
 jose_reny
 sergio_cabral
@@ -467,7 +460,6 @@ bruno_goncalves_da_luz
 lavagem_dinheiro
 carlos_alberto_pereira_da_costa
 crimes_financeiros_contra_administracao_publica
-carlos_habibi_chater
 lavagem_dinheiro
 cleverson_coelho_de_oliveira
 evasao_divisas
@@ -539,7 +531,6 @@ iara_galdino_da_silva
 operar_instituicao_financeira_ilegal
 iara_galdino_da_silva
 corrupcao_ativa
-jayme_alves_de_olviera_filho
 lavagem_dinheiro
 jean_alberto_luscher_castro
 lavagem_dinheiro
@@ -575,16 +566,13 @@ jose_aldemario_prinheiro_filho
 corrupcao_ativa
 jose_aldemario_prinheiro_filho
 lavagem_dinheiro
-jose_ricardo_nogueira_berghirolli
 organizacao_criminosa
-jose_ricardo_nogueira_berghirolli
 lavagem_dinheiro
 ary_ferreira_da_costa_filho
 lavagem_dinheiro
 jose_carlos_bumlai
 corrupcao_passiva
 jose_carlos_bumlai
-gestao_fradulenta
 jose_dirceu
 corrupcao_passiva
 jose_dirceu
@@ -687,17 +675,11 @@ pedro_jose_barusco_filho
 lavagem_dinheiro
 pedro_jose_barusco_filho
 associacao_criminosa
-renato_de_souze_duque
 corrupcao_passiva
-renato_de_souze_duque
 lavagem_dinheiro
-ricardo_hoffmann
 corrupcao
-ricardo_hoffmann
 lavagem_dinheiro
-sonia_maria_branco
 lavagem_dinheiro
-sonia_maria_branco
 associacao_criminosa
 jose_reny
 organizacao_criminosa
@@ -725,7 +707,6 @@ bruno_goncalves_da_luz
 sergio_moro
 carlos_alberto_pereira_da_costa
 sergio_moro
-carlos_habibi_chater
 sergio_moro
 cleverson_coelho_de_oliveira
 sergio_moro
@@ -767,7 +748,6 @@ gim_argello
 sergio_moro
 iara_galdino_da_silva
 sergio_moro
-jayme_alves_de_olviera_filho
 sergio_moro
 jean_alberto_luscher_castro
 sergio_moro
@@ -787,7 +767,6 @@ jorge_luiz_zelada
 sergio_moro
 jose_aldemario_prinheiro_filho
 sergio_moro
-jose_ricardo_nogueira_berghirolli
 sergio_moro
 jose_carlos_bumlai
 sergio_moro
@@ -841,11 +820,8 @@ rinaldo_goncalves_de_carvalho
 sergio_moro
 pedro_jose_barusco_filho
 sergio_moro
-renato_de_souze_duque
 sergio_moro
-ricardo_hoffmann
 sergio_moro
-sonia_maria_branco
 sergio_moro
 jose_reny
 sergio_moro

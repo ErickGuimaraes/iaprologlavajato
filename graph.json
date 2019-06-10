@@ -217,1410 +217,1350 @@
 	},
 	{
 		"indice" : 36,
-		"nome" : "carlos_habibi_chater",
-		"aresta" : [],
-		"peso" : []
-	},
-	{
-		"indice" : 37,
 		"nome" : "cassio_cunha_lima",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 38,
+		"indice" : 37,
 		"nome" : "ciro_nogueira",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 39,
+		"indice" : 38,
 		"nome" : "cleverson_coelho_de_oliveira",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 40,
+		"indice" : 39,
 		"nome" : "construcap",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 41,
+		"indice" : 40,
 		"nome" : "corrupcao",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 42,
+		"indice" : 41,
 		"nome" : "corrupcao_ativa",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 43,
+		"indice" : 42,
 		"nome" : "corrupcao_passiva",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 44,
+		"indice" : 43,
 		"nome" : "crimes_financeiros_contra_administracao_publica",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 45,
+		"indice" : 44,
 		"nome" : "cristiano_zanin_martins",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 46,
+		"indice" : 45,
 		"nome" : "cuba",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 47,
+		"indice" : 46,
 		"nome" : "curitiba",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 48,
+		"indice" : 47,
 		"nome" : "dalirio_beber",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 49,
+		"indice" : 48,
 		"nome" : "dalton_dos_santos_avancini",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 50,
+		"indice" : 49,
 		"nome" : "dario_de_queiroz_galvao",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 51,
+		"indice" : 50,
 		"nome" : "dario_teixeira_alves_junior",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 52,
+		"indice" : 51,
 		"nome" : "delcidio_do_amaral",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 53,
+		"indice" : 52,
 		"nome" : "deltan_dallagnol",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 54,
+		"indice" : 53,
 		"nome" : "delubio_soares",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 55,
+		"indice" : 54,
 		"nome" : "dem",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 56,
+		"indice" : 55,
 		"nome" : "dezembro",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 57,
+		"indice" : 56,
 		"nome" : "dilma_rousseff",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 58,
+		"indice" : 57,
 		"nome" : "distrito_federal",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 59,
+		"indice" : 58,
 		"nome" : "ediel_viana_da_silva",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 60,
+		"indice" : 59,
 		"nome" : "edison_lobao",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 61,
+		"indice" : 60,
 		"nome" : "edson_fachin",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 62,
+		"indice" : 61,
 		"nome" : "eduardo_braga",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 63,
+		"indice" : 62,
 		"nome" : "eduardo_cunha",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 64,
+		"indice" : 63,
 		"nome" : "eduardo_hermelino_leite",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 65,
+		"indice" : 64,
 		"nome" : "eduardo_musa",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 66,
+		"indice" : 65,
 		"nome" : "egesa",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 67,
+		"indice" : 66,
 		"nome" : "eike_batista",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 68,
+		"indice" : 67,
 		"nome" : "el_salvador",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 69,
+		"indice" : 68,
 		"nome" : "engevix",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 70,
+		"indice" : 69,
 		"nome" : "enivaldo_quadrado",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 71,
+		"indice" : 70,
 		"nome" : "equador",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 72,
+		"indice" : 71,
 		"nome" : "erika_marena",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 73,
+		"indice" : 72,
 		"nome" : "erton_medeiros_fonseca",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 74,
+		"indice" : 73,
 		"nome" : "escravizacao_de_criancas",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 75,
+		"indice" : 74,
 		"nome" : "esdra_de_arantes_ferreira",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 76,
+		"indice" : 75,
 		"nome" : "estados_unidos",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 77,
+		"indice" : 76,
 		"nome" : "eunicio_oliveira",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 78,
+		"indice" : 77,
 		"nome" : "evasao_divisas",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 79,
+		"indice" : 78,
 		"nome" : "faical_mohamed_nacirdine",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 80,
+		"indice" : 79,
 		"nome" : "falsidade_ideologica",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 81,
+		"indice" : 80,
 		"nome" : "felipe_delia_camargo",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 82,
+		"indice" : 81,
 		"nome" : "fernando_augusto_stremel_andrade",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 83,
+		"indice" : 82,
 		"nome" : "fernando_schahin",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 84,
+		"indice" : 83,
 		"nome" : "fernando_soares",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 85,
+		"indice" : 84,
 		"nome" : "fevereiro",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 86,
+		"indice" : 85,
 		"nome" : "flavio_david_barra",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 87,
+		"indice" : 86,
 		"nome" : "formacao_de_quadrilha",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 88,
+		"indice" : 87,
 		"nome" : "fraude_licitacao",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 89,
+		"indice" : 88,
 		"nome" : "gabriela_hardt",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 90,
+		"indice" : 89,
 		"nome" : "galvao_engenharia",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 91,
+		"indice" : 90,
 		"nome" : "garibaldi_alves_filho",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 92,
+		"indice" : 91,
 		"nome" : "gdk",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 93,
+		"indice" : 92,
 		"nome" : "geraldo_alckmin",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 94,
+		"indice" : 93,
 		"nome" : "gerson_almada",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 95,
+		"indice" : 94,
 		"nome" : "gerson_machado",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 96,
-		"nome" : "gestao_fradulenta",
-		"aresta" : [],
-		"peso" : []
-	},
-	{
-		"indice" : 97,
+		"indice" : 95,
 		"nome" : "gestao_fraudulenta",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 98,
+		"indice" : 96,
 		"nome" : "gim_argello",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 99,
+		"indice" : 97,
 		"nome" : "gleisi_hoffmann",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 100,
+		"indice" : 98,
 		"nome" : "guido_mantega",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 101,
+		"indice" : 99,
 		"nome" : "hermes_magnus",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 102,
+		"indice" : 100,
 		"nome" : "holanda",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 103,
+		"indice" : 101,
 		"nome" : "humberto_costa",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 104,
+		"indice" : 102,
 		"nome" : "iara_galdino_da_silva",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 105,
+		"indice" : 103,
 		"nome" : "iesa_oleo_e_gas",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 106,
+		"indice" : 104,
 		"nome" : "ildefonso_colares_filho",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 107,
+		"indice" : 105,
 		"nome" : "ivo_cassol",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 108,
+		"indice" : 106,
 		"nome" : "jader_barbalho",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 109,
+		"indice" : 107,
 		"nome" : "janeiro",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 110,
+		"indice" : 108,
 		"nome" : "jaques_wagner",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 111,
+		"indice" : 109,
 		"nome" : "jayme_alves_de_oliveira_filho",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 112,
-		"nome" : "jayme_alves_de_oliviera_filho",
-		"aresta" : [],
-		"peso" : []
-	},
-	{
-		"indice" : 113,
-		"nome" : "jayme_alves_de_olviera_filho",
-		"aresta" : [],
-		"peso" : []
-	},
-	{
-		"indice" : 114,
+		"indice" : 110,
 		"nome" : "jean_alberto_luscher_castro",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 115,
+		"indice" : 111,
 		"nome" : "joao_claudio_genu",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 116,
+		"indice" : 112,
 		"nome" : "joao_ricardo_auler",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 117,
+		"indice" : 113,
 		"nome" : "joao_santana",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 118,
+		"indice" : 114,
 		"nome" : "joao_vaccari_neto",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 119,
+		"indice" : 115,
 		"nome" : "joesley_batista",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 120,
+		"indice" : 116,
 		"nome" : "jorge_antonio_da_silva_luz",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 121,
+		"indice" : 117,
 		"nome" : "jorge_luiz_zelada",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 122,
+		"indice" : 118,
 		"nome" : "jorge_viana",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 123,
+		"indice" : 119,
 		"nome" : "jorge_zelada",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 124,
+		"indice" : 120,
 		"nome" : "jose_adolfo_pascowitch",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 125,
+		"indice" : 121,
 		"nome" : "jose_agripino_maia",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 126,
+		"indice" : 122,
 		"nome" : "jose_aldemario_pinheiro_filho",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 127,
+		"indice" : 123,
 		"nome" : "jose_aldemario_prinheiro_filho",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 128,
+		"indice" : 124,
 		"nome" : "jose_antunes_sobrinho",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 129,
+		"indice" : 125,
 		"nome" : "jose_carlos_bumlai",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 130,
+		"indice" : 126,
 		"nome" : "jose_dirceu",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 131,
+		"indice" : 127,
 		"nome" : "jose_eduardo_cardozo",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 132,
+		"indice" : 128,
 		"nome" : "jose_janene",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 133,
+		"indice" : 129,
 		"nome" : "jose_reny",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 134,
+		"indice" : 130,
 		"nome" : "jose_ricardo_berghirolli",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 135,
-		"nome" : "jose_ricardo_nogueira_berghirolli",
-		"aresta" : [],
-		"peso" : []
-	},
-	{
-		"indice" : 136,
+		"indice" : 131,
 		"nome" : "julho",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 137,
+		"indice" : 132,
 		"nome" : "juliana_cordeiro_de_moura",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 138,
+		"indice" : 133,
 		"nome" : "julio_gerin_de_almeida_camargo",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 139,
+		"indice" : 134,
 		"nome" : "junho",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 140,
+		"indice" : 135,
 		"nome" : "lava_jato",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 141,
+		"indice" : 136,
 		"nome" : "lavagem_dinheiro",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 142,
+		"indice" : 137,
 		"nome" : "leandro_meirelles",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 143,
+		"indice" : 138,
 		"nome" : "leon_denis_vargas_ilario",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 144,
-		"nome" : "lindibergh_faria",
-		"aresta" : [],
-		"peso" : []
-	},
-	{
-		"indice" : 145,
+		"indice" : 139,
 		"nome" : "lindibergh_farias",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 146,
+		"indice" : 140,
 		"nome" : "lindice_da_mata",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 147,
+		"indice" : 141,
 		"nome" : "luccas_pace_junior",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 148,
+		"indice" : 142,
 		"nome" : "luis_carlos_moreira_da_silva",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 149,
+		"indice" : 143,
 		"nome" : "luiz_argolo",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 150,
+		"indice" : 144,
 		"nome" : "luiz_bonat",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 151,
+		"indice" : 145,
 		"nome" : "luiz_fernando_pezao",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 152,
+		"indice" : 146,
 		"nome" : "luiz_inacio_lula_da_silva",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 153,
+		"indice" : 147,
 		"nome" : "maio",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 154,
+		"indice" : 148,
 		"nome" : "marcelo_bretas",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 155,
+		"indice" : 149,
 		"nome" : "marcelo_odebrecht",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 156,
+		"indice" : 150,
 		"nome" : "marcio_andrade_bonilho",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 157,
+		"indice" : 151,
 		"nome" : "marco",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 158,
+		"indice" : 152,
 		"nome" : "marcos_valerio",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 159,
+		"indice" : 153,
 		"nome" : "maria_dirce_penasso",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 160,
+		"indice" : 154,
 		"nome" : "maria_lucia_tavares",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 161,
+		"indice" : 155,
 		"nome" : "mario_frederico_mendonca_goes",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 162,
+		"indice" : 156,
 		"nome" : "matheus_coutinho_de_sa_oliveira",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 163,
+		"indice" : 157,
 		"nome" : "mendes_junior",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 164,
+		"indice" : 158,
 		"nome" : "michel_temer",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 165,
+		"indice" : 159,
 		"nome" : "milton_pascowitch",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 166,
+		"indice" : 160,
 		"nome" : "milton_schahin",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 167,
+		"indice" : 161,
 		"nome" : "mocanbique",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 168,
+		"indice" : 162,
 		"nome" : "monica_moura",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 169,
+		"indice" : 163,
 		"nome" : "mpe_montagens_e_projeto",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 170,
+		"indice" : 164,
 		"nome" : "nelma_kodama",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 171,
+		"indice" : 165,
 		"nome" : "nestor_cervero",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 172,
+		"indice" : 166,
 		"nome" : "nigeria",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 173,
+		"indice" : 167,
 		"nome" : "niteroi",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 174,
+		"indice" : 168,
 		"nome" : "novembro",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 175,
+		"indice" : 169,
 		"nome" : "oas",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 176,
+		"indice" : 170,
 		"nome" : "obstrucao_da_justica",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 177,
+		"indice" : 171,
 		"nome" : "ocultacao_patrimonio",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 178,
+		"indice" : 172,
 		"nome" : "odebrecht",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 179,
+		"indice" : 173,
 		"nome" : "operacao_fraudulenta_de_cambio",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 180,
+		"indice" : 174,
 		"nome" : "operacao_xepa",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 181,
+		"indice" : 175,
 		"nome" : "operar_instituicao_financeira_ilegal",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 182,
+		"indice" : 176,
 		"nome" : "operar_instiuicao_criminosa",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 183,
+		"indice" : 177,
 		"nome" : "organizacao_criminosa",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 184,
+		"indice" : 178,
 		"nome" : "otavio_azevedo",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 185,
+		"indice" : 179,
 		"nome" : "othon_luiz_pinheiro_da_silva",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 186,
+		"indice" : 180,
 		"nome" : "outubro",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 187,
+		"indice" : 181,
 		"nome" : "panama",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 188,
+		"indice" : 182,
 		"nome" : "parana",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 189,
+		"indice" : 183,
 		"nome" : "paulo_roberto_costa",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 190,
+		"indice" : 184,
 		"nome" : "pcdob",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 191,
+		"indice" : 185,
 		"nome" : "pdt",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 192,
-		"nome" : "pedro_agrese_junior",
-		"aresta" : [],
-		"peso" : []
-	},
-	{
-		"indice" : 193,
+		"indice" : 186,
 		"nome" : "pedro_argese_junior",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 194,
+		"indice" : 187,
 		"nome" : "pedro_barusco",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 195,
+		"indice" : 188,
 		"nome" : "pedro_correa",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 196,
+		"indice" : 189,
 		"nome" : "pedro_jose_barusco_filho",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 197,
+		"indice" : 190,
 		"nome" : "pen",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 198,
+		"indice" : 191,
 		"nome" : "petrobras",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 199,
+		"indice" : 192,
 		"nome" : "phs",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 200,
+		"indice" : 193,
 		"nome" : "pmdb",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 201,
+		"indice" : 194,
 		"nome" : "pmn",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 202,
+		"indice" : 195,
 		"nome" : "portugal",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 203,
+		"indice" : 196,
 		"nome" : "pp",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 204,
+		"indice" : 197,
 		"nome" : "pps",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 205,
+		"indice" : 198,
 		"nome" : "pr",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 206,
+		"indice" : 199,
 		"nome" : "prb",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 207,
+		"indice" : 200,
 		"nome" : "promon_engenharia",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 208,
+		"indice" : 201,
 		"nome" : "pros",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 209,
+		"indice" : 202,
 		"nome" : "prtb",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 210,
+		"indice" : 203,
 		"nome" : "psb",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 211,
+		"indice" : 204,
 		"nome" : "psc",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 212,
+		"indice" : 205,
 		"nome" : "psd",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 213,
+		"indice" : 206,
 		"nome" : "psdb",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 214,
+		"indice" : 207,
 		"nome" : "psdc",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 215,
+		"indice" : 208,
 		"nome" : "psl",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 216,
+		"indice" : 209,
 		"nome" : "pt",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 217,
+		"indice" : 210,
 		"nome" : "ptb",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 218,
+		"indice" : 211,
 		"nome" : "ptc",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 219,
+		"indice" : 212,
 		"nome" : "ptdob",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 220,
+		"indice" : 213,
 		"nome" : "ptn",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 221,
+		"indice" : 214,
 		"nome" : "pv",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 222,
+		"indice" : 215,
 		"nome" : "queiroz_galvao",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 223,
+		"indice" : 216,
 		"nome" : "raul_henrique_srour",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 224,
+		"indice" : 217,
 		"nome" : "raul_srour",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 225,
+		"indice" : 218,
 		"nome" : "recebimento_de_vantagem_indevida",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 226,
+		"indice" : 219,
 		"nome" : "renan_calheiros",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 227,
+		"indice" : 220,
 		"nome" : "renato_de_souza_duque",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 228,
-		"nome" : "renato_de_souze_duque",
-		"aresta" : [],
-		"peso" : []
-	},
-	{
-		"indice" : 229,
+		"indice" : 221,
 		"nome" : "rene_luiz_pereira",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 230,
+		"indice" : 222,
 		"nome" : "repubica_dominicana",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 231,
+		"indice" : 223,
 		"nome" : "ricardo_ferraco",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 232,
+		"indice" : 224,
 		"nome" : "ricardo_hoffman",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 233,
-		"nome" : "ricardo_hoffmann",
-		"aresta" : [],
-		"peso" : []
-	},
-	{
-		"indice" : 234,
+		"indice" : 225,
 		"nome" : "ricardo_pessoa",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 235,
+		"indice" : 226,
 		"nome" : "rinaldo_goncalves_de_carvalho",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 236,
+		"indice" : 227,
 		"nome" : "rio_de_janeiro",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 237,
+		"indice" : 228,
 		"nome" : "rio_de_janeiro_estado",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 238,
+		"indice" : 229,
 		"nome" : "rio_grande_do_sul",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 239,
+		"indice" : 230,
 		"nome" : "roberson_henrique_pozzobon",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 240,
+		"indice" : 231,
 		"nome" : "roberto_goncalves",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 241,
+		"indice" : 232,
 		"nome" : "rodrigo_janot",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 242,
+		"indice" : 233,
 		"nome" : "roger_vinicius_oliveira",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 243,
+		"indice" : 234,
 		"nome" : "romero_juca",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 244,
+		"indice" : 235,
 		"nome" : "rosa_weber",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 245,
+		"indice" : 236,
 		"nome" : "sao_paulo",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 246,
+		"indice" : 237,
 		"nome" : "sao_paulo_estado",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 247,
+		"indice" : 238,
 		"nome" : "schahin_engenharia",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 248,
+		"indice" : 239,
 		"nome" : "sd",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 249,
+		"indice" : 240,
 		"nome" : "sergio_cabral",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 250,
+		"indice" : 241,
 		"nome" : "sergio_machado",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 251,
+		"indice" : 242,
 		"nome" : "sergio_moro",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 252,
+		"indice" : 243,
 		"nome" : "setembro",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 253,
+		"indice" : 244,
 		"nome" : "silvio_pereira",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 254,
+		"indice" : 245,
 		"nome" : "skanska",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 255,
-		"nome" : "sonia_maria_branco",
-		"aresta" : [],
-		"peso" : []
-	},
-	{
-		"indice" : 256,
+		"indice" : 246,
 		"nome" : "sonia_mariza_branco",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 257,
+		"indice" : 247,
 		"nome" : "suica",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 258,
+		"indice" : 248,
 		"nome" : "techint",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 259,
+		"indice" : 249,
 		"nome" : "teori_zavascki",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 260,
+		"indice" : 250,
 		"nome" : "tome_engenharia",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 261,
+		"indice" : 251,
 		"nome" : "toyo_setal",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 262,
+		"indice" : 252,
 		"nome" : "trafico_drogas",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 263,
+		"indice" : 253,
 		"nome" : "transpetro",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 264,
+		"indice" : 254,
 		"nome" : "uso_indevido_verba_publica",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 265,
+		"indice" : 255,
 		"nome" : "utc_engenharia",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 266,
+		"indice" : 256,
 		"nome" : "valdir_raupp",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 267,
+		"indice" : 257,
 		"nome" : "vallisney_de_souza_oliveira",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 268,
+		"indice" : 258,
 		"nome" : "vanessa_grazziotin",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 269,
+		"indice" : 259,
 		"nome" : "wtorre",
 		"aresta" : [],
 		"peso" : []
 	},
 	{
-		"indice" : 270,
+		"indice" : 260,
 		"nome" : "zwi_skornicki",
 		"aresta" : [],
 		"peso" : []
