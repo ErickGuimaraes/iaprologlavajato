@@ -81,33 +81,19 @@ crime(uso_indevido_verba_publica).
 crime(formacao_de_quadrilha).
 
 presidente_empresa(aldemir_bendine,petrobras).
-temocupacao(aldemir_bendine,presidente_empresa).
 presidente_empresa(sergio_machado,transpetro).
-temocupacao(sergio_machado,presidente_empresa).
 
 diretor_nome(paulo_roberto_costa,petrobras).
-temocupacao(paulo_roberto_costa,diretor_empresa).
 diretor_nome(otavio_azevedo,andrade_gutierrez).
-temocupacao(otavio_azevedo,diretor_emrpesa).
 diretor_nome(marcelo_odebrecht,odebrecht).
-temocupacao(marcelo_odebrecht,diretor_empresa).
 diretor_nome(jorge_zelada,petrobras).
-temocupacao(jorge_zelada,diretor_empresa).
 diretor_nome(nestor_cervero,petrobras).
-temocupacao(nestor_cervero,diretor_emrpesa).
 diretor_nome(renato_de_souza_duque,petrobras).
-temocupacao(renato_de_souza_duque, diretor_empresa).
 
 nomeiaOperacao(erika_marena, lava_jato).
 
 inicioOperacao(lava_jato,2014).
 inicioOperacao(operacao_xepa,2016).
-
-temocupacao(carlos_fernando_lima,procurador).
-temocupacao(felipe_delia_camargo,procurador).
-temocupacao(deltan_dallagnol,procurador).
-temocupacao(roberson_henrique_pozzobon,procurador).
-temocupacao(rodrigo_janot,procurador).
 
 nome(adir_assad).
 nome(aecio_neves).
@@ -263,9 +249,6 @@ cidade(rio_de_janeiro,rio_de_janeiro).
 cidade(niteroi,rio_de_janeiro).
 cidade(sao_paulo,sao_paulo).
 
-temocupacao(erika_marena,delegado).
-temocupacao(gerson_machado,delegado).
-
 
 nomeoperacao(lava_jato).
 nomeoperacao(operacao_xepa).
@@ -351,14 +334,6 @@ politicopart(lindibergh_faria,pt).
 politicopart(humberto_costa,pt).
 politicopart(garibaldi_alves_filho, pmdb).
 
-temocupacao(bruno_goncalves_da_luz,operador).
-temocupacao(andre_catao_de_miranda,operador).
-temocupacao(jorge_antonio_da_silva_luz,operador).
-temocupacao(luccas_pace_junior,operador).
-temocupacao(pedro_agrese_junior,operador).
-temocupacao(ricardo_hoffman,operador).
-temocupacao(sonia_mariza_branco,operador).
-
 periodo(2010, rio_de_janeiro).
 periodo(2014, rio_de_janeiro).
 periodo(2018, rio_de_janeiro).
@@ -386,31 +361,23 @@ governa(luiz_fernando_pezao, rio_de_janeiro).
 governa(beto_richa, parana).
 
 temocupacao(joao_santana,publicitario).
-
-
 temocupacao(eike_batista,empresario).
 temocupacao(hermes_magnus,empresario).
 temocupacao(romero_juca,senador).
 temocupacao(joesley_batista,empresario).
-
 temocupacao(jose_carlos_bumlai,pecuarista).
-
 temocupacao(alberto_youssef,doleiro).
 temocupacao(carlos_habib_chater,doleiro).
 temocupacao(nelma_kodama,doleiro).
 temocupacao(raul_srour,doleiro).
-
 temocupacao(gabriela_hardt,magistrado).
 temocupacao(sergio_moro,magistrado).
 temocupacao(marcelo_bretas,magistrado).
 temocupacao(roger_vinicius_oliveira,magistrado).
 temocupacao(vallisney_de_souza_oliveira,magistrado).
 temocupacao(luiz_bonat,magistrado).
-
 temocupacao(andre_esteves,banqueiro).
-
 temocupacao(cristiano_zanin_martins,advogado).
-
 temocupacao(delcidio_do_amaral,senador).
 temocupacao(jader_barbalho,senador).
 temocupacao(renan_calheiros,senador).
@@ -437,6 +404,28 @@ temocupacao(humberto_costa,senador).
 temocupacao(garibaldi_alves_filho,senador).
 temocupacao(jader_barbalho,senador).
 temocupacao(edison_lobao,senador).
+temocupacao(erika_marena,delegado).
+temocupacao(gerson_machado,delegado).
+temocupacao(bruno_goncalves_da_luz,operador).
+temocupacao(andre_catao_de_miranda,operador).
+temocupacao(jorge_antonio_da_silva_luz,operador).
+temocupacao(luccas_pace_junior,operador).
+temocupacao(pedro_agrese_junior,operador).
+temocupacao(ricardo_hoffman,operador).
+temocupacao(sonia_mariza_branco,operador).
+temocupacao(nestor_cervero,diretor_emrpesa).
+temocupacao(renato_de_souza_duque, diretor_empresa).
+temocupacao(paulo_roberto_costa,diretor_empresa).
+temocupacao(jorge_zelada,diretor_empresa).
+temocupacao(marcelo_odebrecht,diretor_empresa).
+temocupacao(sergio_machado,presidente_empresa).
+temocupacao(otavio_azevedo,diretor_emrpesa).
+temocupacao(aldemir_bendine,presidente_empresa).
+temocupacao(carlos_fernando_lima,procurador).
+temocupacao(felipe_delia_camargo,procurador).
+temocupacao(deltan_dallagnol,procurador).
+temocupacao(roberson_henrique_pozzobon,procurador).
+temocupacao(rodrigo_janot,procurador).
 
 condenado(sergio_cabral,14.2).
 condenado(sergio_cabral,45.2).
@@ -744,12 +733,11 @@ condenadoporcrime(Pessoa,Crime):-pessoa(Pessoa),crime(Crime),condenadocrime(Pess
 
 lavaDinheiro(Nome, Crime) :-
    pessoa(Nome),
-   temocupacao(Nome,B),
-   B=doleiro,
+   temocupacao(Nome,doleiro),
    Crime = lavagem_dinheiro.
 
 procurador_federal(Nome) :-
-   pessoa(Nome), temocupacao(Nome,B),B=procurador.
+   pessoa(Nome), temocupacao(Nome,procurador).
 
 condenado_nm(Nome,Tempo):-pessoa(Nome),condenado(Nome,Tempo).
 
@@ -758,6 +746,7 @@ condenadopelojuiz(Pessoa,Crime):-
 	condenado(Pessoa,Tempo),
 	condenadocrime(Pessoa,Crime),
         condenadopor(Pessoa,Juiz),
+        temocupacao(Juiz,magistrado),
         juiz(Juiz),
         write(juiz),
         put(10),
