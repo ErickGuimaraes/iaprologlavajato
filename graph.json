@@ -254,8 +254,8 @@
 	{
 		"indice" : 42,
 		"nome" : "corrupcao_passiva",
-		"aresta" : [],
-		"peso" : []
+		"aresta" : [149],
+		"peso" : ["razaocondenacao"]
 	},
 	{
 		"indice" : 43,
@@ -818,8 +818,8 @@
 	{
 		"indice" : 136,
 		"nome" : "lavagem_dinheiro",
-		"aresta" : [7,17,19,22,23,25,30,146,240],
-		"peso" : ["razaocondenacao","razaocondenacao","razaocondenacao","razaocondenacao","razaocondenacao","razaocondenacao","razaocondenacao","razaocondenacao","razaocondenacao"]
+		"aresta" : [7,17,19,22,23,25,30,146,240,149],
+		"peso" : ["razaocondenacao","razaocondenacao","razaocondenacao","razaocondenacao","razaocondenacao","razaocondenacao","razaocondenacao","razaocondenacao","razaocondenacao","razaocondenacao"]
 	},
 	{
 		"indice" : 137,
@@ -896,8 +896,8 @@
 	{
 		"indice" : 149,
 		"nome" : "marcelo_odebrecht",
-		"aresta" : [],
-		"peso" : []
+		"aresta" : [172,136,42,136,171,242],
+		"peso" : ["trabalha","ligado","condenadopor","condenadopor","condenadopor","condenadopelo"]
 	},
 	{
 		"indice" : 150,
@@ -1028,14 +1028,14 @@
 	{
 		"indice" : 171,
 		"nome" : "ocultacao_patrimonio",
-		"aresta" : [],
-		"peso" : []
+		"aresta" : [149],
+		"peso" : ["razaocondenacao"]
 	},
 	{
 		"indice" : 172,
 		"nome" : "odebrecht",
-		"aresta" : [],
-		"peso" : []
+		"aresta" : [149],
+		"peso" : ["funcionario"]
 	},
 	{
 		"indice" : 173,
@@ -1364,8 +1364,8 @@
 	{
 		"indice" : 227,
 		"nome" : "rio_de_janeiro",
-		"aresta" : [],
-		"peso" : []
+		"aresta" : [240],
+		"peso" : ["governado"]
 	},
 	{
 		"indice" : 228,
@@ -1442,8 +1442,8 @@
 	{
 		"indice" : 240,
 		"nome" : "sergio_cabral",
-		"aresta" : [193,242,148,136,145,146],
-		"peso" : ["filiado","condenadopelo","condenadopelo","condenadopor","ligado","ligado"]
+		"aresta" : [193,242,148,136,145,146,227],
+		"peso" : ["filiado","condenadopelo","condenadopelo","condenadopor","ligado","ligado","governa"]
 	},
 	{
 		"indice" : 241,
@@ -1454,8 +1454,8 @@
 	{
 		"indice" : 242,
 		"nome" : "sergio_moro",
-		"aresta" : [7,10,11,12,19,22,23,25,30,33,146,240],
-		"peso" : ["condena","condena","condena","condena","condena","condena","condena","condena","condena","condena","condena","condena"]
+		"aresta" : [7,10,11,12,19,22,23,25,30,33,146,240,149],
+		"peso" : ["condena","condena","condena","condena","condena","condena","condena","condena","condena","condena","condena","condena","condena"]
 	},
 	{
 		"indice" : 243,
