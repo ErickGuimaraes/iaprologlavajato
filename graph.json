@@ -878,8 +878,8 @@
 	{
 		"indice" : 146,
 		"nome" : "luiz_inacio_lula_da_silva",
-		"aresta" : [169,242,42,136,209,56,22,240],
-		"peso" : ["ligado","condenadopelo","condenadopor","condenadopor", "filiado", "ligado", "ligado", "ligado"]
+		"aresta" : [169,242,42,136,209,56,22,240,24,41],
+		"peso" : ["ligado","condenadopelo","condenadopor","condenadopor", "filiado", "ligado", "ligado", "ligado","condenadopor","condenadopor,"],
 	},
 	{
 		"indice" : 147,
@@ -890,8 +890,8 @@
 	{
 		"indice" : 148,
 		"nome" : "marcelo_bretas",
-		"aresta" : [],
-		"peso" : []
+		"aresta" : [240],
+		"peso" : ["condena"]
 	},
 	{
 		"indice" : 149,
@@ -1455,7 +1455,7 @@
 		"indice" : 242,
 		"nome" : "sergio_moro",
 		"aresta" : [7,10,11,12,19,22,23,25,30,33,146,240],
-		"peso" : []
+		"peso" : ["condena","condena","condena","condena","condena","condena","condena","condena","condena","condena","condena","condena",]
 	},
 	{
 		"indice" : 243,
