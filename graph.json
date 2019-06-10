@@ -134,14 +134,14 @@
 	{
 		"indice" : 22,
 		"nome" : "antonio_palocci",
-		"aresta" : [],
-		"peso" : []
+		"aresta" : [206,136,43,242,146],
+		"peso" : ["filiado","condenadopor","condenadopor", "condenadopelo","ligado"]
 	},
 	{
 		"indice" : 23,
 		"nome" : "ary_ferreira_da_costa_filho",
-		"aresta" : [],
-		"peso" : []
+		"aresta" : [242,136,240],
+		"peso" : ["condenadopelo", "condenadopor", "ligado"]
 	},
 	{
 		"indice" : 24,
@@ -152,20 +152,20 @@
 	{
 		"indice" : 25,
 		"nome" : "augusto_ribeiro_de_mendonca_neto",
-		"aresta" : [],
-		"peso" : []
+		"aresta" : [251,242,136,41],
+		"peso" : ["trabalha","condenadopelo","condenadopor"]
 	},
 	{
 		"indice" : 26,
 		"nome" : "benedito_de_lira",
-		"aresta" : [],
-		"peso" : []
+		"aresta" : [196],
+		"peso" : ["filiado"]
 	},
 	{
 		"indice" : 27,
 		"nome" : "beto_richa",
-		"aresta" : [],
-		"peso" : []
+		"aresta" : [206],
+		"peso" : ["filiado"]
 	},
 	{
 		"indice" : 28,
@@ -182,8 +182,8 @@
 	{
 		"indice" : 30,
 		"nome" : "bruno_goncalves_da_luz",
-		"aresta" : [],
-		"peso" : []
+		"aresta" : [193,242,42,136],
+		"peso" : ["ligado","condenadopelo","condenadopor","condenadopor"]
 	},
 	{
 		"indice" : 31,
@@ -200,8 +200,8 @@
 	{
 		"indice" : 33,
 		"nome" : "carlos_alberto_pereira_da_costa",
-		"aresta" : [],
-		"peso" : []
+		"aresta" : [242,41,77,177],
+		"peso" : ["condenadopelo","condenadopor","condenadopor","condenadopor"],
 	},
 	{
 		"indice" : 34,
@@ -878,8 +878,8 @@
 	{
 		"indice" : 146,
 		"nome" : "luiz_inacio_lula_da_silva",
-		"aresta" : [],
-		"peso" : []
+		"aresta" : [169,242,42,136,209,56,22,240],
+		"peso" : ["ligado","condenadopelo","condenadopor","condenadopor", "filiado", "ligado", "ligado", "ligado"]
 	},
 	{
 		"indice" : 147,
@@ -1442,8 +1442,8 @@
 	{
 		"indice" : 240,
 		"nome" : "sergio_cabral",
-		"aresta" : [],
-		"peso" : []
+		"aresta" : [193,242,148,136,145,146],
+		"peso" : ["filiado","condenadopelo","condenadopelo","condenadopor","ligado","ligado"]
 	},
 	{
 		"indice" : 241,
@@ -1454,7 +1454,7 @@
 	{
 		"indice" : 242,
 		"nome" : "sergio_moro",
-		"aresta" : [],
+		"aresta" : [7,10,11,12,19,22,23,25,30,33,146,240],
 		"peso" : []
 	},
 	{
