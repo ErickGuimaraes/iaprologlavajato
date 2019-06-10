@@ -44,14 +44,14 @@
 	{
 		"indice" : 7,
 		"nome" : "adir_assad",
-		"aresta" : [],
-		"peso" : []
+		"aresta" : [220,136,24,242],
+		"peso" : ["ligado","condenadopor", "condenadopor", "condenadopelo"]
 	},
 	{
 		"indice" : 8,
 		"nome" : "aecio_neves",
-		"aresta" : [],
-		"peso" : []
+		"aresta" : [10,206] ,
+		"peso" : ["ligado","filiado"]
 	},
 	{
 		"indice" : 9,
@@ -62,32 +62,32 @@
 	{
 		"indice" : 10,
 		"nome" : "alberto_youssef",
-		"aresta" : [],
-		"peso" : []
+		"aresta" : [9,10,,191,196,209,206,242],
+		"peso" : ["ligado","ligado","ligado","ligado","ligado", "ligado", "condenadopelo"]
 	},
 	{
 		"indice" : 11,
 		"nome" : "aldemir_bendine",
-		"aresta" : [],
-		"peso" : []
+		"aresta" : [196,242,24,41],
+		"peso" : ["ligado","condenadopelo","condenadopor", "condenadopor"], 
 	},
 	{
 		"indice" : 12,
 		"nome" : "alexandre_romano",
-		"aresta" : [],
-		"peso" : []
+		"aresta" : [114,242],
+		"peso" : ["ligado","condenadopelo"]
 	},
 	{
 		"indice" : 13,
 		"nome" : "aloizio_mercadante",
-		"aresta" : [],
-		"peso" : []
+		"aresta" : [209],
+		"peso" : ["filiado"]
 	},
 	{
 		"indice" : 14,
-		"nome" : "aloysion_nunes",
-		"aresta" : [],
-		"peso" : []
+		"nome" : "aloysio_nunes",
+		"aresta" : [206],
+		"peso" : ["filiado"]
 	},
 	{
 		"indice" : 15,
@@ -104,20 +104,20 @@
 	{
 		"indice" : 17,
 		"nome" : "andre_catao_de_miranda",
-		"aresta" : [],
-		"peso" : []
+		"aresta" : [136],
+		"peso" : ["condenadopor"]
 	},
 	{
 		"indice" : 18,
 		"nome" : "andre_esteves",
-		"aresta" : [],
-		"peso" : []
+		"aresta" : [51,170],
+		"peso" : ["ligado", "condenadopor"]
 	},
 	{
 		"indice" : 19,
 		"nome" : "andre_vargas",
-		"aresta" : [],
-		"peso" : []
+		"aresta" : [242,42,136,198],
+		"peso" : ["condenadopelo","condenadopor","condenadopor","filiado"]
 	},
 	{
 		"indice" : 20,
@@ -128,8 +128,8 @@
 	{
 		"indice" : 21,
 		"nome" : "antonio_delfim_netto",
-		"aresta" : [],
-		"peso" : []
+		"aresta" : [196,16,31,68],
+		"peso" : ["filiado", "ligado","ligado","ligado"]
 	},
 	{
 		"indice" : 22,
@@ -212,8 +212,8 @@
 	{
 		"indice" : 35,
 		"nome" : "carlos_habib_chater",
-		"aresta" : [],
-		"peso" : []
+		"aresta" : [10],
+		"peso" : ["ligado"]
 	},
 	{
 		"indice" : 36,
