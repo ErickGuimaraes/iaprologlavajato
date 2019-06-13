@@ -741,15 +741,15 @@ condenadopelojuiz(Pessoa,Crime):-
 	pessoa(Pessoa),
 	condenado(Pessoa,Tempo),
 	condenadocrime(Pessoa,Crime),
-        condenadopor(Pessoa,Juiz),
-        temocupacao(Juiz,magistrado),
-        juiz(Juiz),
-        write(juiz),
-        put(10),
-        write(Juiz),
-        put(10),
-        write(tempo),
-        put(10),
-        write(Tempo).
+      condenadopor(Pessoa,Juiz),
+      temocupacao(Juiz,magistrado),
+      juiz(Juiz),
+      write(juiz),
+      put(10),
+      write(Juiz),
+      put(10),
+      write(tempo),
+      put(10),
+      write(Tempo).
 
 

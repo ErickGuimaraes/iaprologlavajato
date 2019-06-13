@@ -1,0 +1,4 @@
+condenado_nm(Nome,Tempo).
+lavaDinheiro(Nome, Crime).
+condenadopelojuiz(Pessoa,Crime).
+condenadocrime(Pessoa,corrupcao),condenado(Pessoa,Tempo),condenado(luiz_inacio_lula_da_silva,B),Tempo>B.

@@ -1,0 +1,1568 @@
+[
+	{
+		"indice" : 0,
+		"nome" : "2014",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 1,
+		"nome" : "2015",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 2,
+		"nome" : "2016",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 3,
+		"nome" : "2017",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 4,
+		"nome" : "2018",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 5,
+		"nome" : "2019",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 6,
+		"nome" : "abril",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 7,
+		"nome" : "adir_assad",
+		"aresta" : [220, 136, 24, 242],
+		"peso" : ["ligado", "condenadopor", "condenadopor", "condenadopelo"]
+	},
+	{
+		"indice" : 8,
+		"nome" : "aecio_neves",
+		"aresta" : [10, 206, 206],
+		"peso" : ["ligado", "filiado", "filiado"]
+	},
+	{
+		"indice" : 9,
+		"nome" : "agosto",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 10,
+		"nome" : "alberto_youssef",
+		"aresta" : [9, 10, 191, 196, 209, 206, 242],
+		"peso" : ["ligado", "ligado", "ligado", "ligado", "ligado", "ligado", "condenadopelo"]
+	},
+	{
+		"indice" : 11,
+		"nome" : "aldemir_bendine",
+		"aresta" : [196, 242, 24, 41, 191],
+		"peso" : ["ligado", "condenadopelo", "condenadopor", "condenadopor", "presidiuempresa"]
+	},
+	{
+		"indice" : 12,
+		"nome" : "alexandre_romano",
+		"aresta" : [114, 242],
+		"peso" : ["ligado", "condenadopelo"]
+	},
+	{
+		"indice" : 13,
+		"nome" : "aloizio_mercadante",
+		"aresta" : [209, 209],
+		"peso" : ["filiado", "filiado"]
+	},
+	{
+		"indice" : 14,
+		"nome" : "aloysio_nunes",
+		"aresta" : [206],
+		"peso" : ["filiado"]
+	},
+	{
+		"indice" : 15,
+		"nome" : "alumini_engenharia",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 16,
+		"nome" : "andrade_gutierrez",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 17,
+		"nome" : "andre_catao_de_miranda",
+		"aresta" : [136],
+		"peso" : ["condenadopor"]
+	},
+	{
+		"indice" : 18,
+		"nome" : "andre_esteves",
+		"aresta" : [51, 170],
+		"peso" : ["ligado", "condenadopor"]
+	},
+	{
+		"indice" : 19,
+		"nome" : "andre_vargas",
+		"aresta" : [242, 42, 136, 198],
+		"peso" : ["condenadopelo", "condenadopor", "condenadopor", "filiado"]
+	},
+	{
+		"indice" : 20,
+		"nome" : "angola",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 21,
+		"nome" : "antonio_delfim_netto",
+		"aresta" : [196, 16, 31, 68, 196],
+		"peso" : ["filiado", "ligado", "ligado", "ligado", "filiado"]
+	},
+	{
+		"indice" : 22,
+		"nome" : "antonio_palocci",
+		"aresta" : [206, 136, 43, 242, 146, 209],
+		"peso" : ["filiado", "condenadopor", "condenadopor", "condenadopelo", "ligado", "filiado"]
+	},
+	{
+		"indice" : 23,
+		"nome" : "ary_ferreira_da_costa_filho",
+		"aresta" : [242, 136, 240],
+		"peso" : ["condenadopelo", "condenadopor", "ligado"]
+	},
+	{
+		"indice" : 24,
+		"nome" : "associacao_criminosa",
+		"aresta" : [7],
+		"peso" : ["razaocondenacao"]
+	},
+	{
+		"indice" : 25,
+		"nome" : "augusto_ribeiro_de_mendonca_neto",
+		"aresta" : [251, 242, 136, 41],
+		"peso" : ["trabalha", "condenadopelo", "condenadopor", "condenadopor"]
+	},
+	{
+		"indice" : 26,
+		"nome" : "benedito_de_lira",
+		"aresta" : [196, 196],
+		"peso" : ["filiado", "filiado"]
+	},
+	{
+		"indice" : 27,
+		"nome" : "beto_richa",
+		"aresta" : [206],
+		"peso" : ["filiado"]
+	},
+	{
+		"indice" : 28,
+		"nome" : "brasil",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 29,
+		"nome" : "brasilia",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 30,
+		"nome" : "bruno_goncalves_da_luz",
+		"aresta" : [193, 242, 42, 136],
+		"peso" : ["ligado", "condenadopelo", "condenadopor", "condenadopor"]
+	},
+	{
+		"indice" : 31,
+		"nome" : "camargo_correa",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 32,
+		"nome" : "carioca_christiani_nielsen_engenharia",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 33,
+		"nome" : "carlos_alberto_pereira_da_costa",
+		"aresta" : [242, 41, 77, 177],
+		"peso" : ["condenadopelo", "condenadopor", "condenadopor", "condenadopor"]
+	},
+	{
+		"indice" : 34,
+		"nome" : "carlos_fernando_lima",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 35,
+		"nome" : "carlos_habib_chater",
+		"aresta" : [10],
+		"peso" : ["ligado"]
+	},
+	{
+		"indice" : 36,
+		"nome" : "cassio_cunha_lima",
+		"aresta" : [206],
+		"peso" : ["filiado"]
+	},
+	{
+		"indice" : 37,
+		"nome" : "ciro_nogueira",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 38,
+		"nome" : "cleverson_coelho_de_oliveira",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 39,
+		"nome" : "construcap",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 40,
+		"nome" : "corrupcao",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 41,
+		"nome" : "corrupcao_ativa",
+		"aresta" : [11, 146, 25, 33],
+		"peso" : ["razaocondenacao", "razaocondenacao", "razaocondenacao", "razaocondenacao"]
+	},
+	{
+		"indice" : 42,
+		"nome" : "corrupcao_passiva",
+		"aresta" : [149],
+		"peso" : ["razaocondenacao"]
+	},
+	{
+		"indice" : 43,
+		"nome" : "crimes_financeiros_contra_administracao_publica",
+		"aresta" : [22],
+		"peso" : ["razaocondenacao"]
+	},
+	{
+		"indice" : 44,
+		"nome" : "cristiano_zanin_martins",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 45,
+		"nome" : "cuba",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 46,
+		"nome" : "curitiba",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 47,
+		"nome" : "dalirio_beber",
+		"aresta" : [206],
+		"peso" : ["filiado"]
+	},
+	{
+		"indice" : 48,
+		"nome" : "dalton_dos_santos_avancini",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 49,
+		"nome" : "dario_de_queiroz_galvao",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 50,
+		"nome" : "dario_teixeira_alves_junior",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 51,
+		"nome" : "delcidio_do_amaral",
+		"aresta" : [209],
+		"peso" : ["filiado"]
+	},
+	{
+		"indice" : 52,
+		"nome" : "deltan_dallagnol",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 53,
+		"nome" : "delubio_soares",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 54,
+		"nome" : "dem",
+		"aresta" : [121],
+		"peso" : ["temcomofiliado"]
+	},
+	{
+		"indice" : 55,
+		"nome" : "dezembro",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 56,
+		"nome" : "dilma_rousseff",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 57,
+		"nome" : "distrito_federal",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 58,
+		"nome" : "ediel_viana_da_silva",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 59,
+		"nome" : "edison_lobao",
+		"aresta" : [193],
+		"peso" : ["filiado"]
+	},
+	{
+		"indice" : 60,
+		"nome" : "edson_fachin",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 61,
+		"nome" : "eduardo_braga",
+		"aresta" : [193],
+		"peso" : ["filiado"]
+	},
+	{
+		"indice" : 62,
+		"nome" : "eduardo_cunha",
+		"aresta" : [193],
+		"peso" : ["filiado"]
+	},
+	{
+		"indice" : 63,
+		"nome" : "eduardo_hermelino_leite",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 64,
+		"nome" : "eduardo_musa",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 65,
+		"nome" : "egesa",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 66,
+		"nome" : "eike_batista",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 67,
+		"nome" : "el_salvador",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 68,
+		"nome" : "engevix",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 69,
+		"nome" : "enivaldo_quadrado",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 70,
+		"nome" : "equador",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 71,
+		"nome" : "erika_marena",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 72,
+		"nome" : "erton_medeiros_fonseca",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 73,
+		"nome" : "escravizacao_de_criancas",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 74,
+		"nome" : "esdra_de_arantes_ferreira",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 75,
+		"nome" : "estados_unidos",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 76,
+		"nome" : "eunicio_oliveira",
+		"aresta" : [193],
+		"peso" : ["filiado"]
+	},
+	{
+		"indice" : 77,
+		"nome" : "evasao_divisas",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 78,
+		"nome" : "faical_mohamed_nacirdine",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 79,
+		"nome" : "falsidade_ideologica",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 80,
+		"nome" : "felipe_delia_camargo",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 81,
+		"nome" : "fernando_augusto_stremel_andrade",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 82,
+		"nome" : "fernando_schahin",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 83,
+		"nome" : "fernando_soares",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 84,
+		"nome" : "fevereiro",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 85,
+		"nome" : "flavio_david_barra",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 86,
+		"nome" : "formacao_de_quadrilha",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 87,
+		"nome" : "fraude_licitacao",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 88,
+		"nome" : "gabriela_hardt",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 89,
+		"nome" : "galvao_engenharia",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 90,
+		"nome" : "garibaldi_alves_filho",
+		"aresta" : [193],
+		"peso" : ["filiado"]
+	},
+	{
+		"indice" : 91,
+		"nome" : "gdk",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 92,
+		"nome" : "geraldo_alckmin",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 93,
+		"nome" : "gerson_almada",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 94,
+		"nome" : "gerson_machado",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 95,
+		"nome" : "gestao_fraudulenta",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 96,
+		"nome" : "gim_argello",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 97,
+		"nome" : "gleisi_hoffmann",
+		"aresta" : [193],
+		"peso" : ["filiado"]
+	},
+	{
+		"indice" : 98,
+		"nome" : "guido_mantega",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 99,
+		"nome" : "hermes_magnus",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 100,
+		"nome" : "holanda",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 101,
+		"nome" : "humberto_costa",
+		"aresta" : [209],
+		"peso" : ["filiado"]
+	},
+	{
+		"indice" : 102,
+		"nome" : "iara_galdino_da_silva",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 103,
+		"nome" : "iesa_oleo_e_gas",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 104,
+		"nome" : "ildefonso_colares_filho",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 105,
+		"nome" : "ivo_cassol",
+		"aresta" : [196],
+		"peso" : ["filiado"]
+	},
+	{
+		"indice" : 106,
+		"nome" : "jader_barbalho",
+		"aresta" : [193],
+		"peso" : ["filiado"]
+	},
+	{
+		"indice" : 107,
+		"nome" : "janeiro",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 108,
+		"nome" : "jaques_wagner",
+		"aresta" : [209],
+		"peso" : ["filiado"]
+	},
+	{
+		"indice" : 109,
+		"nome" : "jayme_alves_de_oliveira_filho",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 110,
+		"nome" : "jean_alberto_luscher_castro",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 111,
+		"nome" : "joao_claudio_genu",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 112,
+		"nome" : "joao_ricardo_auler",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 113,
+		"nome" : "joao_santana",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 114,
+		"nome" : "joao_vaccari_neto",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 115,
+		"nome" : "joesley_batista",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 116,
+		"nome" : "jorge_antonio_da_silva_luz",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 117,
+		"nome" : "jorge_luiz_zelada",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 118,
+		"nome" : "jorge_viana",
+		"aresta" : [209],
+		"peso" : ["filiado"]
+	},
+	{
+		"indice" : 119,
+		"nome" : "jorge_zelada",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 120,
+		"nome" : "jose_adolfo_pascowitch",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 121,
+		"nome" : "jose_agripino_maia",
+		"aresta" : [54],
+		"peso" : ["filiado"]
+	},
+	{
+		"indice" : 122,
+		"nome" : "jose_aldemario_pinheiro_filho",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 123,
+		"nome" : "jose_aldemario_prinheiro_filho",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 124,
+		"nome" : "jose_antunes_sobrinho",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 125,
+		"nome" : "jose_carlos_bumlai",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 126,
+		"nome" : "jose_dirceu",
+		"aresta" : [209],
+		"peso" : ["filiado"]
+	},
+	{
+		"indice" : 127,
+		"nome" : "jose_eduardo_cardozo",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 128,
+		"nome" : "jose_janene",
+		"aresta" : [196],
+		"peso" : ["filiado"]
+	},
+	{
+		"indice" : 129,
+		"nome" : "jose_reny",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 130,
+		"nome" : "jose_ricardo_berghirolli",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 131,
+		"nome" : "julho",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 132,
+		"nome" : "juliana_cordeiro_de_moura",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 133,
+		"nome" : "julio_gerin_de_almeida_camargo",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 134,
+		"nome" : "junho",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 135,
+		"nome" : "lava_jato",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 136,
+		"nome" : "lavagem_dinheiro",
+		"aresta" : [7, 17, 19, 22, 23, 25, 30, 146, 240, 149],
+		"peso" : ["razaocondenacao", "razaocondenacao", "razaocondenacao", "razaocondenacao", "razaocondenacao", "razaocondenacao", "razaocondenacao", "razaocondenacao", "razaocondenacao", "razaocondenacao"]
+	},
+	{
+		"indice" : 137,
+		"nome" : "leandro_meirelles",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 138,
+		"nome" : "leon_denis_vargas_ilario",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 139,
+		"nome" : "lindibergh_farias",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 140,
+		"nome" : "lindice_da_mata",
+		"aresta" : [203],
+		"peso" : ["filiado"]
+	},
+	{
+		"indice" : 141,
+		"nome" : "luccas_pace_junior",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 142,
+		"nome" : "luis_carlos_moreira_da_silva",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 143,
+		"nome" : "luiz_argolo",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 144,
+		"nome" : "luiz_bonat",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 145,
+		"nome" : "luiz_fernando_pezao",
+		"aresta" : [193],
+		"peso" : ["filiado"]
+	},
+	{
+		"indice" : 146,
+		"nome" : "luiz_inacio_lula_da_silva",
+		"aresta" : [169, 242, 42, 136, 209, 56, 22, 240, 24, 41, 209],
+		"peso" : ["ligado", "condenadopelo", "condenadopor", "condenadopor", "filiado", "ligado", "ligado", "ligado", "condenadopor", "condenadopor", "filiado"]
+	},
+	{
+		"indice" : 147,
+		"nome" : "maio",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 148,
+		"nome" : "marcelo_bretas",
+		"aresta" : [240],
+		"peso" : ["condena"]
+	},
+	{
+		"indice" : 149,
+		"nome" : "marcelo_odebrecht",
+		"aresta" : [172, 136, 42, 136, 171, 242],
+		"peso" : ["trabalha", "ligado", "condenadopor", "condenadopor", "condenadopor", "condenadopelo"]
+	},
+	{
+		"indice" : 150,
+		"nome" : "marcio_andrade_bonilho",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 151,
+		"nome" : "marco",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 152,
+		"nome" : "marcos_valerio",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 153,
+		"nome" : "maria_dirce_penasso",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 154,
+		"nome" : "maria_lucia_tavares",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 155,
+		"nome" : "mario_frederico_mendonca_goes",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 156,
+		"nome" : "matheus_coutinho_de_sa_oliveira",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 157,
+		"nome" : "mendes_junior",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 158,
+		"nome" : "michel_temer",
+		"aresta" : [193],
+		"peso" : ["filiado"]
+	},
+	{
+		"indice" : 159,
+		"nome" : "milton_pascowitch",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 160,
+		"nome" : "milton_schahin",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 161,
+		"nome" : "mocanbique",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 162,
+		"nome" : "monica_moura",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 163,
+		"nome" : "mpe_montagens_e_projeto",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 164,
+		"nome" : "nelma_kodama",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 165,
+		"nome" : "nestor_cervero",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 166,
+		"nome" : "nigeria",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 167,
+		"nome" : "niteroi",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 168,
+		"nome" : "novembro",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 169,
+		"nome" : "oas",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 170,
+		"nome" : "obstrucao_da_justica",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 171,
+		"nome" : "ocultacao_patrimonio",
+		"aresta" : [149],
+		"peso" : ["razaocondenacao"]
+	},
+	{
+		"indice" : 172,
+		"nome" : "odebrecht",
+		"aresta" : [149],
+		"peso" : ["funcionario"]
+	},
+	{
+		"indice" : 173,
+		"nome" : "operacao_fraudulenta_de_cambio",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 174,
+		"nome" : "operacao_xepa",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 175,
+		"nome" : "operar_instituicao_financeira_ilegal",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 176,
+		"nome" : "operar_instiuicao_criminosa",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 177,
+		"nome" : "organizacao_criminosa",
+		"aresta" : [33],
+		"peso" : ["razaocondenacao"]
+	},
+	{
+		"indice" : 178,
+		"nome" : "otavio_azevedo",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 179,
+		"nome" : "othon_luiz_pinheiro_da_silva",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 180,
+		"nome" : "outubro",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 181,
+		"nome" : "panama",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 182,
+		"nome" : "parana",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 183,
+		"nome" : "paulo_roberto_costa",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 184,
+		"nome" : "pcdob",
+		"aresta" : [258],
+		"peso" : ["temcomofiliado"]
+	},
+	{
+		"indice" : 185,
+		"nome" : "pdt",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 186,
+		"nome" : "pedro_argese_junior",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 187,
+		"nome" : "pedro_barusco",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 188,
+		"nome" : "pedro_correa",
+		"aresta" : [196],
+		"peso" : ["filiado"]
+	},
+	{
+		"indice" : 189,
+		"nome" : "pedro_jose_barusco_filho",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 190,
+		"nome" : "pen",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 191,
+		"nome" : "petrobras",
+		"aresta" : [11],
+		"peso" : ["presididapor"]
+	},
+	{
+		"indice" : 192,
+		"nome" : "phs",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 193,
+		"nome" : "pmdb",
+		"aresta" : [240, 145, 62, 219, 158, 234, 106, 59, 97, 61, 76, 90],
+		"peso" : ["temcomofiliado", "temcomofiliado", "temcomofiliado", "temcomofiliado", "temcomofiliado", "temcomofiliado", "temcomofiliado", "temcomofiliado", "temcomofiliado", "temcomofiliado", "temcomofiliado", "temcomofiliado"]
+	},
+	{
+		"indice" : 194,
+		"nome" : "pmn",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 195,
+		"nome" : "portugal",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 196,
+		"nome" : "pp",
+		"aresta" : [128, 21, 188, 26, 105],
+		"peso" : ["temcomofiliado", "temcomofiliado", "temcomofiliado", "temcomofiliado", "temcomofiliado"]
+	},
+	{
+		"indice" : 197,
+		"nome" : "pps",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 198,
+		"nome" : "pr",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 199,
+		"nome" : "prb",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 200,
+		"nome" : "promon_engenharia",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 201,
+		"nome" : "pros",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 202,
+		"nome" : "prtb",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 203,
+		"nome" : "psb",
+		"aresta" : [140],
+		"peso" : ["temcomofiliado"]
+	},
+	{
+		"indice" : 204,
+		"nome" : "psc",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 205,
+		"nome" : "psd",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 206,
+		"nome" : "psdb",
+		"aresta" : [8, 36, 223, 47],
+		"peso" : ["temcomofiliado", "temcomofiliado", "temcomofiliado", "temcomofiliado"]
+	},
+	{
+		"indice" : 207,
+		"nome" : "psdc",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 208,
+		"nome" : "psl",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 209,
+		"nome" : "pt",
+		"aresta" : [51, 22, 126, 146, 13, 108, 118, 101],
+		"peso" : ["temcomofiliado", "temcomofiliado", "temcomofiliado", "temcomofiliado", "temcomofiliado", "temcomofiliado", "temcomofiliado", "temcomofiliado"]
+	},
+	{
+		"indice" : 210,
+		"nome" : "ptb",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 211,
+		"nome" : "ptc",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 212,
+		"nome" : "ptdob",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 213,
+		"nome" : "ptn",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 214,
+		"nome" : "pv",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 215,
+		"nome" : "queiroz_galvao",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 216,
+		"nome" : "raul_henrique_srour",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 217,
+		"nome" : "raul_srour",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 218,
+		"nome" : "recebimento_de_vantagem_indevida",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 219,
+		"nome" : "renan_calheiros",
+		"aresta" : [193],
+		"peso" : ["filiado"]
+	},
+	{
+		"indice" : 220,
+		"nome" : "renato_de_souza_duque",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 221,
+		"nome" : "rene_luiz_pereira",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 222,
+		"nome" : "repubica_dominicana",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 223,
+		"nome" : "ricardo_ferraco",
+		"aresta" : [206],
+		"peso" : ["filiado"]
+	},
+	{
+		"indice" : 224,
+		"nome" : "ricardo_hoffman",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 225,
+		"nome" : "ricardo_pessoa",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 226,
+		"nome" : "rinaldo_goncalves_de_carvalho",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 227,
+		"nome" : "rio_de_janeiro",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 228,
+		"nome" : "rio_de_janeiro_estado",
+		"aresta" : [240],
+		"peso" : ["governado"]
+	},
+	{
+		"indice" : 229,
+		"nome" : "rio_grande_do_sul",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 230,
+		"nome" : "roberson_henrique_pozzobon",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 231,
+		"nome" : "roberto_goncalves",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 232,
+		"nome" : "rodrigo_janot",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 233,
+		"nome" : "roger_vinicius_oliveira",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 234,
+		"nome" : "romero_juca",
+		"aresta" : [193],
+		"peso" : ["filiado"]
+	},
+	{
+		"indice" : 235,
+		"nome" : "rosa_weber",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 236,
+		"nome" : "sao_paulo",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 237,
+		"nome" : "sao_paulo_estado",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 238,
+		"nome" : "schahin_engenharia",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 239,
+		"nome" : "sd",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 240,
+		"nome" : "sergio_cabral",
+		"aresta" : [193, 242, 148, 136, 145, 146, 228, 193],
+		"peso" : ["filiado", "condenadopelo", "condenadopelo", "condenadopor", "ligado", "ligado", "governa", "filiado"]
+	},
+	{
+		"indice" : 241,
+		"nome" : "sergio_machado",
+		"aresta" : [253],
+		"peso" : ["presidiuempresa"]
+	},
+	{
+		"indice" : 242,
+		"nome" : "sergio_moro",
+		"aresta" : [7, 10, 11, 12, 19, 22, 23, 25, 30, 33, 146, 240, 149],
+		"peso" : ["condena", "condena", "condena", "condena", "condena", "condena", "condena", "condena", "condena", "condena", "condena", "condena", "condena"]
+	},
+	{
+		"indice" : 243,
+		"nome" : "setembro",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 244,
+		"nome" : "silvio_pereira",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 245,
+		"nome" : "skanska",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 246,
+		"nome" : "sonia_mariza_branco",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 247,
+		"nome" : "suica",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 248,
+		"nome" : "techint",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 249,
+		"nome" : "teori_zavascki",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 250,
+		"nome" : "tome_engenharia",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 251,
+		"nome" : "toyo_setal",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 252,
+		"nome" : "trafico_drogas",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 253,
+		"nome" : "transpetro",
+		"aresta" : [241],
+		"peso" : ["presididapor"]
+	},
+	{
+		"indice" : 254,
+		"nome" : "uso_indevido_verba_publica",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 255,
+		"nome" : "utc_engenharia",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 256,
+		"nome" : "valdir_raupp",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 257,
+		"nome" : "vallisney_de_souza_oliveira",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 258,
+		"nome" : "vanessa_grazziotin",
+		"aresta" : [184],
+		"peso" : ["filiado"]
+	},
+	{
+		"indice" : 259,
+		"nome" : "wtorre",
+		"aresta" : [],
+		"peso" : []
+	},
+	{
+		"indice" : 260,
+		"nome" : "zwi_skornicki",
+		"aresta" : [],
+		"peso" : []
+	},
+]
