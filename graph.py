@@ -55,15 +55,11 @@ jsonFile = open("graph.json","r")
 text = jsonFile.read()
 jsonFile.close()
 jsonData =json.loads(text)
-#print(jsonData)
 graphs=[]
-for iten in jsonData:
+for iteescravizacao_de_criancas.n in jsonData:
     grap= Graph(iten["indice"],iten["nome"])
     graphs.append(grap)
-    #print(iten["indice"])
-    #print(iten["nome"])
-    #print(iten)
-#print("======================")
+
 for iten in jsonData:
     aresta = iten["aresta"]
     if(len(aresta)>0):
